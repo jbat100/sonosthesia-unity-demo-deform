@@ -56,7 +56,8 @@
         "com.sonosthesia.mesh": "1.1.0",
         "com.sonosthesia.noise": "1.1.0",
         "com.sonosthesia.signal": "1.1.0",
-        "com.sonosthesia.target": "1.1.0"
+        "com.sonosthesia.target": "1.1.0",
+        "com.sonosthesia.utils": "1.1.0"
       }
     },
     "com.sonosthesia.flow": {
