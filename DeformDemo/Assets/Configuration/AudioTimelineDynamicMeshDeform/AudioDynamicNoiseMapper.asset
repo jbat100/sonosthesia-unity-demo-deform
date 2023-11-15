@@ -10,13 +10,21 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 89875db0464e45a5b61f721259ffc4ad, type: 3}
-  m_Name: AudioNoiseMapper
+  m_Name: AudioDynamicNoiseMapper
   m_EditorClassIdentifier: 
   _autoMap: 0
   _connections:
   - _source: BassLows
     _target: Component-0
     _processorFactory: {fileID: 11400000, guid: 951290a8cb47049a2870dfb002ad7f4d,
+      type: 2}
+  - _source: BassMids
+    _target: PositiveColor
+    _processorFactory: {fileID: 11400000, guid: 7c4b3ec2487b44652b2ddd4b986dae2d,
+      type: 2}
+  - _source: BassMids
+    _target: NegativeColor
+    _processorFactory: {fileID: 11400000, guid: 7c4b3ec2487b44652b2ddd4b986dae2d,
       type: 2}
   - _source: DrumsLows
     _target: Component-1
