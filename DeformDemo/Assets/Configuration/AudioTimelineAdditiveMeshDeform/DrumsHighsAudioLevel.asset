@@ -20,7 +20,7 @@ MonoBehaviour:
   _oneEuroFilter:
     _bypass: 0
     _beta: 1
-    _minCutoff: 1
+    _minCutoff: 0.1
   _softLanding:
     _bypass: 0
-    _speed: 1.32
+    _speed: 1.2

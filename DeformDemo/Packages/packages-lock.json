@@ -8,133 +8,121 @@
       "url": "https://package.openupm.com"
     },
     "com.sonosthesia.audio": {
-      "version": "file:../../../sonosthesia-unity-packages/packages/com.sonosthesia.audio",
+      "version": "1.2.0",
       "depth": 0,
-      "source": "local",
+      "source": "registry",
       "dependencies": {
         "com.neuecc.unirx": "7.1.0",
-        "com.sonosthesia.signal": "1.1.0",
-        "com.sonosthesia.utils": "1.1.0",
-        "com.sonosthesia.processing": "1.1.0",
-        "com.sonosthesia.flow": "1.1.0"
-      }
-    },
-    "com.sonosthesia.channel": {
-      "version": "file:../../../sonosthesia-unity-packages/packages/com.sonosthesia.channel",
-      "depth": 0,
-      "source": "local",
-      "dependencies": {
-        "com.neuecc.unirx": "7.1.0",
-        "com.sonosthesia.utils": "1.1.0",
-        "com.sonosthesia.signal": "1.1.0",
-        "com.sonosthesia.generator": "1.1.0"
-      }
+        "com.sonosthesia.signal": "1.2.0",
+        "com.sonosthesia.utils": "1.2.0",
+        "com.sonosthesia.processing": "1.2.0",
+        "com.sonosthesia.flow": "1.2.0"
+      },
+      "url": "https://registry.npmjs.com"
     },
     "com.sonosthesia.deform": {
-      "version": "file:../../../sonosthesia-unity-packages/packages/com.sonosthesia.deform",
+      "version": "1.2.0",
       "depth": 0,
-      "source": "local",
+      "source": "registry",
       "dependencies": {
         "com.unity.mathematics": "1.2.6",
         "com.unity.burst": "1.8.4",
         "com.unity.splines": "2.4.0",
-        "com.sonosthesia.mesh": "1.1.0",
-        "com.sonosthesia.noise": "1.1.0",
-        "com.sonosthesia.signal": "1.1.0",
-        "com.sonosthesia.target": "1.1.0",
-        "com.sonosthesia.utils": "1.1.0"
-      }
+        "com.sonosthesia.mesh": "1.2.0",
+        "com.sonosthesia.noise": "1.2.0",
+        "com.sonosthesia.signal": "1.2.0",
+        "com.sonosthesia.target": "1.2.0",
+        "com.sonosthesia.utils": "1.2.0"
+      },
+      "url": "https://registry.npmjs.com"
     },
     "com.sonosthesia.flow": {
-      "version": "file:../../../sonosthesia-unity-packages/packages/com.sonosthesia.flow",
+      "version": "1.2.0",
       "depth": 0,
-      "source": "local",
+      "source": "registry",
       "dependencies": {
         "com.neuecc.unirx": "7.1.0",
-        "com.sonosthesia.utils": "1.1.0",
-        "com.sonosthesia.signal": "1.1.0",
-        "com.sonosthesia.processing": "1.1.0",
-        "com.sonosthesia.mapping": "1.1.0"
-      }
-    },
-    "com.sonosthesia.generator": {
-      "version": "file:../../../sonosthesia-unity-packages/packages/com.sonosthesia.generator",
-      "depth": 0,
-      "source": "local",
-      "dependencies": {
-        "com.neuecc.unirx": "7.1.0",
-        "com.sonosthesia.utils": "1.1.0",
-        "com.sonosthesia.processing": "1.1.0",
-        "com.sonosthesia.signal": "1.1.0"
-      }
+        "com.sonosthesia.utils": "1.2.0",
+        "com.sonosthesia.signal": "1.2.0",
+        "com.sonosthesia.processing": "1.2.0",
+        "com.sonosthesia.mapping": "1.2.0"
+      },
+      "url": "https://registry.npmjs.com"
     },
     "com.sonosthesia.mapping": {
-      "version": "file:../../../sonosthesia-unity-packages/packages/com.sonosthesia.mapping",
+      "version": "1.2.0",
       "depth": 0,
-      "source": "local",
+      "source": "registry",
       "dependencies": {
         "com.neuecc.unirx": "7.1.0",
-        "com.sonosthesia.utils": "1.1.0",
-        "com.sonosthesia.processing": "1.1.0",
-        "com.sonosthesia.signal": "1.1.0"
-      }
+        "com.sonosthesia.utils": "1.2.0",
+        "com.sonosthesia.processing": "1.2.0",
+        "com.sonosthesia.signal": "1.2.0"
+      },
+      "url": "https://registry.npmjs.com"
     },
     "com.sonosthesia.mesh": {
-      "version": "file:../../../sonosthesia-unity-packages/packages/com.sonosthesia.mesh",
+      "version": "1.2.0",
       "depth": 0,
-      "source": "local",
+      "source": "registry",
       "dependencies": {
         "com.unity.mathematics": "1.2.6",
         "com.unity.burst": "1.8.4"
-      }
+      },
+      "url": "https://registry.npmjs.com"
     },
     "com.sonosthesia.noise": {
-      "version": "file:../../../sonosthesia-unity-packages/packages/com.sonosthesia.noise",
+      "version": "1.2.0",
       "depth": 0,
-      "source": "local",
+      "source": "registry",
       "dependencies": {
         "com.unity.mathematics": "1.2.6",
         "com.unity.burst": "1.8.4"
-      }
+      },
+      "url": "https://registry.npmjs.com"
     },
     "com.sonosthesia.processing": {
-      "version": "file:../../../sonosthesia-unity-packages/packages/com.sonosthesia.processing",
+      "version": "1.2.0",
       "depth": 0,
-      "source": "local",
+      "source": "registry",
       "dependencies": {
         "com.unity.mathematics": "1.2.6",
-        "com.sonosthesia.utils": "1.1.0"
-      }
+        "com.sonosthesia.utils": "1.2.0"
+      },
+      "url": "https://registry.npmjs.com"
     },
     "com.sonosthesia.signal": {
-      "version": "file:../../../sonosthesia-unity-packages/packages/com.sonosthesia.signal",
+      "version": "1.2.0",
       "depth": 0,
-      "source": "local",
+      "source": "registry",
       "dependencies": {
         "com.neuecc.unirx": "7.1.0",
-        "com.sonosthesia.utils": "1.1.0",
-        "com.sonosthesia.processing": "1.1.0"
-      }
+        "com.sonosthesia.utils": "1.2.0",
+        "com.sonosthesia.processing": "1.2.0"
+      },
+      "url": "https://registry.npmjs.com"
     },
     "com.sonosthesia.target": {
-      "version": "file:../../../sonosthesia-unity-packages/packages/com.sonosthesia.target",
+      "version": "1.2.0",
       "depth": 0,
-      "source": "local",
+      "source": "registry",
       "dependencies": {
         "com.neuecc.unirx": "7.1.0",
-        "com.sonosthesia.utils": "1.1.0",
-        "com.sonosthesia.signal": "1.1.0"
-      }
+        "com.sonosthesia.utils": "1.2.0",
+        "com.sonosthesia.signal": "1.2.0"
+      },
+      "url": "https://registry.npmjs.com"
     },
     "com.sonosthesia.utils": {
-      "version": "file:../../../sonosthesia-unity-packages/packages/com.sonosthesia.utils",
+      "version": "1.2.0",
       "depth": 0,
-      "source": "local",
+      "source": "registry",
       "dependencies": {
         "com.neuecc.unirx": "7.1.0",
         "com.unity.mathematics": "1.2.6",
         "com.unity.splines": "2.5.1"
-      }
+      },
+      "url": "https://registry.npmjs.com"
     },
     "com.unity.burst": {
       "version": "1.8.4",
@@ -185,7 +173,7 @@
       "url": "https://packages.unity.com"
     },
     "com.unity.recorder": {
-      "version": "4.0.1",
+      "version": "4.0.2",
       "depth": 0,
       "source": "registry",
       "dependencies": {
