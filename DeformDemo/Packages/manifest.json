@@ -1,10 +1,8 @@
 {
   "dependencies": {
     "com.sonosthesia.audio": "file:../../../sonosthesia-unity-packages/packages/com.sonosthesia.audio",
-    "com.sonosthesia.channel": "file:../../../sonosthesia-unity-packages/packages/com.sonosthesia.channel",
     "com.sonosthesia.deform": "file:../../../sonosthesia-unity-packages/packages/com.sonosthesia.deform",
     "com.sonosthesia.flow": "file:../../../sonosthesia-unity-packages/packages/com.sonosthesia.flow",
-    "com.sonosthesia.generator": "file:../../../sonosthesia-unity-packages/packages/com.sonosthesia.generator",
     "com.sonosthesia.mapping": "file:../../../sonosthesia-unity-packages/packages/com.sonosthesia.mapping",
     "com.sonosthesia.mesh": "file:../../../sonosthesia-unity-packages/packages/com.sonosthesia.mesh",
     "com.sonosthesia.noise": "file:../../../sonosthesia-unity-packages/packages/com.sonosthesia.noise",

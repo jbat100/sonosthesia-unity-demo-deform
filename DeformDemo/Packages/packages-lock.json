@@ -19,17 +19,6 @@
         "com.sonosthesia.flow": "1.1.0"
       }
     },
-    "com.sonosthesia.channel": {
-      "version": "file:../../../sonosthesia-unity-packages/packages/com.sonosthesia.channel",
-      "depth": 0,
-      "source": "local",
-      "dependencies": {
-        "com.neuecc.unirx": "7.1.0",
-        "com.sonosthesia.utils": "1.1.0",
-        "com.sonosthesia.signal": "1.1.0",
-        "com.sonosthesia.generator": "1.1.0"
-      }
-    },
     "com.sonosthesia.deform": {
       "version": "file:../../../sonosthesia-unity-packages/packages/com.sonosthesia.deform",
       "depth": 0,
@@ -55,17 +44,6 @@
         "com.sonosthesia.signal": "1.1.0",
         "com.sonosthesia.processing": "1.1.0",
         "com.sonosthesia.mapping": "1.1.0"
-      }
-    },
-    "com.sonosthesia.generator": {
-      "version": "file:../../../sonosthesia-unity-packages/packages/com.sonosthesia.generator",
-      "depth": 0,
-      "source": "local",
-      "dependencies": {
-        "com.neuecc.unirx": "7.1.0",
-        "com.sonosthesia.utils": "1.1.0",
-        "com.sonosthesia.processing": "1.1.0",
-        "com.sonosthesia.signal": "1.1.0"
       }
     },
     "com.sonosthesia.mapping": {
