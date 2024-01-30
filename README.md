@@ -42,12 +42,18 @@ Heterogeneous noise ([Simplex](https://catlikecoding.com/unity/tutorials/pseudor
 
 ### AudioTimelinePolarSine
 
-Multichannel sound visualization using shader graph.
+Multichannel sound visualization using shader graph. Sine waves in polar coordinates with dynamic amplitude, phase and color intensity.
 
-![Anubis_Movie_004_delayed_short](https://github.com/jbat100/sonosthesia-unity-demo-deform/assets/1318918/66ef7806-3d56-47c0-ba0f-db4ba7997a73)
+<p align="center">
+  <img src="https://github.com/jbat100/sonosthesia-unity-demo-deform/assets/1318918/66ef7806-3d56-47c0-ba0f-db4ba7997a73" />
+</p>
 
 
 ### AudioTimelineRectSine
 
-![Anubis_Movie_005_delayed_short](https://github.com/jbat100/sonosthesia-unity-demo-deform/assets/1318918/45106456-6334-4dd9-8855-6b310b26d011)
+Multichannel sound visualization using shader graph. Sine waves in cartesian coordinates with dynamic amplitude, phase and color intensity.
+
+<p align="center">
+  <img src="https://github.com/jbat100/sonosthesia-unity-demo-deform/assets/1318918/45106456-6334-4dd9-8855-6b310b26d011" />
+</p>
 
