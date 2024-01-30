@@ -55,15 +55,16 @@ Material:
     - _Amplitude2: 0.229
     - _Amplitude3: 0.159
     - _Angle: 0
-    - _Fade: 0.12
-    - _Frequency1: 2
-    - _Frequency2: 5
+    - _Fade: 0.203
+    - _Frequency1: 1
+    - _Frequency2: 4
     - _Frequency3: 20
+    - _Intensity: 0
     - _QueueControl: 0
     - _QueueOffset: 0
     - _Speed1: 5
     - _Speed2: 10
     - _Speed3: 0
-    - _Thickness: 0.009
+    - _Thickness: 0.0074
     m_Colors: []
   m_BuildTextureStacks: []
