@@ -39,3 +39,15 @@ Heterogeneous noise ([Simplex](https://catlikecoding.com/unity/tutorials/pseudor
 <p align="center">
   <img src="https://github.com/jbat100/sonosthesia-unity-demo-deform/assets/1318918/18822877-c07e-4efc-9b4e-729a19a50469" />
 </p>
+
+### AudioTimelinePolarSine
+
+Multichannel sound visualization using shader graph.
+
+![Anubis_Movie_004_delayed_short](https://github.com/jbat100/sonosthesia-unity-demo-deform/assets/1318918/66ef7806-3d56-47c0-ba0f-db4ba7997a73)
+
+
+### AudioTimelineRectSine
+
+![Anubis_Movie_005_delayed_short](https://github.com/jbat100/sonosthesia-unity-demo-deform/assets/1318918/45106456-6334-4dd9-8855-6b310b26d011)
+
