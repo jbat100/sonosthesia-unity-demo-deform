@@ -60,6 +60,7 @@ Material:
     - _Frequency2: 4
     - _Frequency3: 15
     - _Height: 0.53
+    - _Intensity: 1.17
     - _QueueControl: 0
     - _QueueOffset: 0
     - _Speed: 0

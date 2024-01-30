@@ -910,6 +910,31 @@ PrefabInstance:
       propertyPath: m_SceneBindings.Array.data[19].value
       value: 
       objectReference: {fileID: 2062435948}
+    - target: {fileID: 4096195501175692048, guid: 33e568421968f4c13b2058132236013c,
+        type: 3}
+      propertyPath: m_SceneBindings.Array.data[20].value
+      value: 
+      objectReference: {fileID: 2062435952}
+    - target: {fileID: 4096195501175692048, guid: 33e568421968f4c13b2058132236013c,
+        type: 3}
+      propertyPath: m_SceneBindings.Array.data[21].value
+      value: 
+      objectReference: {fileID: 2062435951}
+    - target: {fileID: 4096195501175692048, guid: 33e568421968f4c13b2058132236013c,
+        type: 3}
+      propertyPath: m_SceneBindings.Array.data[22].value
+      value: 
+      objectReference: {fileID: 2062435950}
+    - target: {fileID: 4096195501175692048, guid: 33e568421968f4c13b2058132236013c,
+        type: 3}
+      propertyPath: m_SceneBindings.Array.data[23].value
+      value: 
+      objectReference: {fileID: 2062435949}
+    - target: {fileID: 4096195501175692048, guid: 33e568421968f4c13b2058132236013c,
+        type: 3}
+      propertyPath: m_SceneBindings.Array.data[24].value
+      value: 
+      objectReference: {fileID: 2062435948}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects:
