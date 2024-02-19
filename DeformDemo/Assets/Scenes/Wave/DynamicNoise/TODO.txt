@@ -1,0 +1,2 @@
+Attempt to port this https://alteredqualia.com/three/examples/webgl_shader_sparks.html
+
