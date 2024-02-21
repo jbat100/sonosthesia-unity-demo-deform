@@ -1,6 +1,7 @@
 {
   "dependencies": {
     "com.sonosthesia.audio": "file:../../../sonosthesia-unity-packages/packages/com.sonosthesia.audio",
+    "com.sonosthesia.channel": "file:../../../sonosthesia-unity-packages/packages/com.sonosthesia.channel",
     "com.sonosthesia.deform": "file:../../../sonosthesia-unity-packages/packages/com.sonosthesia.deform",
     "com.sonosthesia.flow": "file:../../../sonosthesia-unity-packages/packages/com.sonosthesia.flow",
     "com.sonosthesia.generator": "file:../../../sonosthesia-unity-packages/packages/com.sonosthesia.generator",
@@ -10,7 +11,10 @@
     "com.sonosthesia.processing": "file:../../../sonosthesia-unity-packages/packages/com.sonosthesia.processing",
     "com.sonosthesia.signal": "file:../../../sonosthesia-unity-packages/packages/com.sonosthesia.signal",
     "com.sonosthesia.target": "file:../../../sonosthesia-unity-packages/packages/com.sonosthesia.target",
+    "com.sonosthesia.trigger": "file:../../../sonosthesia-unity-packages/packages/com.sonosthesia.trigger",
+    "com.sonosthesia.timeline": "file:../../../sonosthesia-unity-packages/packages/com.sonosthesia.timeline",
     "com.sonosthesia.utils": "file:../../../sonosthesia-unity-packages/packages/com.sonosthesia.utils",
+    "com.sonosthesia.vfx": "file:../../../sonosthesia-unity-packages/packages/com.sonosthesia.vfx",
     "com.unity.collab-proxy": "2.2.0",
     "com.unity.ide.rider": "3.0.27",
     "com.unity.ide.visualstudio": "2.0.22",

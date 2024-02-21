@@ -38,7 +38,7 @@ Material:
         m_Offset: {x: 0, y: 0}
     m_Ints: []
     m_Floats:
-    - _Amplitude: 0.38
+    - _Amplitude: 1.28
     - _Base: 0
     - _Density: 1.64
     - _Frequency: 0.5

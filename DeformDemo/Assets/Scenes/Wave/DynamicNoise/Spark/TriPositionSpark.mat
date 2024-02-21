@@ -59,11 +59,11 @@ Material:
     - _Frequency3: 1.5
     - _Power1: 2
     - _Power2: 6
-    - _Power3: 25
+    - _Power3: 20
     - _QueueControl: 0
     - _QueueOffset: 0
     m_Colors:
     - _Color1: {r: 0.6679423, g: 1.6848317, b: 1.7924528, a: 0}
     - _Color2: {r: 0.65254545, g: 2.9879196, b: 3.5471697, a: 0}
-    - _Color3: {r: 16.122463, g: 22.215303, b: 22.339622, a: 0}
+    - _Color3: {r: 5.3433623, g: 18.32081, b: 18.570377, a: 0}
   m_BuildTextureStacks: []

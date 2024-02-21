@@ -1,11 +1,30 @@
 {
   "dependencies": {
+    "com.cysharp.unitask": {
+      "version": "2.3.3",
+      "depth": 3,
+      "source": "registry",
+      "dependencies": {},
+      "url": "https://package.openupm.com"
+    },
     "com.neuecc.unirx": {
       "version": "7.1.0",
       "depth": 1,
       "source": "registry",
       "dependencies": {},
       "url": "https://package.openupm.com"
+    },
+    "com.sonosthesia.arpeggiator": {
+      "version": "1.6.0",
+      "depth": 2,
+      "source": "registry",
+      "dependencies": {
+        "com.cysharp.unitask": "2.3.3",
+        "com.neuecc.unirx": "7.1.0",
+        "com.sonosthesia.utils": "1.6.0",
+        "com.sonosthesia.channel": "1.6.0"
+      },
+      "url": "https://registry.npmjs.com"
     },
     "com.sonosthesia.audio": {
       "version": "file:../../../sonosthesia-unity-packages/packages/com.sonosthesia.audio",
@@ -16,6 +35,18 @@
         "com.sonosthesia.signal": "1.6.0",
         "com.sonosthesia.utils": "1.6.0",
         "com.sonosthesia.processing": "1.6.0",
+        "com.sonosthesia.flow": "1.6.0"
+      }
+    },
+    "com.sonosthesia.channel": {
+      "version": "file:../../../sonosthesia-unity-packages/packages/com.sonosthesia.channel",
+      "depth": 0,
+      "source": "local",
+      "dependencies": {
+        "com.neuecc.unirx": "7.1.0",
+        "com.sonosthesia.utils": "1.6.0",
+        "com.sonosthesia.signal": "1.6.0",
+        "com.sonosthesia.generator": "1.6.0",
         "com.sonosthesia.flow": "1.6.0"
       }
     },
@@ -95,6 +126,18 @@
         "com.sonosthesia.utils": "1.6.0"
       }
     },
+    "com.sonosthesia.sequencer": {
+      "version": "1.6.0",
+      "depth": 2,
+      "source": "registry",
+      "dependencies": {
+        "com.cysharp.unitask": "2.3.3",
+        "com.neuecc.unirx": "7.1.0",
+        "com.sonosthesia.utils": "1.6.0",
+        "com.sonosthesia.channel": "1.6.0"
+      },
+      "url": "https://registry.npmjs.com"
+    },
     "com.sonosthesia.signal": {
       "version": "file:../../../sonosthesia-unity-packages/packages/com.sonosthesia.signal",
       "depth": 0,
@@ -104,6 +147,24 @@
         "com.sonosthesia.utils": "1.6.0",
         "com.sonosthesia.processing": "1.6.0"
       }
+    },
+    "com.sonosthesia.spawn": {
+      "version": "1.6.0",
+      "depth": 1,
+      "source": "registry",
+      "dependencies": {
+        "com.unity.splines": "2.2.1",
+        "com.neuecc.unirx": "7.1.0",
+        "com.sonosthesia.signal": "1.6.0",
+        "com.sonosthesia.target": "1.6.0",
+        "com.sonosthesia.channel": "1.6.0",
+        "com.sonosthesia.utils": "1.6.0",
+        "com.sonosthesia.mapping": "1.6.0",
+        "com.sonosthesia.arpeggiator": "1.6.0",
+        "com.sonosthesia.flow": "1.6.0",
+        "com.sonosthesia.sequencer": "1.6.0"
+      },
+      "url": "https://registry.npmjs.com"
     },
     "com.sonosthesia.target": {
       "version": "file:../../../sonosthesia-unity-packages/packages/com.sonosthesia.target",
@@ -115,6 +176,28 @@
         "com.sonosthesia.signal": "1.6.0"
       }
     },
+    "com.sonosthesia.timeline": {
+      "version": "file:../../../sonosthesia-unity-packages/packages/com.sonosthesia.timeline",
+      "depth": 0,
+      "source": "local",
+      "dependencies": {
+        "com.neuecc.unirx": "7.1.0",
+        "com.sonosthesia.signal": "1.6.0"
+      }
+    },
+    "com.sonosthesia.trigger": {
+      "version": "file:../../../sonosthesia-unity-packages/packages/com.sonosthesia.trigger",
+      "depth": 0,
+      "source": "local",
+      "dependencies": {
+        "com.neuecc.unirx": "7.1.0",
+        "com.sonosthesia.channel": "1.6.0",
+        "com.sonosthesia.signal": "1.6.0",
+        "com.sonosthesia.generator": "1.6.0",
+        "com.sonosthesia.flow": "1.6.0",
+        "com.sonosthesia.utils": "1.6.0"
+      }
+    },
     "com.sonosthesia.utils": {
       "version": "file:../../../sonosthesia-unity-packages/packages/com.sonosthesia.utils",
       "depth": 0,
@@ -123,6 +206,18 @@
         "com.neuecc.unirx": "7.1.0",
         "com.unity.mathematics": "1.2.6",
         "com.unity.splines": "2.5.1"
+      }
+    },
+    "com.sonosthesia.vfx": {
+      "version": "file:../../../sonosthesia-unity-packages/packages/com.sonosthesia.vfx",
+      "depth": 0,
+      "source": "local",
+      "dependencies": {
+        "com.neuecc.unirx": "7.1.0",
+        "com.sonosthesia.channel": "1.6.0",
+        "com.sonosthesia.signal": "1.6.0",
+        "com.sonosthesia.target": "1.6.0",
+        "com.sonosthesia.spawn": "1.6.0"
       }
     },
     "com.unity.burst": {

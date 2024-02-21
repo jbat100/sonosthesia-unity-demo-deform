@@ -298,8 +298,8 @@ MonoBehaviour:
     max: Infinity
     enumValues: []
     descendantCount: 0
-  - name: SparkSize
-    path: SparkSize
+  - name: SparksSize
+    path: SparksSize
     tooltip: 
     sheetType: m_Float
     realType: Single
@@ -354,8 +354,8 @@ MonoBehaviour:
     max: Infinity
     enumValues: []
     descendantCount: 0
-  - name: SparkIntensity
-    path: SparkIntensity
+  - name: SparksIntensity
+    path: SparksIntensity
     tooltip: 
     sheetType: m_Float
     realType: Single
@@ -368,8 +368,8 @@ MonoBehaviour:
     max: Infinity
     enumValues: []
     descendantCount: 0
-  - name: SparkRadius
-    path: SparkRadius
+  - name: SparksRadius
+    path: SparksRadius
     tooltip: 
     sheetType: m_Float
     realType: Single
@@ -14650,7 +14650,7 @@ MonoBehaviour:
   m_InputSlots: []
   m_OutputSlots:
   - {fileID: 8926484042661615193}
-  m_ExposedName: SparkSize
+  m_ExposedName: SparksSize
   m_Exposed: 1
   m_Order: 1
   m_Category: Sparks
@@ -15006,7 +15006,7 @@ MonoBehaviour:
   m_Parent: {fileID: 114350483966674976}
   m_Children: []
   m_UIPosition: {x: 0, y: 0}
-  m_UICollapsed: 1
+  m_UICollapsed: 0
   m_UISuperCollapsed: 0
   m_InputSlots: []
   m_OutputSlots:
@@ -15594,7 +15594,7 @@ MonoBehaviour:
   m_InputSlots: []
   m_OutputSlots:
   - {fileID: 8926484042661615236}
-  m_ExposedName: SparkIntensity
+  m_ExposedName: SparksIntensity
   m_Exposed: 1
   m_Order: 6
   m_Category: Sparks
@@ -16354,7 +16354,7 @@ MonoBehaviour:
   m_InputSlots: []
   m_OutputSlots:
   - {fileID: 8926484042661615260}
-  m_ExposedName: SparkRadius
+  m_ExposedName: SparksRadius
   m_Exposed: 1
   m_Order: 16
   m_Category: Sparks
