@@ -57,3 +57,11 @@ Multichannel sound visualization using shader graph. Sine waves in cartesian coo
   <img src="https://github.com/jbat100/sonosthesia-unity-demo-deform/assets/1318918/45106456-6334-4dd9-8855-6b310b26d011" />
 </p>
 
+### SparkFX
+
+This scene combines job system based mesh deformations with shader graphs and vfx graphs controlled via sound descriptors with more sophisticated composition and flow elements from the Sonosthesia packages.
+
+<p align="center">
+  <img src="https://github.com/jbat100/sonosthesia-unity-demo-deform/assets/1318918/18307cf1-3b3e-4680-ab14-2a4d81749df3" />
+</p>
+
