@@ -1,0 +1,56 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: cf246472c8604cad9e809a64966f0c3d, type: 3}
+  m_Name: DrumsTriBandMapper
+  m_EditorClassIdentifier: 
+  _lows:
+    _bypass: 0
+    _warp:
+      _bypass: 0
+      _db: 1
+      _scale: 0.15
+      _offset: 0
+    _oneEuroFilter:
+      _bypass: 1
+      _beta: 1
+      _minCutoff: 1
+    _softLanding:
+      _bypass: 1
+      _speed: 1
+  _mids:
+    _bypass: 0
+    _warp:
+      _bypass: 1
+      _db: 1
+      _scale: 1
+      _offset: 0
+    _oneEuroFilter:
+      _bypass: 1
+      _beta: 1
+      _minCutoff: 1
+    _softLanding:
+      _bypass: 0
+      _speed: 1
+  _highs:
+    _bypass: 0
+    _warp:
+      _bypass: 1
+      _db: 1
+      _scale: 1
+      _offset: 0
+    _oneEuroFilter:
+      _bypass: 1
+      _beta: 1
+      _minCutoff: 1
+    _softLanding:
+      _bypass: 1
+      _speed: 1
