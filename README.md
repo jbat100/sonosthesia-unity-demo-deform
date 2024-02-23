@@ -1,6 +1,6 @@
 # sonosthesia-unity-demo-deform
 
-Demo unity scenes for dynamic mesh deformations using audio source descriptor signals. This project uses the following [Sonosthesia dependencies](https://github.com/jbat100/sonosthesia-unity-packages):
+Demo unity scenes for dynamic mesh deformations using audio source descriptor signals. Long form demo videos are available on this [YouTube playlist](https://www.youtube.com/playlist?list=PL8HqVGO27FJP4i2wh5F9h6oP8IscdKsg2). This project uses the following [Sonosthesia dependencies](https://github.com/jbat100/sonosthesia-unity-packages):
 
 - [com.sonosthesia.processing](https://github.com/jbat100/sonosthesia-unity-packages/tree/main/packages/com.sonosthesia.processing)
 - [com.sonosthesia.signal](https://github.com/jbat100/sonosthesia-unity-packages/tree/main/packages/com.sonosthesia.signal)
