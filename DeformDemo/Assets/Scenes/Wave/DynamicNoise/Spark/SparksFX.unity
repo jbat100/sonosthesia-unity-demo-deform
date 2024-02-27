@@ -3823,6 +3823,11 @@ PrefabInstance:
       propertyPath: m_ExposedReferences.m_References.Array.data[0].second
       value: 
       objectReference: {fileID: 0}
+    - target: {fileID: 7356644735647207726, guid: 33e568421968f4c13b2058132236013c,
+        type: 3}
+      propertyPath: _delay
+      value: 5
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects:
