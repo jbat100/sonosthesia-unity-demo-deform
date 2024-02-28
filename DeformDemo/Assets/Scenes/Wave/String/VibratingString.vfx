@@ -2172,7 +2172,7 @@ MonoBehaviour:
   - {fileID: 8926484042661614723}
   m_ExposedName: Thickness
   m_Exposed: 1
-  m_Order: 2
+  m_Order: 3
   m_Category: String
   m_Min:
     m_Type:
@@ -2252,7 +2252,7 @@ MonoBehaviour:
   - {fileID: 8926484042661614725}
   m_ExposedName: Pos1
   m_Exposed: 1
-  m_Order: 2
+  m_Order: 4
   m_Category: Endpoints
   m_Min:
     m_Type:
@@ -2445,7 +2445,7 @@ MonoBehaviour:
   - {fileID: 8926484042661614730}
   m_ExposedName: Pos2
   m_Exposed: 1
-  m_Order: 9
+  m_Order: 12
   m_Category: Endpoints
   m_Min:
     m_Type:
@@ -3198,7 +3198,7 @@ MonoBehaviour:
   - {fileID: 8926484042661614905}
   m_ExposedName: Fade
   m_Exposed: 1
-  m_Order: 4
+  m_Order: 7
   m_Category: String
   m_Min:
     m_Type:
@@ -3925,7 +3925,7 @@ MonoBehaviour:
   - {fileID: 8926484042661614974}
   m_ExposedName: Amplitude1
   m_Exposed: 1
-  m_Order: 10
+  m_Order: 13
   m_Category: Component1
   m_Min:
     m_Type:
@@ -4063,7 +4063,7 @@ MonoBehaviour:
   - {fileID: 8926484042661615266}
   m_ExposedName: Offset1
   m_Exposed: 1
-  m_Order: 13
+  m_Order: 16
   m_Category: Component1
   m_Min:
     m_Type:
@@ -6988,7 +6988,7 @@ MonoBehaviour:
   - {fileID: 8926484042661615593}
   m_ExposedName: Camera
   m_Exposed: 1
-  m_Order: 19
+  m_Order: 20
   m_Category: 
   m_Min:
     m_Type:
@@ -7470,7 +7470,7 @@ MonoBehaviour:
   - {fileID: 8926484042661615617}
   m_ExposedName: Amplitude2
   m_Exposed: 1
-  m_Order: 14
+  m_Order: 17
   m_Category: Component2
   m_Min:
     m_Type:
@@ -7550,7 +7550,7 @@ MonoBehaviour:
   - {fileID: 8926484042661615619}
   m_ExposedName: Offset2
   m_Exposed: 1
-  m_Order: 16
+  m_Order: 19
   m_Category: Component2
   m_Min:
     m_Type:
@@ -7630,7 +7630,7 @@ MonoBehaviour:
   - {fileID: 8926484042661615621}
   m_ExposedName: Amplitude3
   m_Exposed: 1
-  m_Order: 11
+  m_Order: 14
   m_Category: Component3
   m_Min:
     m_Type:
@@ -7710,7 +7710,7 @@ MonoBehaviour:
   - {fileID: 8926484042661615623}
   m_ExposedName: Offset3
   m_Exposed: 1
-  m_Order: 15
+  m_Order: 18
   m_Category: Component3
   m_Min:
     m_Type:
@@ -8398,7 +8398,7 @@ MonoBehaviour:
   - {fileID: 8926484042661615649}
   m_ExposedName: Amplitude
   m_Exposed: 1
-  m_Order: 3
+  m_Order: 5
   m_Category: String
   m_Min:
     m_Type:
@@ -8720,7 +8720,7 @@ MonoBehaviour:
   - {fileID: 8926484042661615664}
   m_ExposedName: Hamonic1
   m_Exposed: 1
-  m_Order: 4
+  m_Order: 8
   m_Category: Component1
   m_Min:
     m_Type:
@@ -8800,7 +8800,7 @@ MonoBehaviour:
   - {fileID: 8926484042661615666}
   m_ExposedName: Harmonic2
   m_Exposed: 1
-  m_Order: 12
+  m_Order: 15
   m_Category: Component2
   m_Min:
     m_Type:
@@ -8880,7 +8880,7 @@ MonoBehaviour:
   - {fileID: 8926484042661615668}
   m_ExposedName: Harmonic3
   m_Exposed: 1
-  m_Order: 6
+  m_Order: 10
   m_Category: Component3
   m_Min:
     m_Type:
@@ -8960,7 +8960,7 @@ MonoBehaviour:
   - {fileID: 8926484042661615679}
   m_ExposedName: VerticalMargin
   m_Exposed: 1
-  m_Order: 5
+  m_Order: 9
   m_Category: Transition
   m_Min:
     m_Type:
@@ -9039,7 +9039,7 @@ MonoBehaviour:
   - {fileID: 8926484042661615681}
   m_ExposedName: VerticalTransition
   m_Exposed: 1
-  m_Order: 7
+  m_Order: 11
   m_Category: Transition
   m_Min:
     m_Type:
@@ -9197,7 +9197,7 @@ MonoBehaviour:
   - {fileID: 8926484042661615685}
   m_ExposedName: HorizontalTransition
   m_Exposed: 1
-  m_Order: 3
+  m_Order: 6
   m_Category: Transition
   m_Min:
     m_Type:
@@ -9509,7 +9509,7 @@ MonoBehaviour:
   - {fileID: 8926484042661615724}
   m_ExposedName: Intensity
   m_Exposed: 1
-  m_Order: 1
+  m_Order: 2
   m_Category: String
   m_Min:
     m_Type:
