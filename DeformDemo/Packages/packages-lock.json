@@ -55,8 +55,8 @@
       "source": "local",
       "dependencies": {
         "com.unity.mathematics": "1.2.6",
-        "com.unity.burst": "1.8.4",
-        "com.unity.splines": "2.4.0",
+        "com.unity.burst": "1.8.13",
+        "com.unity.splines": "2.5.2",
         "com.sonosthesia.mesh": "1.7.0",
         "com.sonosthesia.noise": "1.7.0",
         "com.sonosthesia.signal": "1.7.0",
@@ -103,8 +103,9 @@
       "depth": 0,
       "source": "local",
       "dependencies": {
+        "com.unity.splines": "2.5.2",
         "com.unity.mathematics": "1.2.6",
-        "com.unity.burst": "1.8.4"
+        "com.unity.burst": "1.8.13"
       }
     },
     "com.sonosthesia.noise": {
@@ -210,19 +211,22 @@
       "depth": 0,
       "source": "local",
       "dependencies": {
+        "com.unity.visualeffectgraph": "14.0.9",
         "com.neuecc.unirx": "7.1.0",
         "com.sonosthesia.channel": "1.7.0",
         "com.sonosthesia.signal": "1.7.0",
         "com.sonosthesia.target": "1.7.0",
-        "com.sonosthesia.spawn": "1.7.0"
+        "com.sonosthesia.spawn": "1.7.0",
+        "com.sonosthesia.mesh": "1.7.0"
       }
     },
     "com.unity.burst": {
-      "version": "1.8.11",
+      "version": "1.8.13",
       "depth": 1,
       "source": "registry",
       "dependencies": {
-        "com.unity.mathematics": "1.2.1"
+        "com.unity.mathematics": "1.2.1",
+        "com.unity.modules.jsonserialize": "1.0.0"
       },
       "url": "https://packages.unity.com"
     },
@@ -340,8 +344,8 @@
       }
     },
     "com.unity.splines": {
-      "version": "2.5.1",
-      "depth": 0,
+      "version": "2.5.2",
+      "depth": 1,
       "source": "registry",
       "dependencies": {
         "com.unity.settings-manager": "1.0.3",
