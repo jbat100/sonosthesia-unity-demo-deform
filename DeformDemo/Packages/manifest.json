@@ -9,6 +9,7 @@
     "com.sonosthesia.mesh": "file:../../../sonosthesia-unity-packages/packages/com.sonosthesia.mesh",
     "com.sonosthesia.noise": "file:../../../sonosthesia-unity-packages/packages/com.sonosthesia.noise",
     "com.sonosthesia.processing": "file:../../../sonosthesia-unity-packages/packages/com.sonosthesia.processing",
+    "com.sonosthesia.scaffold": "file:../../../sonosthesia-unity-packages/packages/com.sonosthesia.scaffold",
     "com.sonosthesia.signal": "file:../../../sonosthesia-unity-packages/packages/com.sonosthesia.signal",
     "com.sonosthesia.target": "file:../../../sonosthesia-unity-packages/packages/com.sonosthesia.target",
     "com.sonosthesia.trigger": "file:../../../sonosthesia-unity-packages/packages/com.sonosthesia.trigger",

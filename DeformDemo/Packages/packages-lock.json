@@ -126,6 +126,16 @@
         "com.sonosthesia.utils": "1.7.0"
       }
     },
+    "com.sonosthesia.scaffold": {
+      "version": "file:../../../sonosthesia-unity-packages/packages/com.sonosthesia.scaffold",
+      "depth": 0,
+      "source": "local",
+      "dependencies": {
+        "com.unity.splines": "2.5.1",
+        "com.neuecc.unirx": "7.1.0",
+        "com.sonosthesia.utils": "1.7.0"
+      }
+    },
     "com.sonosthesia.sequencer": {
       "version": "file:../../../sonosthesia-unity-packages/packages/com.sonosthesia.sequencer",
       "depth": 0,
