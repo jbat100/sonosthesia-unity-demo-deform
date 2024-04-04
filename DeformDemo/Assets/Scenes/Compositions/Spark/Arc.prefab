@@ -331,7 +331,7 @@ VisualEffect:
       - m_Value: 3.74
         m_Name: Intensity
         m_Overridden: 1
-      - m_Value: 1.85
+      - m_Value: 1.1
         m_Name: Speed
         m_Overridden: 1
       - m_Value: 0.27

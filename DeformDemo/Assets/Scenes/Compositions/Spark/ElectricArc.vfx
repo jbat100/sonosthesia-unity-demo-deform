@@ -16,17 +16,17 @@ MonoBehaviour:
   stickyNoteInfos: []
   categories:
   - name: Arc
-    collapsed: 1
+    collapsed: 0
   - name: Curve
-    collapsed: 1
+    collapsed: 0
   - name: Sparks
     collapsed: 0
   uiBounds:
     serializedVersion: 2
     x: -1173
     y: -498
-    width: 4647
-    height: 2885
+    width: 4649
+    height: 2887
 --- !u!114 &114350483966674976
 MonoBehaviour:
   m_ObjectHideFlags: 1

@@ -38,7 +38,7 @@ RenderSettings:
   m_ReflectionIntensity: 1
   m_CustomReflection: {fileID: 0}
   m_Sun: {fileID: 0}
-  m_IndirectSpecularColor: {r: 0.18028326, g: 0.22571333, b: 0.30692202, a: 1}
+  m_IndirectSpecularColor: {r: 0.18028378, g: 0.22571412, b: 0.30692285, a: 1}
   m_UseRadianceAmbientProbe: 0
 --- !u!157 &3
 LightmapSettings:
@@ -300,6 +300,12 @@ MonoBehaviour:
   _processingFactory: {fileID: 0}
   _component: {fileID: 90046062}
   _name: _amount
+  _postProcessor:
+    _abs: 0
+    _scale: 1
+    _offset: 0
+    _clamp: 0
+    _clampRange: {x: 0, y: 0}
 --- !u!1 &93156896
 GameObject:
   m_ObjectHideFlags: 0
@@ -1001,6 +1007,12 @@ MonoBehaviour:
   _processingFactory: {fileID: 0}
   _component: {fileID: 525891801}
   _name: _amount
+  _postProcessor:
+    _abs: 0
+    _scale: 1
+    _offset: 0
+    _clamp: 0
+    _clampRange: {x: 0, y: 0}
 --- !u!1001 &529697864
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -1439,6 +1451,12 @@ MonoBehaviour:
   _processingFactory: {fileID: 0}
   _component: {fileID: 627439149}
   _name: _amount
+  _postProcessor:
+    _abs: 0
+    _scale: 1
+    _offset: 0
+    _clamp: 0
+    _clampRange: {x: 0, y: 0}
 --- !u!1 &660680406
 GameObject:
   m_ObjectHideFlags: 0
@@ -2054,6 +2072,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: Arc-1
       objectReference: {fileID: 0}
+    - target: {fileID: 506666878785696285, guid: f3dc52d761a664f3e8bbd19577221be0,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 3783669065684652982, guid: f3dc52d761a664f3e8bbd19577221be0,
         type: 3}
       propertyPath: m_PropertySheet.m_Float.m_Array.Array.size
@@ -2073,6 +2096,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_PropertySheet.m_Float.m_Array.Array.data[13].m_Name
       value: SparksRadius
+      objectReference: {fileID: 0}
+    - target: {fileID: 3783669065684652982, guid: f3dc52d761a664f3e8bbd19577221be0,
+        type: 3}
+      propertyPath: m_PropertySheet.m_Float.m_Array.Array.data[5].m_Value
+      value: 1.85
       objectReference: {fileID: 0}
     - target: {fileID: 3783669065684652982, guid: f3dc52d761a664f3e8bbd19577221be0,
         type: 3}
@@ -2127,6 +2155,11 @@ PrefabInstance:
     - target: {fileID: 3783669065684652982, guid: f3dc52d761a664f3e8bbd19577221be0,
         type: 3}
       propertyPath: m_PropertySheet.m_Float.m_Array.Array.data[13].m_Overridden
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 4606083117552085804, guid: f3dc52d761a664f3e8bbd19577221be0,
+        type: 3}
+      propertyPath: m_Enabled
       value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 5668094450141963469, guid: f3dc52d761a664f3e8bbd19577221be0,
@@ -2438,6 +2471,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: Arc-2
       objectReference: {fileID: 0}
+    - target: {fileID: 506666878785696285, guid: f3dc52d761a664f3e8bbd19577221be0,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 3783669065684652982, guid: f3dc52d761a664f3e8bbd19577221be0,
         type: 3}
       propertyPath: m_PropertySheet.m_Float.m_Array.Array.size
@@ -2457,6 +2495,16 @@ PrefabInstance:
         type: 3}
       propertyPath: m_PropertySheet.m_Float.m_Array.Array.data[13].m_Name
       value: SparksRadius
+      objectReference: {fileID: 0}
+    - target: {fileID: 3783669065684652982, guid: f3dc52d761a664f3e8bbd19577221be0,
+        type: 3}
+      propertyPath: m_PropertySheet.m_Float.m_Array.Array.data[5].m_Value
+      value: 1.46
+      objectReference: {fileID: 0}
+    - target: {fileID: 3783669065684652982, guid: f3dc52d761a664f3e8bbd19577221be0,
+        type: 3}
+      propertyPath: m_PropertySheet.m_Float.m_Array.Array.data[8].m_Value
+      value: 2.03
       objectReference: {fileID: 0}
     - target: {fileID: 3783669065684652982, guid: f3dc52d761a664f3e8bbd19577221be0,
         type: 3}
@@ -2511,6 +2559,11 @@ PrefabInstance:
     - target: {fileID: 3783669065684652982, guid: f3dc52d761a664f3e8bbd19577221be0,
         type: 3}
       propertyPath: m_PropertySheet.m_Float.m_Array.Array.data[13].m_Overridden
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 4606083117552085804, guid: f3dc52d761a664f3e8bbd19577221be0,
+        type: 3}
+      propertyPath: m_Enabled
       value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 5668094450141963469, guid: f3dc52d761a664f3e8bbd19577221be0,
@@ -2713,6 +2766,12 @@ MonoBehaviour:
   _processingFactory: {fileID: 11400000, guid: cb3666d7e05584a7c96691f7d19d097e, type: 2}
   _component: {fileID: 1024109314}
   _name: _amount
+  _postProcessor:
+    _abs: 0
+    _scale: 1
+    _offset: 0
+    _clamp: 0
+    _clampRange: {x: 0, y: 0}
 --- !u!1 &1108202799 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 901701364269570877, guid: f3dc52d761a664f3e8bbd19577221be0,
@@ -2747,6 +2806,12 @@ MonoBehaviour:
   _processingFactory: {fileID: 0}
   _component: {fileID: 1108202803}
   _name: _amount
+  _postProcessor:
+    _abs: 0
+    _scale: 1
+    _offset: 0
+    _clamp: 0
+    _clampRange: {x: 0, y: 0}
 --- !u!1001 &1125103898
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -3210,6 +3275,12 @@ MonoBehaviour:
   _processingFactory: {fileID: 0}
   _component: {fileID: 1282786012}
   _name: _timeFactor
+  _postProcessor:
+    _abs: 0
+    _scale: 1
+    _offset: 0
+    _clamp: 0
+    _clampRange: {x: 0, y: 0}
 --- !u!1 &1296148172
 GameObject:
   m_ObjectHideFlags: 0
@@ -3929,6 +4000,12 @@ MonoBehaviour:
   _processingFactory: {fileID: 0}
   _component: {fileID: 1905197948}
   _name: _amount
+  _postProcessor:
+    _abs: 0
+    _scale: 1
+    _offset: 0
+    _clamp: 0
+    _clampRange: {x: 0, y: 0}
 --- !u!1 &1921206411 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 4321055825898359299, guid: f3dc52d761a664f3e8bbd19577221be0,
@@ -4102,6 +4179,12 @@ MonoBehaviour:
   _processingFactory: {fileID: 0}
   _component: {fileID: 2014411843}
   _name: _amount
+  _postProcessor:
+    _abs: 0
+    _scale: 1
+    _offset: 0
+    _clamp: 0
+    _clampRange: {x: 0, y: 0}
 --- !u!4 &2059486359 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 8701612466293830728, guid: 33e568421968f4c13b2058132236013c,
@@ -4332,7 +4415,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   _meshOptimization: 0
   _meshType: 7
-  _resolution: 50
+  _resolution: 20
   _gizmoMode: 0
   _displacement: 0.5
   _recalculateNormals: 1
@@ -4351,6 +4434,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: Arc-0
+      objectReference: {fileID: 0}
+    - target: {fileID: 506666878785696285, guid: f3dc52d761a664f3e8bbd19577221be0,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 3783669065684652982, guid: f3dc52d761a664f3e8bbd19577221be0,
         type: 3}
@@ -4410,6 +4498,11 @@ PrefabInstance:
     - target: {fileID: 3783669065684652982, guid: f3dc52d761a664f3e8bbd19577221be0,
         type: 3}
       propertyPath: m_PropertySheet.m_Float.m_Array.Array.data[13].m_Overridden
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 4606083117552085804, guid: f3dc52d761a664f3e8bbd19577221be0,
+        type: 3}
+      propertyPath: m_Enabled
       value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 5668094450141963469, guid: f3dc52d761a664f3e8bbd19577221be0,
