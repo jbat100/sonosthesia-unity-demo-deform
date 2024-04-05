@@ -191,8 +191,10 @@
       "depth": 0,
       "source": "local",
       "dependencies": {
+        "com.unity.timeline": "1.8.2",
         "com.neuecc.unirx": "7.1.0",
-        "com.sonosthesia.signal": "1.7.0"
+        "com.sonosthesia.signal": "1.7.0",
+        "com.sonosthesia.trigger": "1.7.0"
       }
     },
     "com.sonosthesia.trigger": {
