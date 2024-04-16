@@ -1,0 +1,31 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5c46d09cae9c42939699dc6afbf3e100, type: 3}
+  m_Name: CrossSegmentContainer
+  m_EditorClassIdentifier: 
+  _segments:
+  - _start:
+      _position: {x: 1, y: 0}
+      _normal: {x: 0, y: 1}
+      _u: 0
+    _end:
+      _position: {x: -1, y: 0}
+      _normal: {x: 0, y: 1}
+      _u: 1
+  - _start:
+      _position: {x: 0, y: 1}
+      _normal: {x: 1, y: 0}
+      _u: 0
+    _end:
+      _position: {x: 0, y: -1}
+      _normal: {x: 1, y: 0}
+      _u: 1
