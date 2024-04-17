@@ -27,6 +27,7 @@ namespace Sonosthesia
         [Serializable]
         public struct Swirl
         {
+            public Proxy width;
             public Proxy colorIntensity;
             public Proxy scrollSpeed;
             public Proxy noiseSize;
@@ -36,6 +37,7 @@ namespace Sonosthesia
 
             public void Update()
             {
+                width.Update();
                 colorIntensity.Update();
                 scrollSpeed.Update();
                 noiseSize.Update();
