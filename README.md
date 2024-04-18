@@ -57,11 +57,19 @@ Multichannel sound visualization using shader graph. Sine waves in cartesian coo
   <img src="https://github.com/jbat100/sonosthesia-unity-demo-deform/assets/1318918/45106456-6334-4dd9-8855-6b310b26d011" />
 </p>
 
-### SparkFX
+### Spark
 
 This scene combines job system based mesh deformations with shader graphs and vfx graphs controlled via sound descriptors with more sophisticated composition and flow elements from the Sonosthesia packages.
 
 <p align="center">
-  <img src="https://github.com/jbat100/sonosthesia-unity-demo-deform/assets/1318918/18307cf1-3b3e-4680-ab14-2a4d81749df3" />
+  <img src="https://github.com/jbat100/sonosthesia-unity-demo-deform/assets/1318918/76422e27-6ea5-4c7e-be04-142d3f69d736" />
+</p>
+
+### Pollen
+
+This scene combines job system based mesh generation following torus knot parametric curves with shader graphs and vfx graphs controlled via sound descriptors and merged with manual animations.
+
+<p align="center">
+  <img src="https://github.com/jbat100/sonosthesia-unity-demo-deform/assets/1318918/66da6231-09fd-49e2-a306-20e7fb50a051" />
 </p>
 
