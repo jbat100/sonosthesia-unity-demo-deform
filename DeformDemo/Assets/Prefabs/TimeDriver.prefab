@@ -1,0 +1,150 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &3778342078063312330
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 7360233950817794776}
+  - component: {fileID: 834724968187917495}
+  - component: {fileID: 1587032073858886514}
+  m_Layer: 0
+  m_Name: TimeDriver
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &7360233950817794776
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3778342078063312330}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children:
+  - {fileID: 4408159937546556956}
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &834724968187917495
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3778342078063312330}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2a243abc1f644f969c821b310560d54f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _timeScale: 1
+  _pause: 0
+  _offset: 0
+  _postProcessor:
+    _abs: 0
+    _scale: 1
+    _offset: 0
+    _clamp: 0
+    _clampRange: {x: 0, y: 0}
+  _primitiveType: 1
+--- !u!114 &1587032073858886514
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3778342078063312330}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5cb28e8350e8c49dd8f36b8a4b7cd89a, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _log: 0
+  _distinct: 0
+  _generator: {fileID: 834724968187917495}
+  _timeFactor: 1
+  _postProcessor:
+    _abs: 0
+    _scale: 1
+    _offset: 0
+    _clamp: 0
+    _clampRange: {x: 0, y: 0}
+--- !u!1 &8652177532883711738
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 4408159937546556956}
+  - component: {fileID: 8881651640707096424}
+  - component: {fileID: 7385771842903019752}
+  m_Layer: 0
+  m_Name: Time
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4408159937546556956
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8652177532883711738}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 7360233950817794776}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &8881651640707096424
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8652177532883711738}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a345441b62764ce9be2251fa2fd68ce9, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _log: 0
+  _distinct: 0
+  _timeFactor: 1
+--- !u!114 &7385771842903019752
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8652177532883711738}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c69ec689ef4e641ba880afcdf2ae8e50, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _source: {fileID: 1587032073858886514}
+  _processingFactory: {fileID: 0}
+  _component: {fileID: 8881651640707096424}
+  _name: _timeFactor
+  _postProcessor:
+    _abs: 0
+    _scale: 1
+    _offset: 0
+    _clamp: 0
+    _clampRange: {x: 0, y: 0}
