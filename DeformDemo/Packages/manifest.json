@@ -9,6 +9,7 @@
     "com.sonosthesia.mapping": "file:../../../sonosthesia-unity-packages/packages/com.sonosthesia.mapping",
     "com.sonosthesia.mesh": "file:../../../sonosthesia-unity-packages/packages/com.sonosthesia.mesh",
     "com.sonosthesia.noise": "file:../../../sonosthesia-unity-packages/packages/com.sonosthesia.noise",
+    "com.sonosthesia.pack": "file:../../../sonosthesia-unity-packages/packages/com.sonosthesia.pack",
     "com.sonosthesia.processing": "file:../../../sonosthesia-unity-packages/packages/com.sonosthesia.processing",
     "com.sonosthesia.scaffold": "file:../../../sonosthesia-unity-packages/packages/com.sonosthesia.scaffold",
     "com.sonosthesia.sequencer": "file:../../../sonosthesia-unity-packages/packages/com.sonosthesia.sequencer",
