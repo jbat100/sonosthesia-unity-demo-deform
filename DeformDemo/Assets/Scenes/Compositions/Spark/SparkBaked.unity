@@ -908,18 +908,6 @@ Transform:
   - {fileID: 5197164516487638819}
   m_Father: {fileID: 6880430157538188546}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &544137679 stripped
-MonoBehaviour:
-  m_CorrespondingSourceObject: {fileID: 7986387203499468533, guid: c97a159bcbcd343d68b6852ebc040dcb,
-    type: 3}
-  m_PrefabInstance: {fileID: 5474052849172934915}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 639f890b5c284bbd88b72539a4982ed6, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!1 &547654922
 GameObject:
   m_ObjectHideFlags: 0
@@ -1801,6 +1789,11 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 1140165315495710504, guid: 086ab71e539284b678d77f1aa9e9c766,
+        type: 3}
+      propertyPath: _targetBlend
+      value: 2
+      objectReference: {fileID: 0}
     - target: {fileID: 4149241132805165476, guid: 086ab71e539284b678d77f1aa9e9c766,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -1855,21 +1848,27 @@ PrefabInstance:
         type: 3}
       propertyPath: _mapper
       value: 
-      objectReference: {fileID: 0}
+      objectReference: {fileID: 11400000, guid: 8969c0e3ac3b24c88a13ecfea105cda0,
+        type: 2}
     - target: {fileID: 5921319119212299711, guid: 086ab71e539284b678d77f1aa9e9c766,
         type: 3}
       propertyPath: _source
       value: 
-      objectReference: {fileID: 544137679}
+      objectReference: {fileID: 1962105141}
+    - target: {fileID: 6140341380366638035, guid: 086ab71e539284b678d77f1aa9e9c766,
+        type: 3}
+      propertyPath: _targetBlend
+      value: 2
+      objectReference: {fileID: 0}
     - target: {fileID: 6507665165659982242, guid: 086ab71e539284b678d77f1aa9e9c766,
         type: 3}
       propertyPath: m_Name
       value: Levels
       objectReference: {fileID: 0}
-    - target: {fileID: 6507665165659982242, guid: 086ab71e539284b678d77f1aa9e9c766,
+    - target: {fileID: 9004579292564234001, guid: 086ab71e539284b678d77f1aa9e9c766,
         type: 3}
-      propertyPath: m_IsActive
-      value: 1
+      propertyPath: _targetBlend
+      value: 2
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -3350,6 +3349,18 @@ MonoBehaviour:
   _bypass: 0
   _operatorFactory: {fileID: 11400000, guid: ed127bdd3401b4124b633cc39c05a3bc, type: 2}
   _timeScale: 1
+--- !u!114 &1962105141 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 4130744922292667728, guid: c97a159bcbcd343d68b6852ebc040dcb,
+    type: 3}
+  m_PrefabInstance: {fileID: 5474052849172934915}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 639f890b5c284bbd88b72539a4982ed6, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &1980986321 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 6607727058604008234, guid: f3dc52d761a664f3e8bbd19577221be0,
@@ -3846,6 +3857,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: BakedMusic
+      objectReference: {fileID: 0}
+    - target: {fileID: 1549221099188693727, guid: c97a159bcbcd343d68b6852ebc040dcb,
+        type: 3}
+      propertyPath: _log
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 1927010146160158487, guid: c97a159bcbcd343d68b6852ebc040dcb,
         type: 3}
