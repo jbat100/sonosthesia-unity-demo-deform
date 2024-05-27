@@ -65,7 +65,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   _source: {fileID: 1970125295419671226}
   _processingFactory: {fileID: 11400000, guid: 677011c1152864342b0d5fa6896520b8, type: 2}
-  _targetBlend: 1
+  _targetBlend: 2
   _scaleFactor: {x: 0, y: 1, z: 0}
 --- !u!114 &1970125295419671226
 MonoBehaviour:
@@ -146,7 +146,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   _source: {fileID: 8737239675494461745}
   _processingFactory: {fileID: 11400000, guid: 677011c1152864342b0d5fa6896520b8, type: 2}
-  _targetBlend: 1
+  _targetBlend: 2
   _scaleFactor: {x: 0, y: 1, z: 0}
 --- !u!114 &8737239675494461745
 MonoBehaviour:
@@ -437,7 +437,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   _source: {fileID: 1729607778769318815}
   _processingFactory: {fileID: 11400000, guid: 677011c1152864342b0d5fa6896520b8, type: 2}
-  _targetBlend: 1
+  _targetBlend: 2
   _scaleFactor: {x: 0, y: 1, z: 0}
 --- !u!114 &1729607778769318815
 MonoBehaviour:

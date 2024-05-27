@@ -10,7 +10,7 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 17160f32be25f4fd1b76771604b0071e, type: 3}
-  m_Name: SurfaceAmplitude1Processor
+  m_Name: Swirl1ScrollTimeFactor
   m_EditorClassIdentifier: 
   _warp:
     _bypass: 0
