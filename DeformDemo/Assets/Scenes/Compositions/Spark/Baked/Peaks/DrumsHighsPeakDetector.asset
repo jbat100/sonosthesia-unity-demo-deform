@@ -12,5 +12,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 57433f9a519b4a0d93beae59077ef0f3, type: 3}
   m_Name: DrumsHighsPeakDetector
   m_EditorClassIdentifier: 
-  _magnitudeThreshold: 0.1
-  _maximumDuration: 0.1
+  _magnitudeThreshold: 0.02
+  _maximumDuration: 0.28
+  _valuePostProcessor:
+    _abs: 0
+    _scale: 1
+    _offset: 0
+    _clamp: 0
+    _clampRange: {x: 0, y: 0}

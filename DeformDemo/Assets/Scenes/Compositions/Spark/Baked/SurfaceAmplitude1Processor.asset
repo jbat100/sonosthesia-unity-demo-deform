@@ -22,5 +22,5 @@ MonoBehaviour:
     _beta: 0.1
     _minCutoff: 0.1
   _softLanding:
-    _bypass: 0
+    _bypass: 1
     _speed: 2

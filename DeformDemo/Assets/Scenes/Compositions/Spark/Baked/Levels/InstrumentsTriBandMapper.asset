@@ -16,7 +16,7 @@ MonoBehaviour:
     _bypass: 0
     _warp:
       _bypass: 0
-      _db: 1
+      _db: 0
       _scale: 1
       _offset: 0
     _oneEuroFilter:
@@ -30,7 +30,7 @@ MonoBehaviour:
     _bypass: 0
     _warp:
       _bypass: 0
-      _db: 1
+      _db: 0
       _scale: 1
       _offset: 0
     _oneEuroFilter:
