@@ -18,6 +18,7 @@
     "com.sonosthesia.spawn": "file:../../../sonosthesia-unity-packages/packages/com.sonosthesia.spawn",
     "com.sonosthesia.target": "file:../../../sonosthesia-unity-packages/packages/com.sonosthesia.target",
     "com.sonosthesia.timeline": "file:../../../sonosthesia-unity-packages/packages/com.sonosthesia.timeline",
+    "com.sonosthesia.trajectory": "file:../../../sonosthesia-unity-packages/packages/com.sonosthesia.trajectory",
     "com.sonosthesia.trigger": "file:../../../sonosthesia-unity-packages/packages/com.sonosthesia.trigger",
     "com.sonosthesia.utils": "file:../../../sonosthesia-unity-packages/packages/com.sonosthesia.utils",
     "com.sonosthesia.vfx": "file:../../../sonosthesia-unity-packages/packages/com.sonosthesia.vfx",
