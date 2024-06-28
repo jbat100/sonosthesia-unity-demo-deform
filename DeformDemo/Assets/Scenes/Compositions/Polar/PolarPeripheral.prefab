@@ -202,6 +202,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: PeakTrigger
       objectReference: {fileID: 0}
+    - target: {fileID: 4948473969328424707, guid: 8f1c86846e9184bc88a7e8eac08b69e7,
+        type: 3}
+      propertyPath: _scale
+      value: 3
+      objectReference: {fileID: 0}
     - target: {fileID: 6011627956538908986, guid: 8f1c86846e9184bc88a7e8eac08b69e7,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -251,6 +256,16 @@ PrefabInstance:
         type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8024909643178044818, guid: 8f1c86846e9184bc88a7e8eac08b69e7,
+        type: 3}
+      propertyPath: _offset
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8024909643178044818, guid: 8f1c86846e9184bc88a7e8eac08b69e7,
+        type: 3}
+      propertyPath: _selection
+      value: 1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []

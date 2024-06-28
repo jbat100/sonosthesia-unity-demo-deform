@@ -478,6 +478,7 @@ GameObject:
   - component: {fileID: 453262704}
   - component: {fileID: 453262706}
   - component: {fileID: 453262705}
+  - component: {fileID: 453262707}
   m_Layer: 0
   m_Name: Angle
   m_TagString: Untagged
@@ -515,14 +516,16 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c2c00059e7674b67b4d1f49bf4217b2d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  _duration: 1
-  _targetPosition: 0
-  _targetVelocity: 0.5
-  _velocityEaseType: 0
-  _velocityEaseTarget: 1
-  _gridSize: 1
-  _gridOffset: 0
-  _gridVelocity: 0
+  _settings:
+    _trajectoryType: 3
+    _easeType: 0
+    _duration: 1
+    _position: 0
+    _velocity: 2
+    _grid: 0
+    _gridSize: 0
+    _gridJump: 0
+    _gridSnap: 0
 --- !u!114 &453262706
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -537,6 +540,28 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   _positionTarget: {fileID: 475368856}
   _velocityTarget: {fileID: 19889091}
+--- !u!114 &453262707
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 453262703}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c2c00059e7674b67b4d1f49bf4217b2d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _settings:
+    _trajectoryType: 2
+    _easeType: 0
+    _duration: 1
+    _position: 0
+    _velocity: 0.1
+    _grid: 0
+    _gridSize: 0
+    _gridJump: 0
+    _gridSnap: 0
 --- !u!1 &475368854
 GameObject:
   m_ObjectHideFlags: 0
@@ -691,14 +716,16 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c2c00059e7674b67b4d1f49bf4217b2d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  _duration: 1
-  _targetPosition: 5
-  _targetVelocity: 1
-  _velocityEaseType: 5
-  _velocityEaseTarget: 0
-  _gridSize: 0
-  _gridOffset: 0
-  _gridVelocity: 0
+  _settings:
+    _trajectoryType: 0
+    _easeType: 0
+    _duration: 0
+    _position: 0
+    _velocity: 0
+    _grid: 0
+    _gridSize: 0
+    _gridJump: 0
+    _gridSnap: 0
 --- !u!1 &554268678
 GameObject:
   m_ObjectHideFlags: 0
@@ -1598,12 +1625,12 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 176cb7d067d64ff5955ddc5f42f93aa9, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  _targets:
-  - {fileID: 1491805691}
-  - {fileID: 684985596}
-  _velocity: 1
-  _duration: 2
-  _velocityEaseType: 5
+  _settings:
+    _trajectoryType: 0
+    _easeType: 0
+    _duration: 0
+    _position: {x: 0, y: 0, z: 0}
+    _velocity: {x: 0, y: 0, z: 0}
 --- !u!114 &1940453252
 MonoBehaviour:
   m_ObjectHideFlags: 0

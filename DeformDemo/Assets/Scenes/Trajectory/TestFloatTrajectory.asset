@@ -13,11 +13,11 @@ MonoBehaviour:
   m_Name: TestFloatTrajectory
   m_EditorClassIdentifier: 
   _settings:
-    _trajectoryType: 2
-    _easeType: 1
-    _duration: 0
+    _trajectoryType: 3
+    _easeType: 2
+    _duration: 1
     _position: 0
-    _velocity: 0
+    _velocity: 2
     _grid: 0
     _gridSize: 0
     _gridJump: 0
