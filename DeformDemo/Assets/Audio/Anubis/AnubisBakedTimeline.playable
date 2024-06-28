@@ -1,5 +1,39 @@
 %YAML 1.1
 %TAG !u! tag:unity3d.com,2011:
+--- !u!114 &-8057173760415947646
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1a951dcc259a428db390863225ea7eb0, type: 3}
+  m_Name: Trajectory Signal Emitter
+  m_EditorClassIdentifier: 
+  m_Time: 3.7
+  m_Retroactive: 0
+  m_EmitOnce: 0
+  m_Asset: {fileID: 11400000, guid: 8fa80868ce5ea4a2e89c115381889c88, type: 2}
+  key: Slow
+--- !u!114 &-7012833981162897803
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1a951dcc259a428db390863225ea7eb0, type: 3}
+  m_Name: Trajectory Signal Emitter
+  m_EditorClassIdentifier: 
+  m_Time: 1.3166666666666667
+  m_Retroactive: 0
+  m_EmitOnce: 0
+  m_Asset: {fileID: 11400000, guid: 8fa80868ce5ea4a2e89c115381889c88, type: 2}
+  key: Rest
 --- !u!114 &-5833700572648633544
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -93,6 +127,23 @@ MonoBehaviour:
     m_DisplayName: Anubis STEMS MELODY
   m_Markers:
     m_Objects: []
+--- !u!114 &-5241713600692240778
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1a951dcc259a428db390863225ea7eb0, type: 3}
+  m_Name: Trajectory Signal Emitter
+  m_EditorClassIdentifier: 
+  m_Time: 6.75
+  m_Retroactive: 0
+  m_EmitOnce: 0
+  m_Asset: {fileID: 11400000, guid: 8fa80868ce5ea4a2e89c115381889c88, type: 2}
+  key: PulseSlow
 --- !u!114 &-4877338987345742700
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -186,6 +237,23 @@ MonoBehaviour:
     m_DisplayName: Anubis STEMS INSTRUMENTS
   m_Markers:
     m_Objects: []
+--- !u!114 &-4227011105016037457
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1a951dcc259a428db390863225ea7eb0, type: 3}
+  m_Name: Trajectory Signal Emitter
+  m_EditorClassIdentifier: 
+  m_Time: 3.8666666666666667
+  m_Retroactive: 0
+  m_EmitOnce: 0
+  m_Asset: {fileID: 11400000, guid: 8fa80868ce5ea4a2e89c115381889c88, type: 2}
+  key: Slow
 --- !u!114 &-3348963897687510367
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -277,12 +345,54 @@ MonoBehaviour:
     m_PreExtrapolationTime: 0
     m_DisplayName: Anubis
   m_Markers:
-    m_Objects:
-    - {fileID: 8782119042835371013}
+    m_Objects: []
   m_TrackProperties:
     volume: 1
     stereoPan: 0
     spatialBlend: 0
+--- !u!114 &-1504192642052301434
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9e0874c75dd945bbab84600e93d91938, type: 3}
+  m_Name: Trajectory Track Asset
+  m_EditorClassIdentifier: 
+  m_Version: 3
+  m_AnimClip: {fileID: 0}
+  m_Locked: 0
+  m_Muted: 0
+  m_CustomPlayableFullTypename: 
+  m_Curves: {fileID: 0}
+  m_Parent: {fileID: 11400000}
+  m_Children: []
+  m_Clips: []
+  m_Markers:
+    m_Objects:
+    - {fileID: -243392023770063408}
+    - {fileID: -8057173760415947646}
+    - {fileID: -5241713600692240778}
+--- !u!114 &-243392023770063408
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1a951dcc259a428db390863225ea7eb0, type: 3}
+  m_Name: Trajectory Signal Emitter
+  m_EditorClassIdentifier: 
+  m_Time: 0
+  m_Retroactive: 0
+  m_EmitOnce: 0
+  m_Asset: {fileID: 11400000, guid: 8fa80868ce5ea4a2e89c115381889c88, type: 2}
+  key: Rest
 --- !u!114 &11400000
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -302,12 +412,56 @@ MonoBehaviour:
   - {fileID: 3932331491505437844}
   - {fileID: -5833700572648633544}
   - {fileID: -4877338987345742700}
+  - {fileID: -1504192642052301434}
+  - {fileID: 245900461074056356}
   m_FixedDuration: 0
   m_EditorSettings:
     m_Framerate: 60
     m_ScenePreview: 1
   m_DurationMode: 0
   m_MarkerTrack: {fileID: 0}
+--- !u!114 &245900461074056356
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9e0874c75dd945bbab84600e93d91938, type: 3}
+  m_Name: Trajectory Track Asset (1)
+  m_EditorClassIdentifier: 
+  m_Version: 3
+  m_AnimClip: {fileID: 0}
+  m_Locked: 0
+  m_Muted: 0
+  m_CustomPlayableFullTypename: 
+  m_Curves: {fileID: 0}
+  m_Parent: {fileID: 11400000}
+  m_Children: []
+  m_Clips: []
+  m_Markers:
+    m_Objects:
+    - {fileID: 595731212362677792}
+    - {fileID: 9135229413010276769}
+--- !u!114 &595731212362677792
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1a951dcc259a428db390863225ea7eb0, type: 3}
+  m_Name: Trajectory Signal Emitter
+  m_EditorClassIdentifier: 
+  m_Time: 0
+  m_Retroactive: 0
+  m_EmitOnce: 0
+  m_Asset: {fileID: 11400000, guid: 8fa80868ce5ea4a2e89c115381889c88, type: 2}
+  key: Rest
 --- !u!114 &3932331491505437844
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -511,7 +665,7 @@ MonoBehaviour:
   m_bufferingTime: 0.1
   m_ClipProperties:
     volume: 1
---- !u!114 &8782119042835371013
+--- !u!114 &9135229413010276769
 MonoBehaviour:
   m_ObjectHideFlags: 1
   m_CorrespondingSourceObject: {fileID: 0}
@@ -520,10 +674,11 @@ MonoBehaviour:
   m_GameObject: {fileID: 0}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 15c38f6fa1940124db1ab7f6fe7268d1, type: 3}
-  m_Name: Signal Emitter
+  m_Script: {fileID: 11500000, guid: 1a951dcc259a428db390863225ea7eb0, type: 3}
+  m_Name: Trajectory Signal Emitter
   m_EditorClassIdentifier: 
-  m_Time: 0
+  m_Time: 4.866666666666666
   m_Retroactive: 0
   m_EmitOnce: 0
-  m_Asset: {fileID: 11400000, guid: ab6d1028d99f14eac8cd0ecedb68f2be, type: 2}
+  m_Asset: {fileID: 11400000, guid: 8fa80868ce5ea4a2e89c115381889c88, type: 2}
+  key: Slow

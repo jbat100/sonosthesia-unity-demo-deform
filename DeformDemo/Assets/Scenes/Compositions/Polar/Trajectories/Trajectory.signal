@@ -9,16 +9,6 @@ MonoBehaviour:
   m_GameObject: {fileID: 0}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 735a58aeb0fb471e80c56b6251b9ed42, type: 3}
-  m_Name: TestFloatTrajectory
+  m_Script: {fileID: 11500000, guid: d6fa2d92fc1b3f34da284357edf89c3b, type: 3}
+  m_Name: Trajectory
   m_EditorClassIdentifier: 
-  _settings:
-    _trajectoryType: 2
-    _easeType: 1
-    _duration: 0
-    _position: 0
-    _velocity: 0
-    _grid: 0
-    _gridSize: 0
-    _gridJump: 0
-    _gridSnap: 0
