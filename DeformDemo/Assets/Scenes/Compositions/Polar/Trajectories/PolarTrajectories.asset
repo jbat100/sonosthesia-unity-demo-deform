@@ -35,7 +35,7 @@ MonoBehaviour:
       _gridSize: 0
       _gridJump: 0
       _gridSnap: 0
-  - _key: PulseSlow
+  - _key: Pulse1
     _settings:
       _trajectoryType: 3
       _easeType: 2
@@ -46,3 +46,69 @@ MonoBehaviour:
       _gridSize: 0
       _gridJump: 0
       _gridSnap: 0
+  - _key: Pulse2
+    _settings:
+      _trajectoryType: 3
+      _easeType: 2
+      _duration: 2
+      _position: 0
+      _velocity: 2
+      _grid: 0
+      _gridSize: 0
+      _gridJump: 0
+      _gridSnap: 0
+  - _key: SlowReverse
+    _settings:
+      _trajectoryType: 2
+      _easeType: 2
+      _duration: 1
+      _position: 0
+      _velocity: -0.1
+      _grid: 0
+      _gridSize: 0
+      _gridJump: 0
+      _gridSnap: 0
+  - _key: Align
+    _settings:
+      _trajectoryType: 1
+      _easeType: 2
+      _duration: 1
+      _position: 0
+      _velocity: 0
+      _grid: 1
+      _gridSize: 1
+      _gridJump: 0
+      _gridSnap: 0
+  - _key: Bolt1
+    _settings:
+      _trajectoryType: 3
+      _easeType: 2
+      _duration: 1
+      _position: 0
+      _velocity: 1.3
+      _grid: 1
+      _gridSize: 1
+      _gridJump: 1
+      _gridSnap: 3
+  - _key: Cruise
+    _settings:
+      _trajectoryType: 2
+      _easeType: 2
+      _duration: 1
+      _position: 0
+      _velocity: 0.3
+      _grid: 1
+      _gridSize: 1
+      _gridJump: 1
+      _gridSnap: 3
+  - _key: AlignSpin
+    _settings:
+      _trajectoryType: 1
+      _easeType: 2
+      _duration: 1
+      _position: 0
+      _velocity: 0
+      _grid: 1
+      _gridSize: 1
+      _gridJump: 1
+      _gridSnap: 3
