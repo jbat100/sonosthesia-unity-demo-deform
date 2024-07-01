@@ -58,10 +58,16 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 4508685140347177385, guid: 870f6eac186b3624e8eb200c3fdc58df,
+        type: 3}
+      propertyPath: _configuration
+      value: 
+      objectReference: {fileID: 11400000, guid: ecebd65d5c5c84e068ebc13b216d0311,
+        type: 2}
     - target: {fileID: 4536493425555986512, guid: 870f6eac186b3624e8eb200c3fdc58df,
         type: 3}
       propertyPath: m_Name
-      value: PolarPeripheral
+      value: PolarLine
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []

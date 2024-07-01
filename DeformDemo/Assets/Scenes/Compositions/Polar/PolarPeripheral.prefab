@@ -12,6 +12,7 @@ GameObject:
   - component: {fileID: 1238375829966971560}
   - component: {fileID: 3512291720330354591}
   - component: {fileID: 5624869646294099819}
+  - component: {fileID: 3697627883526407188}
   m_Layer: 0
   m_Name: Quad
   m_TagString: Untagged
@@ -100,6 +101,22 @@ MonoBehaviour:
   _processingFactory: {fileID: 0}
   _renderer: {fileID: 3512291720330354591}
   _name: _Intensity
+--- !u!114 &3697627883526407188
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2280317202215072149}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d8b605f1c0f042678af78864e88d8b21, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _source: {fileID: 3356086157147164014}
+  _processingFactory: {fileID: 0}
+  _renderer: {fileID: 3512291720330354591}
+  _name: _Dimensions
 --- !u!1 &3489139977210676238
 GameObject:
   m_ObjectHideFlags: 0
@@ -199,7 +216,8 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 8991054721945860425}
-  - component: {fileID: 4297897369913489768}
+  - component: {fileID: 4508685140347177385}
+  - component: {fileID: 3356086157147164014}
   m_Layer: 0
   m_Name: Dimensions
   m_TagString: Untagged
@@ -222,7 +240,20 @@ Transform:
   m_Children: []
   m_Father: {fileID: 2887004809501375756}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &4297897369913489768
+--- !u!114 &4508685140347177385
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7591589755191705126}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7a3c915f77e34e06908701713830cb87, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _configuration: {fileID: 0}
+--- !u!114 &3356086157147164014
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -237,7 +268,7 @@ MonoBehaviour:
   _log: 0
   _distinct: 0
   _source: {fileID: 0}
-  _fader: {fileID: 0}
+  _fader: {fileID: 4508685140347177385}
 --- !u!1001 &7300652411994831906
 PrefabInstance:
   m_ObjectHideFlags: 0

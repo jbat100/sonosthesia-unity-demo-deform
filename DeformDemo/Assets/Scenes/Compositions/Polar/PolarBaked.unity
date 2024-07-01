@@ -411,6 +411,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: PolarLine1
       objectReference: {fileID: 0}
+    - target: {fileID: 8714686781857646558, guid: ec0ee0c6d6acccf4685c9de5b3271c8f,
+        type: 3}
+      propertyPath: _source
+      value: 
+      objectReference: {fileID: 1831466305}
     - target: {fileID: 9111710534584661948, guid: ec0ee0c6d6acccf4685c9de5b3271c8f,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -547,6 +552,11 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 4028510230158542305, guid: b8928778562e1404faa8c8ca37cd8f0b,
+        type: 3}
+      propertyPath: _source
+      value: 
+      objectReference: {fileID: 1831466305}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -1106,6 +1116,11 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 4028510230158542305, guid: b8928778562e1404faa8c8ca37cd8f0b,
+        type: 3}
+      propertyPath: _source
+      value: 
+      objectReference: {fileID: 1831466305}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -1192,6 +1207,11 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 4028510230158542305, guid: b8928778562e1404faa8c8ca37cd8f0b,
+        type: 3}
+      propertyPath: _source
+      value: 
+      objectReference: {fileID: 1831466305}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -1579,6 +1599,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: PolarLine2
       objectReference: {fileID: 0}
+    - target: {fileID: 8714686781857646558, guid: ec0ee0c6d6acccf4685c9de5b3271c8f,
+        type: 3}
+      propertyPath: _source
+      value: 
+      objectReference: {fileID: 1831466305}
     - target: {fileID: 9111710534584661948, guid: ec0ee0c6d6acccf4685c9de5b3271c8f,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -1997,7 +2022,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 365d9c7b8b134914a7dd49abc12cb503, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  _log: 0
+  _log: 1
   _distinct: 0
 --- !u!1 &2014017200
 GameObject:
@@ -2125,6 +2150,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: PolarLine3
       objectReference: {fileID: 0}
+    - target: {fileID: 8714686781857646558, guid: ec0ee0c6d6acccf4685c9de5b3271c8f,
+        type: 3}
+      propertyPath: _source
+      value: 
+      objectReference: {fileID: 1831466305}
     - target: {fileID: 9111710534584661948, guid: ec0ee0c6d6acccf4685c9de5b3271c8f,
         type: 3}
       propertyPath: m_LocalPosition.x
