@@ -38,7 +38,6 @@ RenderSettings:
   m_ReflectionIntensity: 1
   m_CustomReflection: {fileID: 0}
   m_Sun: {fileID: 0}
-  m_IndirectSpecularColor: {r: 0.18028378, g: 0.22571412, b: 0.30692285, a: 1}
   m_UseRadianceAmbientProbe: 0
 --- !u!157 &3
 LightmapSettings:
@@ -1098,6 +1097,7 @@ GameObject:
   - component: {fileID: 617941862}
   - component: {fileID: 617941861}
   - component: {fileID: 617941860}
+  - component: {fileID: 617941863}
   m_Layer: 0
   m_Name: DirectionRoot
   m_TagString: Untagged
@@ -1152,7 +1152,7 @@ MonoBehaviour:
   _log: 0
   _distinct: 0
   _generator: {fileID: 617941862}
-  _timeFactor: 0.1
+  _timeSignal: {fileID: 617941863}
 --- !u!114 &617941862
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1168,6 +1168,21 @@ MonoBehaviour:
   _amount: 90
   _octaves: 1
   _seed: 0
+--- !u!114 &617941863
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 617941858}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a345441b62764ce9be2251fa2fd68ce9, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _log: 0
+  _distinct: 0
+  _timeFactor: 0.16
 --- !u!1 &625440832
 GameObject:
   m_ObjectHideFlags: 0
@@ -1320,9 +1335,6 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 709066385}
-  - component: {fileID: 709066388}
-  - component: {fileID: 709066387}
-  - component: {fileID: 709066386}
   m_Layer: 0
   m_Name: Direction-0
   m_TagString: Untagged
@@ -1345,53 +1357,6 @@ Transform:
   m_Children: []
   m_Father: {fileID: 1282786010}
   m_LocalEulerAnglesHint: {x: 90, y: 0, z: 0}
---- !u!114 &709066386
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 709066384}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 6e9eb63d2e1644e7bb8c99d56b013b9c, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  _source: {fileID: 709066387}
-  _processingFactory: {fileID: 0}
-  _targetBlend: 2
-  _local: 1
---- !u!114 &709066387
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 709066384}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 8032cae50b0af4d59a3e3e2ced883720, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  _log: 0
-  _distinct: 0
-  _generator: {fileID: 709066388}
-  _timeFactor: 1
---- !u!114 &709066388
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 709066384}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 6ac727347bf084b168dcf9ed6bc8f06f, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  _amount: 0
-  _octaves: 2
-  _seed: 0
 --- !u!114 &809783364 stripped
 MonoBehaviour:
   m_CorrespondingSourceObject: {fileID: 1866848617283591594, guid: c97a159bcbcd343d68b6852ebc040dcb,
@@ -2225,6 +2190,7 @@ GameObject:
   - component: {fileID: 1024109313}
   - component: {fileID: 1024109312}
   - component: {fileID: 1024109315}
+  - component: {fileID: 1024109316}
   m_Layer: 0
   m_Name: DirectionExcitation
   m_TagString: Untagged
@@ -2279,7 +2245,7 @@ MonoBehaviour:
   _log: 0
   _distinct: 0
   _generator: {fileID: 1024109314}
-  _timeFactor: 1
+  _timeSignal: {fileID: 1024109316}
 --- !u!114 &1024109314
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -2317,6 +2283,21 @@ MonoBehaviour:
     _offset: 0
     _clamp: 0
     _clampRange: {x: 0, y: 0}
+--- !u!114 &1024109316
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1024109310}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a345441b62764ce9be2251fa2fd68ce9, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _log: 0
+  _distinct: 0
+  _timeFactor: 1
 --- !u!1 &1108202799 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 901701364269570877, guid: f3dc52d761a664f3e8bbd19577221be0,
@@ -2726,6 +2707,7 @@ GameObject:
   - component: {fileID: 1282786012}
   - component: {fileID: 1282786011}
   - component: {fileID: 1282786014}
+  - component: {fileID: 1282786015}
   m_Layer: 0
   m_Name: DirectionSpin
   m_TagString: Untagged
@@ -2782,7 +2764,7 @@ MonoBehaviour:
   _log: 0
   _distinct: 0
   _generator: {fileID: 1282786013}
-  _timeFactor: 0.1
+  _timeSignal: {fileID: 1282786015}
 --- !u!114 &1282786013
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -2811,7 +2793,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   _source: {fileID: 809783364}
   _processingFactory: {fileID: 0}
-  _component: {fileID: 1282786012}
+  _component: {fileID: 1282786015}
   _name: _timeFactor
   _postProcessor:
     _abs: 0
@@ -2819,6 +2801,21 @@ MonoBehaviour:
     _offset: 0
     _clamp: 0
     _clampRange: {x: 0, y: 0}
+--- !u!114 &1282786015
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1282786009}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a345441b62764ce9be2251fa2fd68ce9, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _log: 0
+  _distinct: 0
+  _timeFactor: 0
 --- !u!1 &1296148172
 GameObject:
   m_ObjectHideFlags: 0
