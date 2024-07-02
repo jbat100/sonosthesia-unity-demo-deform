@@ -32,22 +32,22 @@ MonoBehaviour:
       _min: 0
       _max: 1
   _ySettings:
-    _faderType: 2
-    _value: 0
+    _faderType: 0
+    _value: 0.8
     _curve:
       serializedVersion: 2
       m_Curve:
       - serializedVersion: 3
         time: -0.0017166138
         value: 0.80228883
-        inSlope: 0.28419858
-        outSlope: 0.28419858
+        inSlope: 1.1323601
+        outSlope: 1.1323601
         tangentMode: 0
         weightedMode: 0
         inWeight: 0
-        outWeight: 0.082193
+        outWeight: 0.02744421
       - serializedVersion: 3
-        time: 3
+        time: 2
         value: 1.6
         inSlope: 0.04384126
         outSlope: 0.04384126

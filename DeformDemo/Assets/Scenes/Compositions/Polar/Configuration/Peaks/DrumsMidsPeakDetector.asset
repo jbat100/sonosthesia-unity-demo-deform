@@ -12,7 +12,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 57433f9a519b4a0d93beae59077ef0f3, type: 3}
   m_Name: DrumsMidsPeakDetector
   m_EditorClassIdentifier: 
-  _magnitudeThreshold: -0.13
+  _magnitudeThreshold: 0.13
   _maximumDuration: 0.1
   _valuePostProcessor:
     _abs: 0
