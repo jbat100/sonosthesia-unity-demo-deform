@@ -965,7 +965,6 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 526632767}
-  - component: {fileID: 526632769}
   - component: {fileID: 526632768}
   m_Layer: 0
   m_Name: Mids
@@ -1003,26 +1002,10 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   _log: 0
   _distinct: 0
-  _source: {fileID: 526632769}
-  _settings: {fileID: 11400000, guid: 5fd647359391d2445b6fece2fb5d305f, type: 2}
---- !u!114 &526632769
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 526632766}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: ed240a8aca11e43ffa1707db2be976f6, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  _log: 0
-  _distinct: 0
   _source: {fileID: 970299}
-  _bypass: 0
-  _operatorFactory: {fileID: 11400000, guid: a5e568227e255644a9be559915d08442, type: 2}
-  _timeScale: 1
+  _preprocessorFactory: {fileID: 11400000, guid: a5e568227e255644a9be559915d08442,
+    type: 2}
+  _settings: {fileID: 11400000, guid: 5fd647359391d2445b6fece2fb5d305f, type: 2}
 --- !u!1 &552700604
 GameObject:
   m_ObjectHideFlags: 0
@@ -1827,7 +1810,6 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1295348724}
-  - component: {fileID: 1295348726}
   - component: {fileID: 1295348725}
   m_Layer: 0
   m_Name: Highs
@@ -1865,26 +1847,10 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   _log: 0
   _distinct: 0
-  _source: {fileID: 1295348726}
-  _settings: {fileID: 11400000, guid: 39200c4d51d8cef4abe5409f6b489176, type: 2}
---- !u!114 &1295348726
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1295348723}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: ed240a8aca11e43ffa1707db2be976f6, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  _log: 0
-  _distinct: 0
   _source: {fileID: 1482303846}
-  _bypass: 0
-  _operatorFactory: {fileID: 11400000, guid: ea7352cb3d1cddc41aaceb64a7a9d9ef, type: 2}
-  _timeScale: 1
+  _preprocessorFactory: {fileID: 11400000, guid: ea7352cb3d1cddc41aaceb64a7a9d9ef,
+    type: 2}
+  _settings: {fileID: 11400000, guid: 39200c4d51d8cef4abe5409f6b489176, type: 2}
 --- !u!1 &1448407184
 GameObject:
   m_ObjectHideFlags: 0
@@ -2585,7 +2551,6 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 2043695571}
-  - component: {fileID: 2043695573}
   - component: {fileID: 2043695574}
   m_Layer: 0
   m_Name: Lows
@@ -2609,24 +2574,6 @@ Transform:
   m_Children: []
   m_Father: {fileID: 738595055}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &2043695573
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 2043695570}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: ed240a8aca11e43ffa1707db2be976f6, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  _log: 0
-  _distinct: 0
-  _source: {fileID: 844017414}
-  _bypass: 0
-  _operatorFactory: {fileID: 11400000, guid: 8de123804604b55488b104ef93effd58, type: 2}
-  _timeScale: 1
 --- !u!114 &2043695574
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -2641,7 +2588,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   _log: 0
   _distinct: 0
-  _source: {fileID: 2043695573}
+  _source: {fileID: 844017414}
+  _preprocessorFactory: {fileID: 11400000, guid: 8de123804604b55488b104ef93effd58,
+    type: 2}
   _settings: {fileID: 11400000, guid: 568442fb87b6ae54d896a260ae9ec1a9, type: 2}
 --- !u!1001 &2065292047
 PrefabInstance:
