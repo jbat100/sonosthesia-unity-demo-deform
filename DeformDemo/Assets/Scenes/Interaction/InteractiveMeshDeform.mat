@@ -7,8 +7,8 @@ Material:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: DotsRectangle
-  m_Shader: {fileID: -6465566751694194690, guid: 449ad2a7868564399bd6015cf0e42ccc,
+  m_Name: InteractiveMeshDeform
+  m_Shader: {fileID: -6465566751694194690, guid: d8b17417578f54ec992d80419a92411e,
     type: 3}
   m_Parent: {fileID: 0}
   m_ModifiedSerializedProperties: 0
@@ -38,18 +38,16 @@ Material:
         m_Offset: {x: 0, y: 0}
     m_Ints: []
     m_Floats:
-    - _Dimension: 0.57
-    - _Intensity: 0
+    - _Displacement_Scale: 1.45
+    - _IsPlane: 0
     - _QueueControl: 0
     - _QueueOffset: 0
-    - _Roundness: 0.224
-    - _Smoothness: 0.0305
-    - _Thickness: 0.0146
+    - _Smoothness: 0.7
     m_Colors:
-    - _Color: {r: 4.352793, g: 11.984315, b: 4.6253486, a: 0.98039216}
-    - _Dimensions: {r: 0.8, g: 0.8, b: 0, a: 0}
+    - _NegativeColor: {r: 0.8867924, g: 0.1966002, b: 0.71424437, a: 1}
+    - _PositiveColor: {r: 1, g: 0.6650944, b: 0.980491, a: 1}
   m_BuildTextureStacks: []
---- !u!114 &2674430207042346829
+--- !u!114 &8298362807327197748
 MonoBehaviour:
   m_ObjectHideFlags: 11
   m_CorrespondingSourceObject: {fileID: 0}
