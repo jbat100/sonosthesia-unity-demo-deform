@@ -290,6 +290,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   _source: {fileID: 874034485}
+  _distinct: 1
   _processingFactory: {fileID: 0}
   _component: {fileID: 90046062}
   _name: _amount
@@ -685,6 +686,7 @@ MonoBehaviour:
   _log: 0
   _distinct: 0
   _source: {fileID: 208047070}
+  _preprocessorFactory: {fileID: 0}
   _settings: {fileID: 11400000, guid: 478199b69ac6c41eca55b5cfed9a7d7d, type: 2}
 --- !u!114 &208047070
 MonoBehaviour:
@@ -843,9 +845,15 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   _source: {fileID: 6182641274569654861}
+  _distinct: 1
   _processingFactory: {fileID: 11400000, guid: 053f5cbad0b9f4256a977113ae4018a4, type: 2}
-  _renderer: {fileID: 481604770}
   _name: _Amplitude
+  _renderer: {fileID: 481604770}
+  _renderers: []
+  _group: {fileID: 0}
+  _materialSelector: 1
+  _usePropertyBlock: 0
+  _materialIndex: 0
 --- !u!82 &484003871 stripped
 AudioSource:
   m_CorrespondingSourceObject: {fileID: 3271119025357336188, guid: c97a159bcbcd343d68b6852ebc040dcb,
@@ -883,6 +891,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   _source: {fileID: 1414705266}
+  _distinct: 1
   _processingFactory: {fileID: 0}
   _component: {fileID: 525891801}
   _name: _amount
@@ -1134,6 +1143,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   _source: {fileID: 617941861}
+  _distinct: 1
   _processingFactory: {fileID: 0}
   _targetBlend: 2
   _local: 1
@@ -1271,6 +1281,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   _source: {fileID: 1414705266}
+  _distinct: 1
   _processingFactory: {fileID: 0}
   _component: {fileID: 627439149}
   _name: _amount
@@ -1388,7 +1399,9 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   _source: {fileID: 625440834}
+  _distinct: 1
   _processingFactory: {fileID: 0}
+  _targetBlend: 1
   _visualEffect: {fileID: 0}
   _nameID: SparksLifetime
 --- !u!114 &812689902
@@ -1404,7 +1417,9 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   _source: {fileID: 612807799}
+  _distinct: 1
   _processingFactory: {fileID: 11400000, guid: 21e13a15c9c1b4810beee82bebd98d70, type: 2}
+  _targetBlend: 1
   _visualEffect: {fileID: 0}
   _nameID: Intensity
 --- !u!1001 &874034482
@@ -1554,6 +1569,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   _mode: 1
   _randomization: 0
+  _log: 0
   _source: {fileID: 1655098693}
   _destinations:
   - {fileID: 1414705265}
@@ -1858,6 +1874,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: Levels
+      objectReference: {fileID: 0}
+    - target: {fileID: 6507665165659982242, guid: 086ab71e539284b678d77f1aa9e9c766,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 9004579292564234001, guid: 086ab71e539284b678d77f1aa9e9c766,
         type: 3}
@@ -2227,6 +2248,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   _source: {fileID: 1024109313}
+  _distinct: 1
   _processingFactory: {fileID: 0}
   _targetBlend: 2
   _local: 1
@@ -2274,6 +2296,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   _source: {fileID: 1756511575}
+  _distinct: 1
   _processingFactory: {fileID: 11400000, guid: 50deef253d6a3477a8fc4cf02c05954e, type: 2}
   _component: {fileID: 1024109314}
   _name: _amount
@@ -2329,6 +2352,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   _source: {fileID: 174132677}
+  _distinct: 1
   _processingFactory: {fileID: 0}
   _component: {fileID: 1108202803}
   _name: _amount
@@ -2553,6 +2577,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   _mode: 1
   _randomization: 0
+  _log: 0
   _source: {fileID: 208047069}
   _destinations:
   - {fileID: 612807798}
@@ -2746,6 +2771,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   _source: {fileID: 1282786012}
+  _distinct: 1
   _processingFactory: {fileID: 0}
   _targetBlend: 2
   _local: 1
@@ -2792,6 +2818,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   _source: {fileID: 809783364}
+  _distinct: 1
   _processingFactory: {fileID: 0}
   _component: {fileID: 1282786015}
   _name: _timeFactor
@@ -2865,6 +2892,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   _mode: 0
   _randomization: 0
+  _log: 0
   _source: {fileID: 1945649315}
   _destinations:
   - {fileID: 6182641274569654860}
@@ -2889,7 +2917,9 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   _source: {fileID: 625440834}
+  _distinct: 1
   _processingFactory: {fileID: 0}
+  _targetBlend: 1
   _visualEffect: {fileID: 0}
   _nameID: SparksLifetime
 --- !u!114 &1322570806
@@ -2905,7 +2935,9 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   _source: {fileID: 1125103901}
+  _distinct: 1
   _processingFactory: {fileID: 11400000, guid: 21e13a15c9c1b4810beee82bebd98d70, type: 2}
+  _targetBlend: 1
   _visualEffect: {fileID: 0}
   _nameID: Intensity
 --- !u!4 &1325602038 stripped
@@ -3164,6 +3196,7 @@ MonoBehaviour:
   _log: 0
   _distinct: 0
   _source: {fileID: 1655098694}
+  _preprocessorFactory: {fileID: 0}
   _settings: {fileID: 11400000, guid: 6bd0a4bda6d4d47bcb16d41fc2c907ed, type: 2}
 --- !u!114 &1655098694
 MonoBehaviour:
@@ -3208,9 +3241,15 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   _source: {fileID: 1178076187}
+  _distinct: 1
   _processingFactory: {fileID: 11400000, guid: 053f5cbad0b9f4256a977113ae4018a4, type: 2}
-  _renderer: {fileID: 1664482386}
   _name: _Amplitude
+  _renderer: {fileID: 1664482386}
+  _renderers: []
+  _group: {fileID: 0}
+  _materialSelector: 1
+  _usePropertyBlock: 0
+  _materialIndex: 0
 --- !u!114 &1756511575 stripped
 MonoBehaviour:
   m_CorrespondingSourceObject: {fileID: 6991453974999717339, guid: c97a159bcbcd343d68b6852ebc040dcb,
@@ -3266,6 +3305,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   _source: {fileID: 174132677}
+  _distinct: 1
   _processingFactory: {fileID: 0}
   _component: {fileID: 1905197948}
   _name: _amount
@@ -3294,7 +3334,9 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   _source: {fileID: 625440834}
+  _distinct: 1
   _processingFactory: {fileID: 0}
+  _targetBlend: 1
   _visualEffect: {fileID: 0}
   _nameID: SparksLifetime
 --- !u!114 &1921206421
@@ -3310,7 +3352,9 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   _source: {fileID: 1482740147}
+  _distinct: 1
   _processingFactory: {fileID: 11400000, guid: 21e13a15c9c1b4810beee82bebd98d70, type: 2}
+  _targetBlend: 1
   _visualEffect: {fileID: 0}
   _nameID: Intensity
 --- !u!1 &1945649313
@@ -3361,6 +3405,7 @@ MonoBehaviour:
   _log: 0
   _distinct: 0
   _source: {fileID: 1945649316}
+  _preprocessorFactory: {fileID: 0}
   _settings: {fileID: 11400000, guid: c6ffd052236ee44d39a9c0313b338832, type: 2}
 --- !u!114 &1945649316
 MonoBehaviour:
@@ -3405,9 +3450,15 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   _source: {fileID: 2079605448}
+  _distinct: 1
   _processingFactory: {fileID: 11400000, guid: 053f5cbad0b9f4256a977113ae4018a4, type: 2}
-  _renderer: {fileID: 1980986324}
   _name: _Amplitude
+  _renderer: {fileID: 1980986324}
+  _renderers: []
+  _group: {fileID: 0}
+  _materialSelector: 1
+  _usePropertyBlock: 0
+  _materialIndex: 0
 --- !u!1 &2014411839 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 901701364269570877, guid: f3dc52d761a664f3e8bbd19577221be0,
@@ -3439,6 +3490,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   _source: {fileID: 874034485}
+  _distinct: 1
   _processingFactory: {fileID: 0}
   _component: {fileID: 2014411843}
   _name: _amount
@@ -3584,13 +3636,16 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ec0fb268aa8734fefba59009ddbc8c5b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  _gizmoMode: 0
+  _rebuildOnUpdate: 1
+  _rebuildFrequency: 0
+  _recalculateBounds: 0
+  _recalculateNormals: 1
+  _recalculateTangents: 1
   _meshOptimization: 0
   _meshType: 7
   _resolution: 20
-  _gizmoMode: 0
   _displacement: 0.5
-  _recalculateNormals: 1
-  _recalculateTangents: 1
   _components:
   - {fileID: 1856294289776173264}
 --- !u!1001 &1719519113835877273
@@ -4350,9 +4405,15 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   _source: {fileID: 1756511575}
+  _distinct: 1
   _processingFactory: {fileID: 11400000, guid: 9235d471497a940afa73da9b60f6423e, type: 2}
-  _renderer: {fileID: 4783471436683225011}
   _name: _Amplitude3
+  _renderer: {fileID: 4783471436683225011}
+  _renderers: []
+  _group: {fileID: 0}
+  _materialSelector: 1
+  _usePropertyBlock: 0
+  _materialIndex: 0
 --- !u!114 &6880430157538188548
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -4366,9 +4427,15 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   _source: {fileID: 1756511576}
+  _distinct: 1
   _processingFactory: {fileID: 11400000, guid: 72b3d11c1394645539ffb166044c37e2, type: 2}
-  _renderer: {fileID: 4783471436683225011}
   _name: _Amplitude2
+  _renderer: {fileID: 4783471436683225011}
+  _renderers: []
+  _group: {fileID: 0}
+  _materialSelector: 1
+  _usePropertyBlock: 0
+  _materialIndex: 0
 --- !u!1 &7725516270068385426
 GameObject:
   m_ObjectHideFlags: 0
@@ -4401,6 +4468,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   _source: {fileID: 5474052849172934922}
+  _distinct: 1
   _processingFactory: {fileID: 11400000, guid: 2bee9bdad92aa49648476adda7d564be, type: 2}
   _targetBlend: 2
   _configuration: {fileID: 265211841991513548}
