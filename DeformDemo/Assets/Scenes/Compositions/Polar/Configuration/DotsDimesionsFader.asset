@@ -1,0 +1,70 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4740c2f7d8894f0d84b815699cd15695, type: 3}
+  m_Name: DotsDimesionsFader
+  m_EditorClassIdentifier: 
+  _xSettings:
+    _faderType: 0
+    _value: 0.8
+    _curve:
+      serializedVersion: 2
+      m_Curve: []
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    _remapInput:
+      _min: 0
+      _max: 1
+    _remapOutput:
+      _min: 0
+      _max: 1
+    _clamp: 0
+    _clampRange:
+      _min: 0
+      _max: 1
+  _ySettings:
+    _faderType: 0
+    _value: 0.8
+    _curve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 3
+        time: -0.0017166138
+        value: 0.80228883
+        inSlope: 1.1323601
+        outSlope: 1.1323601
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: 0
+        outWeight: 0.02744421
+      - serializedVersion: 3
+        time: 2
+        value: 1.6
+        inSlope: 0.04384126
+        outSlope: 0.04384126
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: 0.10445212
+        outWeight: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    _remapInput:
+      _min: 0
+      _max: 1
+    _remapOutput:
+      _min: 0
+      _max: 1
+    _clamp: 0
+    _clampRange:
+      _min: 0
+      _max: 1

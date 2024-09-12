@@ -26,8 +26,6 @@ namespace Sonosthesia
     
     public class PluckVibratingTrigger : MonoBehaviour
     {
-        [SerializeField] private bool _resetTime;
-        
         [SerializeField] private float _valueScale = 1f;
         
         [SerializeField] private float _timeScale = 1f;
@@ -38,14 +36,6 @@ namespace Sonosthesia
         
         public void Trigger()
         {
-            if (_resetTime)
-            {
-                foreach (GeneratorSignal<float> generator in _generators)
-                {
-                    generator.ResetTime();
-                }    
-            }
-
             foreach (Triggerable triggerable in _triggerables)
             {
                 triggerable.Trigger(_valueScale, _timeScale);

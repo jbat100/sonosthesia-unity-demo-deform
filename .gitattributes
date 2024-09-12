@@ -7,3 +7,4 @@
 *.blend1 filter=lfs diff=lfs merge=lfs -text
 *.jpg filter=lfs diff=lfs merge=lfs -text
 *.asd filter=lfs diff=lfs merge=lfs -text
+*.aad filter=lfs diff=lfs merge=lfs -text
