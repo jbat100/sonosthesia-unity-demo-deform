@@ -38,7 +38,6 @@ RenderSettings:
   m_ReflectionIntensity: 1
   m_CustomReflection: {fileID: 0}
   m_Sun: {fileID: 0}
-  m_IndirectSpecularColor: {r: 0.1273126, g: 0.13414371, b: 0.12108106, a: 1}
   m_UseRadianceAmbientProbe: 0
 --- !u!157 &3
 LightmapSettings:
@@ -131,6 +130,24 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 2890997446333738828, guid: 086ab71e539284b678d77f1aa9e9c766,
+        type: 3}
+      propertyPath: _slots.Array.data[0]._processorFactory
+      value: 
+      objectReference: {fileID: 11400000, guid: e0830df7f542246f4be0202273c2bbfd,
+        type: 2}
+    - target: {fileID: 2890997446333738828, guid: 086ab71e539284b678d77f1aa9e9c766,
+        type: 3}
+      propertyPath: _slots.Array.data[1]._processorFactory
+      value: 
+      objectReference: {fileID: 11400000, guid: 0bf3ea50140004013abd5ef3009f5447,
+        type: 2}
+    - target: {fileID: 2890997446333738828, guid: 086ab71e539284b678d77f1aa9e9c766,
+        type: 3}
+      propertyPath: _slots.Array.data[2]._processorFactory
+      value: 
+      objectReference: {fileID: 11400000, guid: c25659b77e5ea41fea48b92448e1b38e,
+        type: 2}
     - target: {fileID: 4149241132805165476, guid: 086ab71e539284b678d77f1aa9e9c766,
         type: 3}
       propertyPath: m_RootOrder
@@ -286,13 +303,13 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 330585543}
+  serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: -8, y: 4, z: -10}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!114 &330585547
 MonoBehaviour:
@@ -332,12 +349,12 @@ MonoBehaviour:
   m_RequiresColorTexture: 0
   m_Version: 2
   m_TaaSettings:
-    quality: 3
-    frameInfluence: 0.1
-    jitterScale: 1
-    mipBias: 0
-    varianceClampScale: 0.9
-    contrastAdaptiveSharpening: 0
+    m_Quality: 3
+    m_FrameInfluence: 0.1
+    m_JitterScale: 1
+    m_MipBias: 0
+    m_VarianceClampScale: 0.9
+    m_ContrastAdaptiveSharpening: 0
 --- !u!82 &354306572 stripped
 AudioSource:
   m_CorrespondingSourceObject: {fileID: 6400636810623661852, guid: 33e568421968f4c13b2058132236013c,
@@ -431,13 +448,13 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 410087039}
+  serializedVersion: 2
   m_LocalRotation: {x: 0, y: -0.25536138, z: 0, w: 0.96684575}
   m_LocalPosition: {x: 0, y: 3, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 0, y: -29.59, z: 0}
 --- !u!114 &410087042
 MonoBehaviour:
@@ -808,3 +825,11 @@ AudioSource:
     type: 3}
   m_PrefabInstance: {fileID: 1066063810}
   m_PrefabAsset: {fileID: 0}
+--- !u!1660057539 &9223372036854775807
+SceneRoots:
+  m_ObjectHideFlags: 0
+  m_Roots:
+  - {fileID: 330585546}
+  - {fileID: 410087041}
+  - {fileID: 1066063810}
+  - {fileID: 219642645}
