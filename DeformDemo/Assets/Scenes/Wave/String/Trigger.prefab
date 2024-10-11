@@ -94,14 +94,15 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   _log: 0
   _distinct: 0
-  _envelope: {fileID: 8360729098807820512}
   _accumulationMode: 2
+  _postProcessorFactory: {fileID: 0}
   _postProcessor:
     _abs: 0
     _scale: 1
     _offset: 0
     _clamp: 0
     _clampRange: {x: 0, y: 0}
+  _envelopeBuilder: {fileID: 8360729098807820512}
 --- !u!114 &4119160860492223615
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -115,6 +116,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   _source: {fileID: 8315558742973596447}
+  _distinct: 1
   _processingFactory: {fileID: 0}
+  _targetBlend: 1
   _visualEffect: {fileID: 0}
   _nameID: Amplitude
