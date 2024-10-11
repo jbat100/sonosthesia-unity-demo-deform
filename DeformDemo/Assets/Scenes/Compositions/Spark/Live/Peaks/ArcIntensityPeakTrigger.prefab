@@ -11,7 +11,7 @@ PrefabInstance:
     - target: {fileID: -1436325843560928884, guid: 8f1c86846e9184bc88a7e8eac08b69e7,
         type: 3}
       propertyPath: _postProcessor._scale
-      value: 30
+      value: 9
       objectReference: {fileID: 0}
     - target: {fileID: -1436325843560928884, guid: 8f1c86846e9184bc88a7e8eac08b69e7,
         type: 3}

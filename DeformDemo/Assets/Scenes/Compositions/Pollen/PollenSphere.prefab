@@ -80,6 +80,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   _source: {fileID: 6177730396936873981}
+  _distinct: 1
   _processingFactory: {fileID: 0}
   _targetBlend: 1
   _local: 1
@@ -98,7 +99,7 @@ MonoBehaviour:
   _log: 0
   _distinct: 0
   _generator: {fileID: 5424882003962892700}
-  _timeFactor: 0
+  _timeSignal: {fileID: 0}
 --- !u!114 &5424882003962892700
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -263,7 +264,9 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   _source: {fileID: 0}
+  _distinct: 1
   _processingFactory: {fileID: 0}
+  _targetBlend: 1
   _visualEffect: {fileID: 7968957224968808235}
   _nameID: ColorIntensityBoost
 --- !u!1 &5573798737800192090
@@ -278,6 +281,7 @@ GameObject:
   - component: {fileID: 2518310014676637464}
   - component: {fileID: 7994069678094658040}
   - component: {fileID: 9092001152150298510}
+  - component: {fileID: 4447670869265475796}
   m_Layer: 0
   m_Name: Spin
   m_TagString: Untagged
@@ -314,6 +318,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   _source: {fileID: 7994069678094658040}
+  _distinct: 1
   _processingFactory: {fileID: 0}
   _targetBlend: 1
   _local: 1
@@ -332,7 +337,7 @@ MonoBehaviour:
   _log: 0
   _distinct: 0
   _generator: {fileID: 9092001152150298510}
-  _timeFactor: 0
+  _timeSignal: {fileID: 4447670869265475796}
 --- !u!114 &9092001152150298510
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -347,3 +352,18 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   _axis: {x: 0, y: 1, z: 0}
   _offset: 0
+--- !u!114 &4447670869265475796
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5573798737800192090}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a345441b62764ce9be2251fa2fd68ce9, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _log: 0
+  _distinct: 0
+  _timeFactor: 1

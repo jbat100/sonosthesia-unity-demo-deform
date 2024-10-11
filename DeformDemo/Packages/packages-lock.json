@@ -15,15 +15,16 @@
       "url": "https://package.openupm.com"
     },
     "com.sonosthesia.arpeggiator": {
-      "version": "file:../../../sonosthesia-unity-packages/packages/com.sonosthesia.arpeggiator",
-      "depth": 0,
-      "source": "local",
+      "version": "1.10.0",
+      "depth": 1,
+      "source": "registry",
       "dependencies": {
         "com.cysharp.unitask": "2.3.3",
         "com.neuecc.unirx": "7.1.0",
         "com.sonosthesia.utils": "1.10.0",
         "com.sonosthesia.channel": "1.10.0"
-      }
+      },
+      "url": "https://registry.npmjs.com"
     },
     "com.sonosthesia.audio": {
       "version": "file:../../../sonosthesia-unity-packages/packages/com.sonosthesia.audio",
@@ -166,6 +167,18 @@
         "com.sonosthesia.signal": "1.10.0"
       }
     },
+    "com.sonosthesia.peakdetector": {
+      "version": "file:../../../sonosthesia-unity-packages/packages/com.sonosthesia.peakdetector",
+      "depth": 0,
+      "source": "local",
+      "dependencies": {
+        "com.neuecc.unirx": "7.1.0",
+        "com.sonosthesia.signal": "1.10.0",
+        "com.sonosthesia.flow": "1.10.0",
+        "com.sonosthesia.utils": "1.10.0",
+        "com.sonosthesia.processing": "1.10.0"
+      }
+    },
     "com.sonosthesia.processing": {
       "version": "file:../../../sonosthesia-unity-packages/packages/com.sonosthesia.processing",
       "depth": 0,
@@ -186,15 +199,16 @@
       }
     },
     "com.sonosthesia.sequencer": {
-      "version": "file:../../../sonosthesia-unity-packages/packages/com.sonosthesia.sequencer",
-      "depth": 0,
-      "source": "local",
+      "version": "1.10.0",
+      "depth": 1,
+      "source": "registry",
       "dependencies": {
         "com.cysharp.unitask": "2.5.2",
         "com.neuecc.unirx": "7.1.0",
         "com.sonosthesia.utils": "1.10.0",
         "com.sonosthesia.channel": "1.10.0"
-      }
+      },
+      "url": "https://registry.npmjs.com"
     },
     "com.sonosthesia.signal": {
       "version": "file:../../../sonosthesia-unity-packages/packages/com.sonosthesia.signal",
@@ -321,7 +335,7 @@
       "url": "https://packages.unity.com"
     },
     "com.unity.ide.rider": {
-      "version": "3.0.28",
+      "version": "3.0.31",
       "depth": 0,
       "source": "registry",
       "dependencies": {

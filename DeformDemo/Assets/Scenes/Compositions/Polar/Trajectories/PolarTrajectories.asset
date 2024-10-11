@@ -41,7 +41,7 @@ MonoBehaviour:
       _easeType: 2
       _duration: 2
       _position: 0
-      _velocity: 1
+      _velocity: 0.6
       _grid: 0
       _gridSize: 0
       _gridJump: 0
@@ -52,7 +52,7 @@ MonoBehaviour:
       _easeType: 2
       _duration: 2
       _position: 0
-      _velocity: 2
+      _velocity: 1
       _grid: 0
       _gridSize: 0
       _gridJump: 0
