@@ -193,6 +193,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   _source: {fileID: 4900714801090522352}
+  _distinct: 1
   _processingFactory: {fileID: 0}
   _targetBlend: 1
   _local: 1
@@ -583,6 +584,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   _source: {fileID: 6718406994498829018}
+  _distinct: 1
   _processingFactory: {fileID: 0}
   _targetBlend: 1
   _local: 1
@@ -680,6 +682,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   _source: {fileID: 6813266842636546268}
+  _distinct: 1
   _processingFactory: {fileID: 0}
   _targetBlend: 1
   _local: 1
@@ -745,7 +748,7 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 2100000, guid: 57c750ccc49cb4dfbbbf2b359736907e, type: 2}
+  - {fileID: 2100000, guid: 0cc3e9a81073b4b35970cf92542da895, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
