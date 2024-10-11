@@ -123,6 +123,14 @@
         "com.sonosthesia.signal": "1.10.0"
       }
     },
+    "com.sonosthesia.material": {
+      "version": "file:../../../sonosthesia-unity-packages/packages/com.sonosthesia.material",
+      "depth": 0,
+      "source": "local",
+      "dependencies": {
+        "com.neuecc.unirx": "7.1.0"
+      }
+    },
     "com.sonosthesia.mesh": {
       "version": "file:../../../sonosthesia-unity-packages/packages/com.sonosthesia.mesh",
       "depth": 0,

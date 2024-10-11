@@ -8,6 +8,7 @@
     "com.sonosthesia.flow": "file:../../../sonosthesia-unity-packages/packages/com.sonosthesia.flow",
     "com.sonosthesia.generator": "file:../../../sonosthesia-unity-packages/packages/com.sonosthesia.generator",
     "com.sonosthesia.mapping": "file:../../../sonosthesia-unity-packages/packages/com.sonosthesia.mapping",
+    "com.sonosthesia.material": "file:../../../sonosthesia-unity-packages/packages/com.sonosthesia.material",
     "com.sonosthesia.mesh": "file:../../../sonosthesia-unity-packages/packages/com.sonosthesia.mesh",
     "com.sonosthesia.noise": "file:../../../sonosthesia-unity-packages/packages/com.sonosthesia.noise",
     "com.sonosthesia.pack": "file:../../../sonosthesia-unity-packages/packages/com.sonosthesia.pack",
