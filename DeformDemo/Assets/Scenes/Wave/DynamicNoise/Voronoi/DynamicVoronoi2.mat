@@ -8,7 +8,7 @@ Material:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_Name: DynamicVoronoi2
-  m_Shader: {fileID: -6465566751694194690, guid: 0e8c75720afde41eabf21f31ceb22319,
+  m_Shader: {fileID: -6465566751694194690, guid: e8cee7c32f39f486bb480c95de0b21f7,
     type: 3}
   m_Parent: {fileID: 0}
   m_ModifiedSerializedProperties: 0

@@ -8,7 +8,7 @@ Material:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_Name: UVSpark
-  m_Shader: {fileID: -6465566751694194690, guid: d240b455b2b204e6888e07f144fe429f,
+  m_Shader: {fileID: -6465566751694194690, guid: ba76ae90cb5414c1f86f42f5b12d5298,
     type: 3}
   m_Parent: {fileID: 0}
   m_ModifiedSerializedProperties: 0

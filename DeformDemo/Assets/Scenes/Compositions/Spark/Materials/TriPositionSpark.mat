@@ -21,7 +21,7 @@ Material:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_Name: TriPositionSpark
-  m_Shader: {fileID: -6465566751694194690, guid: 4edbd22364f6243ae982c166ad980179,
+  m_Shader: {fileID: -6465566751694194690, guid: 2016a1055cf7144c38fa2535cd538683,
     type: 3}
   m_Parent: {fileID: 0}
   m_ModifiedSerializedProperties: 0
@@ -54,6 +54,7 @@ Material:
     - _Amplitude1: 0.34
     - _Amplitude2: 1
     - _Amplitude3: 5
+    - _Correction: 1
     - _Frequency1: 0.5
     - _Frequency2: 1
     - _Frequency3: 1.5

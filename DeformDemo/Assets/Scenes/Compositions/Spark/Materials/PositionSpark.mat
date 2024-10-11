@@ -8,7 +8,7 @@ Material:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_Name: PositionSpark
-  m_Shader: {fileID: -6465566751694194690, guid: 3bab702440c4540338ae2a99be47918d,
+  m_Shader: {fileID: -6465566751694194690, guid: f319a45654d174f6aa001e73422bde69,
     type: 3}
   m_Parent: {fileID: 0}
   m_ModifiedSerializedProperties: 0
