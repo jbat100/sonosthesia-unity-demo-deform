@@ -1088,6 +1088,16 @@ PrefabInstance:
       propertyPath: _settings.Array.data[0].Velocity
       value: 0.4
       objectReference: {fileID: 0}
+    - target: {fileID: 993704791684647783, guid: dd24888aa4a03408eb5f2929aeaec325,
+        type: 3}
+      propertyPath: _resolution
+      value: 35
+      objectReference: {fileID: 0}
+    - target: {fileID: 993704791684647783, guid: dd24888aa4a03408eb5f2929aeaec325,
+        type: 3}
+      propertyPath: _recalculateTangents
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 3835779189234616763, guid: dd24888aa4a03408eb5f2929aeaec325,
         type: 3}
       propertyPath: _settings.Array.data[0].Velocity
