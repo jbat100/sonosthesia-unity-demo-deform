@@ -289,17 +289,47 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c69ec689ef4e641ba880afcdf2ae8e50, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  _log: 0
   _source: {fileID: 874034485}
   _distinct: 1
   _processingFactory: {fileID: 0}
+  _processor:
+    _processing: 0
+    _curve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 3
+        time: 0
+        value: 0
+        inSlope: 0
+        outSlope: 1
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: 0
+        outWeight: 0
+      - serializedVersion: 3
+        time: 1
+        value: 1
+        inSlope: 1
+        outSlope: 0
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: 0
+        outWeight: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    _remap:
+      _fromMin: 0
+      _fromMax: 1
+      _toMin: 0
+      _toMax: 1
+    _clamp:
+      _min: 0
+      _max: 0
+    _randomization: 0
   _component: {fileID: 90046062}
   _name: _amount
-  _postProcessor:
-    _abs: 0
-    _scale: 1
-    _offset: 0
-    _clamp: 0
-    _clampRange: {x: 0, y: 0}
 --- !u!1 &93156896
 GameObject:
   m_ObjectHideFlags: 0
@@ -467,6 +497,12 @@ PrefabInstance:
       propertyPath: m_Name
       value: 2
       objectReference: {fileID: 0}
+    - target: {fileID: 5133951515963913485, guid: 8f1c86846e9184bc88a7e8eac08b69e7,
+        type: 3}
+      propertyPath: _configuration.underlyingValue
+      value: 
+      objectReference: {fileID: 11400000, guid: f0984d2bd56619d4ab474dc33751e39a,
+        type: 2}
     - target: {fileID: 6011627956538908986, guid: 8f1c86846e9184bc88a7e8eac08b69e7,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -540,6 +576,18 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8844cd28950d4d98b415bca7264bc7e3, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+--- !u!114 &128503012 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 3827906815535779526, guid: 8f1c86846e9184bc88a7e8eac08b69e7,
+    type: 3}
+  m_PrefabInstance: {fileID: 128503009}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 778c158547c844f18a2a2e7f87d96923, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1001 &174132674
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -553,6 +601,12 @@ PrefabInstance:
       propertyPath: m_Name
       value: 2
       objectReference: {fileID: 0}
+    - target: {fileID: 7470024394475491008, guid: 50ba218facd5e43a9bf61102878cae10,
+        type: 3}
+      propertyPath: _configuration.underlyingValue
+      value: 
+      objectReference: {fileID: 11400000, guid: b9a322119c3cf634c9b60f8ce83c9228,
+        type: 2}
     - target: {fileID: 8356492805440445175, guid: 50ba218facd5e43a9bf61102878cae10,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -628,14 +682,14 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
 --- !u!114 &174132677 stripped
 MonoBehaviour:
-  m_CorrespondingSourceObject: {fileID: 5513685128170951233, guid: 50ba218facd5e43a9bf61102878cae10,
+  m_CorrespondingSourceObject: {fileID: 1552293675686638859, guid: 50ba218facd5e43a9bf61102878cae10,
     type: 3}
   m_PrefabInstance: {fileID: 174132674}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 0}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 6d4d5085a6d045fd9bf80ad55a6c62b2, type: 3}
+  m_Script: {fileID: 11500000, guid: 778c158547c844f18a2a2e7f87d96923, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
 --- !u!1 &208047067
@@ -844,6 +898,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: b979b64a6be84d82a5a1aaead50707dc, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  _log: 0
   _source: {fileID: 6182641274569654861}
   _distinct: 1
   _processingFactory: {fileID: 11400000, guid: 053f5cbad0b9f4256a977113ae4018a4, type: 2}
@@ -890,17 +945,47 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c69ec689ef4e641ba880afcdf2ae8e50, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  _log: 0
   _source: {fileID: 1414705266}
   _distinct: 1
   _processingFactory: {fileID: 0}
+  _processor:
+    _processing: 0
+    _curve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 3
+        time: 0
+        value: 0
+        inSlope: 0
+        outSlope: 1
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: 0
+        outWeight: 0
+      - serializedVersion: 3
+        time: 1
+        value: 1
+        inSlope: 1
+        outSlope: 0
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: 0
+        outWeight: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    _remap:
+      _fromMin: 0
+      _fromMax: 1
+      _toMin: 0
+      _toMax: 1
+    _clamp:
+      _min: 0
+      _max: 0
+    _randomization: 0
   _component: {fileID: 525891801}
   _name: _amount
-  _postProcessor:
-    _abs: 0
-    _scale: 1
-    _offset: 0
-    _clamp: 0
-    _clampRange: {x: 0, y: 0}
 --- !u!1 &530528760
 GameObject:
   m_ObjectHideFlags: 0
@@ -1059,6 +1144,12 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 8578413946400967564, guid: de7a99c22f65f4533ad44dea9d4d576a,
+        type: 3}
+      propertyPath: _configuration.underlyingValue
+      value: 
+      objectReference: {fileID: 11400000, guid: 358c2f55dbc060c4b9afea1e58a8f76c,
+        type: 2}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -1084,14 +1175,14 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
 --- !u!114 &612807799 stripped
 MonoBehaviour:
-  m_CorrespondingSourceObject: {fileID: 6639140354311427853, guid: de7a99c22f65f4533ad44dea9d4d576a,
+  m_CorrespondingSourceObject: {fileID: 372856818003177543, guid: de7a99c22f65f4533ad44dea9d4d576a,
     type: 3}
   m_PrefabInstance: {fileID: 612807796}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 0}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 6d4d5085a6d045fd9bf80ad55a6c62b2, type: 3}
+  m_Script: {fileID: 11500000, guid: 778c158547c844f18a2a2e7f87d96923, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
 --- !u!1 &617941858
@@ -1142,6 +1233,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 6e9eb63d2e1644e7bb8c99d56b013b9c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  _log: 0
   _source: {fileID: 617941861}
   _distinct: 1
   _processingFactory: {fileID: 0}
@@ -1245,11 +1337,40 @@ MonoBehaviour:
   - {fileID: 998930929}
   _strategy: 1
   _postProcessor:
-    _abs: 0
-    _scale: 1
-    _offset: 0
-    _clamp: 0
-    _clampRange: {x: 0, y: 0}
+    _processing: 0
+    _curve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 3
+        time: 0
+        value: 0
+        inSlope: 0
+        outSlope: 1
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: 0
+        outWeight: 0
+      - serializedVersion: 3
+        time: 1
+        value: 1
+        inSlope: 1
+        outSlope: 0
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: 0
+        outWeight: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    _remap:
+      _fromMin: 0
+      _fromMax: 1
+      _toMin: 0
+      _toMax: 1
+    _clamp:
+      _min: 0
+      _max: 0
+    _randomization: 0
 --- !u!1 &627439145 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 901701364269570877, guid: f3dc52d761a664f3e8bbd19577221be0,
@@ -1280,17 +1401,47 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c69ec689ef4e641ba880afcdf2ae8e50, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  _log: 0
   _source: {fileID: 1414705266}
   _distinct: 1
   _processingFactory: {fileID: 0}
+  _processor:
+    _processing: 0
+    _curve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 3
+        time: 0
+        value: 0
+        inSlope: 0
+        outSlope: 1
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: 0
+        outWeight: 0
+      - serializedVersion: 3
+        time: 1
+        value: 1
+        inSlope: 1
+        outSlope: 0
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: 0
+        outWeight: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    _remap:
+      _fromMin: 0
+      _fromMax: 1
+      _toMin: 0
+      _toMax: 1
+    _clamp:
+      _min: 0
+      _max: 0
+    _randomization: 0
   _component: {fileID: 627439149}
   _name: _amount
-  _postProcessor:
-    _abs: 0
-    _scale: 1
-    _offset: 0
-    _clamp: 0
-    _clampRange: {x: 0, y: 0}
 --- !u!114 &660680408 stripped
 MonoBehaviour:
   m_CorrespondingSourceObject: {fileID: 6390312550095055375, guid: c97a159bcbcd343d68b6852ebc040dcb,
@@ -1398,11 +1549,12 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 90ee9ce03819647ceab36adc581ca40c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  _log: 0
   _source: {fileID: 625440834}
   _distinct: 1
   _processingFactory: {fileID: 0}
   _targetBlend: 1
-  _visualEffect: {fileID: 0}
+  _visualEffect: {fileID: 1719519113835877274}
   _nameID: SparksLifetime
 --- !u!114 &812689902
 MonoBehaviour:
@@ -1416,11 +1568,12 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 90ee9ce03819647ceab36adc581ca40c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  _log: 0
   _source: {fileID: 612807799}
   _distinct: 1
   _processingFactory: {fileID: 11400000, guid: 21e13a15c9c1b4810beee82bebd98d70, type: 2}
   _targetBlend: 1
-  _visualEffect: {fileID: 0}
+  _visualEffect: {fileID: 1719519113835877274}
   _nameID: Intensity
 --- !u!1001 &874034482
 PrefabInstance:
@@ -1435,6 +1588,12 @@ PrefabInstance:
       propertyPath: m_Name
       value: 3
       objectReference: {fileID: 0}
+    - target: {fileID: 7470024394475491008, guid: 50ba218facd5e43a9bf61102878cae10,
+        type: 3}
+      propertyPath: _configuration.underlyingValue
+      value: 
+      objectReference: {fileID: 11400000, guid: b9a322119c3cf634c9b60f8ce83c9228,
+        type: 2}
     - target: {fileID: 8356492805440445175, guid: 50ba218facd5e43a9bf61102878cae10,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -1510,14 +1669,14 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
 --- !u!114 &874034485 stripped
 MonoBehaviour:
-  m_CorrespondingSourceObject: {fileID: 5513685128170951233, guid: 50ba218facd5e43a9bf61102878cae10,
+  m_CorrespondingSourceObject: {fileID: 1552293675686638859, guid: 50ba218facd5e43a9bf61102878cae10,
     type: 3}
   m_PrefabInstance: {fileID: 874034482}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 0}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 6d4d5085a6d045fd9bf80ad55a6c62b2, type: 3}
+  m_Script: {fileID: 11500000, guid: 778c158547c844f18a2a2e7f87d96923, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
 --- !u!1 &883300158
@@ -1567,9 +1726,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a970c2ada16c439dbfd987d47223d05d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  _log: 0
   _mode: 1
   _randomization: 0
-  _log: 0
   _source: {fileID: 1655098693}
   _destinations:
   - {fileID: 1414705265}
@@ -1776,6 +1935,12 @@ PrefabInstance:
 --- !u!4 &884413746 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 8213043382213210252, guid: f3dc52d761a664f3e8bbd19577221be0,
+    type: 3}
+  m_PrefabInstance: {fileID: 884413745}
+  m_PrefabAsset: {fileID: 0}
+--- !u!2083052967 &884413747 stripped
+VisualEffect:
+  m_CorrespondingSourceObject: {fileID: 3783669065684652982, guid: f3dc52d761a664f3e8bbd19577221be0,
     type: 3}
   m_PrefabInstance: {fileID: 884413745}
   m_PrefabAsset: {fileID: 0}
@@ -2198,6 +2363,12 @@ Transform:
     type: 3}
   m_PrefabInstance: {fileID: 1010519944}
   m_PrefabAsset: {fileID: 0}
+--- !u!2083052967 &1010519946 stripped
+VisualEffect:
+  m_CorrespondingSourceObject: {fileID: 3783669065684652982, guid: f3dc52d761a664f3e8bbd19577221be0,
+    type: 3}
+  m_PrefabInstance: {fileID: 1010519944}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &1024109310
 GameObject:
   m_ObjectHideFlags: 0
@@ -2247,6 +2418,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 6e9eb63d2e1644e7bb8c99d56b013b9c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  _log: 0
   _source: {fileID: 1024109313}
   _distinct: 1
   _processingFactory: {fileID: 0}
@@ -2295,17 +2467,47 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c69ec689ef4e641ba880afcdf2ae8e50, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  _log: 0
   _source: {fileID: 1756511575}
   _distinct: 1
   _processingFactory: {fileID: 11400000, guid: 50deef253d6a3477a8fc4cf02c05954e, type: 2}
+  _processor:
+    _processing: 0
+    _curve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 3
+        time: 0
+        value: 0
+        inSlope: 0
+        outSlope: 1
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: 0
+        outWeight: 0
+      - serializedVersion: 3
+        time: 1
+        value: 1
+        inSlope: 1
+        outSlope: 0
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: 0
+        outWeight: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    _remap:
+      _fromMin: 0
+      _fromMax: 1
+      _toMin: 0
+      _toMax: 1
+    _clamp:
+      _min: 0
+      _max: 0
+    _randomization: 0
   _component: {fileID: 1024109314}
   _name: _amount
-  _postProcessor:
-    _abs: 0
-    _scale: 1
-    _offset: 0
-    _clamp: 0
-    _clampRange: {x: 0, y: 0}
 --- !u!114 &1024109316
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -2351,17 +2553,47 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c69ec689ef4e641ba880afcdf2ae8e50, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  _log: 0
   _source: {fileID: 174132677}
   _distinct: 1
   _processingFactory: {fileID: 0}
+  _processor:
+    _processing: 0
+    _curve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 3
+        time: 0
+        value: 0
+        inSlope: 0
+        outSlope: 1
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: 0
+        outWeight: 0
+      - serializedVersion: 3
+        time: 1
+        value: 1
+        inSlope: 1
+        outSlope: 0
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: 0
+        outWeight: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    _remap:
+      _fromMin: 0
+      _fromMax: 1
+      _toMin: 0
+      _toMax: 1
+    _clamp:
+      _min: 0
+      _max: 0
+    _randomization: 0
   _component: {fileID: 1108202803}
   _name: _amount
-  _postProcessor:
-    _abs: 0
-    _scale: 1
-    _offset: 0
-    _clamp: 0
-    _clampRange: {x: 0, y: 0}
 --- !u!1001 &1125103898
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -2425,6 +2657,12 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 8578413946400967564, guid: de7a99c22f65f4533ad44dea9d4d576a,
+        type: 3}
+      propertyPath: _configuration.underlyingValue
+      value: 
+      objectReference: {fileID: 11400000, guid: 358c2f55dbc060c4b9afea1e58a8f76c,
+        type: 2}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -2450,14 +2688,14 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
 --- !u!114 &1125103901 stripped
 MonoBehaviour:
-  m_CorrespondingSourceObject: {fileID: 6639140354311427853, guid: de7a99c22f65f4533ad44dea9d4d576a,
+  m_CorrespondingSourceObject: {fileID: 372856818003177543, guid: de7a99c22f65f4533ad44dea9d4d576a,
     type: 3}
   m_PrefabInstance: {fileID: 1125103898}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 0}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 6d4d5085a6d045fd9bf80ad55a6c62b2, type: 3}
+  m_Script: {fileID: 11500000, guid: 778c158547c844f18a2a2e7f87d96923, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
 --- !u!1 &1147499295
@@ -2575,9 +2813,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a970c2ada16c439dbfd987d47223d05d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  _log: 0
   _mode: 1
   _randomization: 0
-  _log: 0
   _source: {fileID: 208047069}
   _destinations:
   - {fileID: 612807798}
@@ -2601,6 +2839,12 @@ PrefabInstance:
       propertyPath: m_Name
       value: 1
       objectReference: {fileID: 0}
+    - target: {fileID: 5133951515963913485, guid: 8f1c86846e9184bc88a7e8eac08b69e7,
+        type: 3}
+      propertyPath: _configuration.underlyingValue
+      value: 
+      objectReference: {fileID: 11400000, guid: f0984d2bd56619d4ab474dc33751e39a,
+        type: 2}
     - target: {fileID: 6011627956538908986, guid: 8f1c86846e9184bc88a7e8eac08b69e7,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -2676,14 +2920,14 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
 --- !u!114 &1178076187 stripped
 MonoBehaviour:
-  m_CorrespondingSourceObject: {fileID: -1436325843560928884, guid: 8f1c86846e9184bc88a7e8eac08b69e7,
+  m_CorrespondingSourceObject: {fileID: 3827906815535779526, guid: 8f1c86846e9184bc88a7e8eac08b69e7,
     type: 3}
   m_PrefabInstance: {fileID: 1178076184}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 0}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 6d4d5085a6d045fd9bf80ad55a6c62b2, type: 3}
+  m_Script: {fileID: 11500000, guid: 778c158547c844f18a2a2e7f87d96923, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
 --- !u!1 &1209647093
@@ -2770,6 +3014,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 6e9eb63d2e1644e7bb8c99d56b013b9c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  _log: 0
   _source: {fileID: 1282786012}
   _distinct: 1
   _processingFactory: {fileID: 0}
@@ -2817,17 +3062,47 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c69ec689ef4e641ba880afcdf2ae8e50, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  _log: 0
   _source: {fileID: 809783364}
   _distinct: 1
   _processingFactory: {fileID: 0}
+  _processor:
+    _processing: 0
+    _curve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 3
+        time: 0
+        value: 0
+        inSlope: 0
+        outSlope: 1
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: 0
+        outWeight: 0
+      - serializedVersion: 3
+        time: 1
+        value: 1
+        inSlope: 1
+        outSlope: 0
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: 0
+        outWeight: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    _remap:
+      _fromMin: 0
+      _fromMax: 1
+      _toMin: 0
+      _toMax: 1
+    _clamp:
+      _min: 0
+      _max: 0
+    _randomization: 0
   _component: {fileID: 1282786015}
   _name: _timeFactor
-  _postProcessor:
-    _abs: 0
-    _scale: 1
-    _offset: 0
-    _clamp: 0
-    _clampRange: {x: 0, y: 0}
 --- !u!114 &1282786015
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -2890,9 +3165,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a970c2ada16c439dbfd987d47223d05d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  _log: 0
   _mode: 0
   _randomization: 0
-  _log: 0
   _source: {fileID: 1945649315}
   _destinations:
   - {fileID: 6182641274569654860}
@@ -2916,11 +3191,12 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 90ee9ce03819647ceab36adc581ca40c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  _log: 0
   _source: {fileID: 625440834}
   _distinct: 1
   _processingFactory: {fileID: 0}
   _targetBlend: 1
-  _visualEffect: {fileID: 0}
+  _visualEffect: {fileID: 1010519946}
   _nameID: SparksLifetime
 --- !u!114 &1322570806
 MonoBehaviour:
@@ -2934,11 +3210,12 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 90ee9ce03819647ceab36adc581ca40c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  _log: 0
   _source: {fileID: 1125103901}
   _distinct: 1
   _processingFactory: {fileID: 11400000, guid: 21e13a15c9c1b4810beee82bebd98d70, type: 2}
   _targetBlend: 1
-  _visualEffect: {fileID: 0}
+  _visualEffect: {fileID: 1010519946}
   _nameID: Intensity
 --- !u!4 &1325602038 stripped
 Transform:
@@ -2959,6 +3236,12 @@ PrefabInstance:
       propertyPath: m_Name
       value: 1
       objectReference: {fileID: 0}
+    - target: {fileID: 7470024394475491008, guid: 50ba218facd5e43a9bf61102878cae10,
+        type: 3}
+      propertyPath: _configuration.underlyingValue
+      value: 
+      objectReference: {fileID: 11400000, guid: b9a322119c3cf634c9b60f8ce83c9228,
+        type: 2}
     - target: {fileID: 8356492805440445175, guid: 50ba218facd5e43a9bf61102878cae10,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -3034,14 +3317,14 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
 --- !u!114 &1414705266 stripped
 MonoBehaviour:
-  m_CorrespondingSourceObject: {fileID: 5513685128170951233, guid: 50ba218facd5e43a9bf61102878cae10,
+  m_CorrespondingSourceObject: {fileID: 1552293675686638859, guid: 50ba218facd5e43a9bf61102878cae10,
     type: 3}
   m_PrefabInstance: {fileID: 1414705263}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 0}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 6d4d5085a6d045fd9bf80ad55a6c62b2, type: 3}
+  m_Script: {fileID: 11500000, guid: 778c158547c844f18a2a2e7f87d96923, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
 --- !u!1001 &1482740144
@@ -3107,6 +3390,12 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 8578413946400967564, guid: de7a99c22f65f4533ad44dea9d4d576a,
+        type: 3}
+      propertyPath: _configuration.underlyingValue
+      value: 
+      objectReference: {fileID: 11400000, guid: 358c2f55dbc060c4b9afea1e58a8f76c,
+        type: 2}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -3132,14 +3421,14 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
 --- !u!114 &1482740147 stripped
 MonoBehaviour:
-  m_CorrespondingSourceObject: {fileID: 6639140354311427853, guid: de7a99c22f65f4533ad44dea9d4d576a,
+  m_CorrespondingSourceObject: {fileID: 372856818003177543, guid: de7a99c22f65f4533ad44dea9d4d576a,
     type: 3}
   m_PrefabInstance: {fileID: 1482740144}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 0}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 6d4d5085a6d045fd9bf80ad55a6c62b2, type: 3}
+  m_Script: {fileID: 11500000, guid: 778c158547c844f18a2a2e7f87d96923, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
 --- !u!4 &1634693391 stripped
@@ -3240,6 +3529,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: b979b64a6be84d82a5a1aaead50707dc, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  _log: 0
   _source: {fileID: 1178076187}
   _distinct: 1
   _processingFactory: {fileID: 11400000, guid: 053f5cbad0b9f4256a977113ae4018a4, type: 2}
@@ -3304,17 +3594,47 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c69ec689ef4e641ba880afcdf2ae8e50, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  _log: 0
   _source: {fileID: 174132677}
   _distinct: 1
   _processingFactory: {fileID: 0}
+  _processor:
+    _processing: 0
+    _curve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 3
+        time: 0
+        value: 0
+        inSlope: 0
+        outSlope: 1
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: 0
+        outWeight: 0
+      - serializedVersion: 3
+        time: 1
+        value: 1
+        inSlope: 1
+        outSlope: 0
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: 0
+        outWeight: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    _remap:
+      _fromMin: 0
+      _fromMax: 1
+      _toMin: 0
+      _toMax: 1
+    _clamp:
+      _min: 0
+      _max: 0
+    _randomization: 0
   _component: {fileID: 1905197948}
   _name: _amount
-  _postProcessor:
-    _abs: 0
-    _scale: 1
-    _offset: 0
-    _clamp: 0
-    _clampRange: {x: 0, y: 0}
 --- !u!1 &1921206411 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 4321055825898359299, guid: f3dc52d761a664f3e8bbd19577221be0,
@@ -3333,11 +3653,12 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 90ee9ce03819647ceab36adc581ca40c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  _log: 0
   _source: {fileID: 625440834}
   _distinct: 1
   _processingFactory: {fileID: 0}
   _targetBlend: 1
-  _visualEffect: {fileID: 0}
+  _visualEffect: {fileID: 884413747}
   _nameID: SparksLifetime
 --- !u!114 &1921206421
 MonoBehaviour:
@@ -3351,11 +3672,12 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 90ee9ce03819647ceab36adc581ca40c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  _log: 0
   _source: {fileID: 1482740147}
   _distinct: 1
   _processingFactory: {fileID: 11400000, guid: 21e13a15c9c1b4810beee82bebd98d70, type: 2}
   _targetBlend: 1
-  _visualEffect: {fileID: 0}
+  _visualEffect: {fileID: 884413747}
   _nameID: Intensity
 --- !u!1 &1945649313
 GameObject:
@@ -3449,7 +3771,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: b979b64a6be84d82a5a1aaead50707dc, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  _source: {fileID: 2079605448}
+  _log: 0
+  _source: {fileID: 128503012}
   _distinct: 1
   _processingFactory: {fileID: 11400000, guid: 053f5cbad0b9f4256a977113ae4018a4, type: 2}
   _name: _Amplitude
@@ -3489,29 +3812,47 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c69ec689ef4e641ba880afcdf2ae8e50, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  _log: 0
   _source: {fileID: 874034485}
   _distinct: 1
   _processingFactory: {fileID: 0}
+  _processor:
+    _processing: 0
+    _curve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 3
+        time: 0
+        value: 0
+        inSlope: 0
+        outSlope: 1
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: 0
+        outWeight: 0
+      - serializedVersion: 3
+        time: 1
+        value: 1
+        inSlope: 1
+        outSlope: 0
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: 0
+        outWeight: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    _remap:
+      _fromMin: 0
+      _fromMax: 1
+      _toMin: 0
+      _toMax: 1
+    _clamp:
+      _min: 0
+      _max: 0
+    _randomization: 0
   _component: {fileID: 2014411843}
   _name: _amount
-  _postProcessor:
-    _abs: 0
-    _scale: 1
-    _offset: 0
-    _clamp: 0
-    _clampRange: {x: 0, y: 0}
---- !u!114 &2079605448 stripped
-MonoBehaviour:
-  m_CorrespondingSourceObject: {fileID: -1436325843560928884, guid: 8f1c86846e9184bc88a7e8eac08b69e7,
-    type: 3}
-  m_PrefabInstance: {fileID: 128503009}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 6d4d5085a6d045fd9bf80ad55a6c62b2, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!1 &2142911033
 GameObject:
   m_ObjectHideFlags: 0
@@ -3636,6 +3977,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ec0fb268aa8734fefba59009ddbc8c5b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  _frameModerator: {fileID: 0}
   _gizmoMode: 0
   _rebuildOnUpdate: 1
   _rebuildFrequency: 0
@@ -3646,6 +3988,8 @@ MonoBehaviour:
   _meshType: 7
   _resolution: 20
   _displacement: 0.5
+  _cacheMesh: 0
+  _normalCompute: 0
   _components:
   - {fileID: 1856294289776173264}
 --- !u!1001 &1719519113835877273
@@ -3826,6 +4170,12 @@ PrefabInstance:
       insertIndex: -1
       addedObject: {fileID: 481604772}
   m_SourcePrefab: {fileID: 100100000, guid: f3dc52d761a664f3e8bbd19577221be0, type: 3}
+--- !u!2083052967 &1719519113835877274 stripped
+VisualEffect:
+  m_CorrespondingSourceObject: {fileID: 3783669065684652982, guid: f3dc52d761a664f3e8bbd19577221be0,
+    type: 3}
+  m_PrefabInstance: {fileID: 1719519113835877273}
+  m_PrefabAsset: {fileID: 0}
 --- !u!114 &1856294289776173264
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -4295,6 +4645,12 @@ PrefabInstance:
       propertyPath: m_Name
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 5133951515963913485, guid: 8f1c86846e9184bc88a7e8eac08b69e7,
+        type: 3}
+      propertyPath: _configuration.underlyingValue
+      value: 
+      objectReference: {fileID: 11400000, guid: f0984d2bd56619d4ab474dc33751e39a,
+        type: 2}
     - target: {fileID: 6011627956538908986, guid: 8f1c86846e9184bc88a7e8eac08b69e7,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -4364,14 +4720,14 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
 --- !u!114 &6182641274569654861 stripped
 MonoBehaviour:
-  m_CorrespondingSourceObject: {fileID: -1436325843560928884, guid: 8f1c86846e9184bc88a7e8eac08b69e7,
+  m_CorrespondingSourceObject: {fileID: 3827906815535779526, guid: 8f1c86846e9184bc88a7e8eac08b69e7,
     type: 3}
   m_PrefabInstance: {fileID: 6182641274569654859}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 0}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 6d4d5085a6d045fd9bf80ad55a6c62b2, type: 3}
+  m_Script: {fileID: 11500000, guid: 778c158547c844f18a2a2e7f87d96923, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
 --- !u!4 &6880430157538188546
@@ -4404,6 +4760,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: b979b64a6be84d82a5a1aaead50707dc, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  _log: 0
   _source: {fileID: 1756511575}
   _distinct: 1
   _processingFactory: {fileID: 11400000, guid: 9235d471497a940afa73da9b60f6423e, type: 2}
@@ -4426,6 +4783,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: b979b64a6be84d82a5a1aaead50707dc, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  _log: 0
   _source: {fileID: 1756511576}
   _distinct: 1
   _processingFactory: {fileID: 11400000, guid: 72b3d11c1394645539ffb166044c37e2, type: 2}
@@ -4467,6 +4825,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ff337cf678fd549d3998badbd60d23ff, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  _log: 0
   _source: {fileID: 5474052849172934922}
   _distinct: 1
   _processingFactory: {fileID: 11400000, guid: 2bee9bdad92aa49648476adda7d564be, type: 2}

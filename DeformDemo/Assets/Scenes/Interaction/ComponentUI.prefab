@@ -13,8 +13,7 @@ GameObject:
   - component: {fileID: 1440826818845419957}
   - component: {fileID: 8110534115177082585}
   - component: {fileID: 866977804307128589}
-  - component: {fileID: 8999069663721429314}
-  - component: {fileID: 1847292268651801028}
+  - component: {fileID: 1157873040965433449}
   m_Layer: 5
   m_Name: ComponentUI
   m_TagString: Untagged
@@ -128,7 +127,7 @@ MonoBehaviour:
   m_FillOrigin: 0
   m_UseSpriteMesh: 0
   m_PixelsPerUnitMultiplier: 1
---- !u!114 &8999069663721429314
+--- !u!114 &1157873040965433449
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -137,30 +136,13 @@ MonoBehaviour:
   m_GameObject: {fileID: 1047122392899870138}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: c4b8781593ac89a4193a53cbb6e3a1cf, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  _valueScaleSlider: {fileID: 8835126510108678292}
-  _trigger: {fileID: 4420519698264754384}
-  _hold: {fileID: 6364939113099994953}
---- !u!114 &1847292268651801028
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1047122392899870138}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: d091571e0527456aa9f34eb8899fc9d9, type: 3}
+  m_Script: {fileID: 11500000, guid: 778c158547c844f18a2a2e7f87d96923, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   _log: 0
   _distinct: 0
-  _inputs:
-  - {fileID: 4420519698264754384}
-  - {fileID: 6364939113099994953}
-  _strategy: 3
+  _accumulationMode: 2
+  _postProcessorFactory: {fileID: 0}
   _postProcessor:
     _abs: 0
     _scale: 1
@@ -180,9 +162,8 @@ GameObject:
   - component: {fileID: 3805849798634050117}
   - component: {fileID: 8438798668336529228}
   - component: {fileID: 3154780713488777956}
-  - component: {fileID: 6364939113099994953}
-  - component: {fileID: 1483150109709603236}
-  - component: {fileID: 6077542693884483666}
+  - component: {fileID: 6394171866546864464}
+  - component: {fileID: 8394574296891313945}
   m_Layer: 5
   m_Name: Hold
   m_TagString: Untagged
@@ -309,9 +290,9 @@ MonoBehaviour:
     callback:
       m_PersistentCalls:
         m_Calls:
-        - m_Target: {fileID: 8999069663721429314}
-          m_TargetAssemblyTypeName: Sonosthesia.TriggerHoldUI, Assembly-CSharp
-          m_MethodName: StartHold
+        - m_Target: {fileID: 6394171866546864464}
+          m_TargetAssemblyTypeName: Sonosthesia.DeformDemo.ComponentHoldUI, Assembly-CSharp
+          m_MethodName: StartTrigger
           m_Mode: 1
           m_Arguments:
             m_ObjectArgument: {fileID: 0}
@@ -325,9 +306,9 @@ MonoBehaviour:
     callback:
       m_PersistentCalls:
         m_Calls:
-        - m_Target: {fileID: 8999069663721429314}
-          m_TargetAssemblyTypeName: Sonosthesia.TriggerHoldUI, Assembly-CSharp
-          m_MethodName: EndHold
+        - m_Target: {fileID: 6394171866546864464}
+          m_TargetAssemblyTypeName: Sonosthesia.DeformDemo.ComponentHoldUI, Assembly-CSharp
+          m_MethodName: EndTrigger
           m_Mode: 1
           m_Arguments:
             m_ObjectArgument: {fileID: 0}
@@ -337,7 +318,7 @@ MonoBehaviour:
             m_StringArgument: 
             m_BoolArgument: 0
           m_CallState: 2
---- !u!114 &6364939113099994953
+--- !u!114 &6394171866546864464
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -346,21 +327,12 @@ MonoBehaviour:
   m_GameObject: {fileID: 2202931803418945845}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 4238264cfd11a470b8bef25430cbc2e2, type: 3}
+  m_Script: {fileID: 11500000, guid: 14ca498ed72a5c045a4ff12c78a7c296, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  _log: 0
-  _distinct: 0
-  _startEnvelope: {fileID: 1483150109709603236}
-  _endEnvelope: {fileID: 6077542693884483666}
-  _accumulationMode: 2
-  _postProcessor:
-    _abs: 0
-    _scale: 1
-    _offset: 0
-    _clamp: 0
-    _clampRange: {x: 0, y: 0}
---- !u!114 &1483150109709603236
+  _trackedTriggerTest: {fileID: 8394574296891313945}
+  _valueSlider: {fileID: 8835126510108678292}
+--- !u!114 &8394574296891313945
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -369,26 +341,14 @@ MonoBehaviour:
   m_GameObject: {fileID: 2202931803418945845}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: a3c2a67f2cde4919b78a3d219b68ce8c, type: 3}
+  m_Script: {fileID: 11500000, guid: 90cfa871351b46f2bc2d12506b3eca25, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  _attack: 0.1
-  _decay: 0.3
-  _sustain: 0.5
---- !u!114 &6077542693884483666
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 2202931803418945845}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 34fadbbe38814f3b92f3a793d6d27f38, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  _sustain: 1
-  _release: 0.5
+  _valueScale: 1
+  _timeScale: 1
+  _startEnvelope: {fileID: 11400000, guid: 1c48cf79beb1ecd4f8fd22d8f99aaa05, type: 2}
+  _endEnvelope: {fileID: 11400000, guid: ac7edb5c04ac3d04886cf48d4007be40, type: 2}
+  _trigger: {fileID: 1157873040965433449}
 --- !u!1 &2418490286134889300
 GameObject:
   m_ObjectHideFlags: 0
@@ -613,8 +573,8 @@ GameObject:
   - component: {fileID: 111792220557693060}
   - component: {fileID: 816862009451730573}
   - component: {fileID: 565025031973061963}
-  - component: {fileID: 4420519698264754384}
-  - component: {fileID: 6598523872843129258}
+  - component: {fileID: 1447548514990010239}
+  - component: {fileID: 7721901250887181562}
   m_Layer: 5
   m_Name: Trigger
   m_TagString: Untagged
@@ -724,9 +684,9 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 8999069663721429314}
-        m_TargetAssemblyTypeName: Sonosthesia.TriggerHoldUI, Assembly-CSharp
-        m_MethodName: Trigger
+      - m_Target: {fileID: 7721901250887181562}
+        m_TargetAssemblyTypeName: Sonosthesia.DeformDemo.ComponentTriggerUI, Assembly-CSharp
+        m_MethodName: Play
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
@@ -756,7 +716,7 @@ MonoBehaviour:
   m_FlexibleWidth: 1
   m_FlexibleHeight: -1
   m_LayoutPriority: 1
---- !u!114 &4420519698264754384
+--- !u!114 &1447548514990010239
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -765,66 +725,27 @@ MonoBehaviour:
   m_GameObject: {fileID: 3957609019491424141}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 6d4d5085a6d045fd9bf80ad55a6c62b2, type: 3}
+  m_Script: {fileID: 11500000, guid: f83cc05e3bbb84b27bf5bef66f0c7194, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  _log: 0
-  _distinct: 0
-  _envelope: {fileID: 6598523872843129258}
-  _accumulationMode: 2
-  _postProcessorFactory: {fileID: 0}
-  _postProcessor:
-    _abs: 0
-    _scale: 1
-    _offset: 0
-    _clamp: 0
-    _clampRange: {x: 0, y: 0}
---- !u!114 &6598523872843129258
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 3957609019491424141}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 13cafa29275c4a309eb19ce02bee84e2, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  _animationCurve:
-    serializedVersion: 2
-    m_Curve:
-    - serializedVersion: 3
-      time: 0
-      value: 0
-      inSlope: 10
-      outSlope: 10
-      tangentMode: 34
-      weightedMode: 0
-      inWeight: 0
-      outWeight: 0.33333334
-    - serializedVersion: 3
-      time: 0.1
-      value: 1
-      inSlope: -0.014672657
-      outSlope: -0.014672657
-      tangentMode: 0
-      weightedMode: 0
-      inWeight: 1
-      outWeight: 0.33333334
-    - serializedVersion: 3
-      time: 1
-      value: 0
-      inSlope: -1.1111112
-      outSlope: -1.1111112
-      tangentMode: 34
-      weightedMode: 0
-      inWeight: 0.33333334
-      outWeight: 0
-    m_PreInfinity: 2
-    m_PostInfinity: 2
-    m_RotationOrder: 4
+  _valueScale: 1
   _timeScale: 1
+  _envelope: {fileID: 11400000, guid: a5dc6d191ed225f439937bb9d4f9d2c8, type: 2}
+  _trigger: {fileID: 1157873040965433449}
+--- !u!114 &7721901250887181562
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3957609019491424141}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 28ce08495e0cbb740a1b4334e05b34d8, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _valueSlider: {fileID: 8835126510108678292}
+  _triggerTest: {fileID: 1447548514990010239}
 --- !u!1 &5402182974371505989
 GameObject:
   m_ObjectHideFlags: 0
