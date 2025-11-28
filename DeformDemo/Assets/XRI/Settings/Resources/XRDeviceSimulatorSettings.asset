@@ -9,11 +9,9 @@ MonoBehaviour:
   m_GameObject: {fileID: 0}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 012fa17110f42486d974f8e710a99509, type: 3}
-  m_Name: ArcIntensityProcessor
+  m_Script: {fileID: 11500000, guid: 690929a59dc7a42da9030305190d391f, type: 3}
+  m_Name: XRDeviceSimulatorSettings
   m_EditorClassIdentifier: 
-  _settings:
-    _bypass: 0
-    _db: 0
-    _scale: 1
-    _offset: 0
+  m_AutomaticallyInstantiateSimulatorPrefab: 0
+  m_AutomaticallyInstantiateInEditorOnly: 1
+  m_SimulatorPrefab: {fileID: 0}
