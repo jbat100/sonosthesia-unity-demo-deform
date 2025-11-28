@@ -550,110 +550,14 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8844cd28950d4d98b415bca7264bc7e3, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Sonosthesia.Signal::Sonosthesia.Signal.PeakSignal
-  _log: 1
+  _log: 0
   _distinct: 0
---- !u!1 &273901331
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 273901332}
-  m_Layer: 0
-  m_Name: TriSparks
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!4 &273901332
-Transform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 273901331}
-  serializedVersion: 2
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_ConstrainProportionsScale: 0
-  m_Children:
-  - {fileID: 2142911034}
-  - {fileID: 313900869}
-  - {fileID: 430322746}
-  m_Father: {fileID: 6880430157538188546}
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!1 &313900868
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 313900869}
-  m_Layer: 0
-  m_Name: Power
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!4 &313900869
-Transform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 313900868}
-  serializedVersion: 2
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_ConstrainProportionsScale: 0
-  m_Children: []
-  m_Father: {fileID: 273901332}
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!95 &387093575 stripped
 Animator:
   m_CorrespondingSourceObject: {fileID: 3532906978837440428, guid: c97a159bcbcd343d68b6852ebc040dcb,
     type: 3}
   m_PrefabInstance: {fileID: 5474052849172934915}
   m_PrefabAsset: {fileID: 0}
---- !u!1 &430322745
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 430322746}
-  m_Layer: 0
-  m_Name: Frequency
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!4 &430322746
-Transform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 430322745}
-  serializedVersion: 2
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_ConstrainProportionsScale: 0
-  m_Children: []
-  m_Father: {fileID: 273901332}
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!114 &460868514 stripped
 MonoBehaviour:
   m_CorrespondingSourceObject: {fileID: 1549221099188693727, guid: c97a159bcbcd343d68b6852ebc040dcb,
@@ -2487,7 +2391,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8844cd28950d4d98b415bca7264bc7e3, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Sonosthesia.Signal::Sonosthesia.Signal.PeakSignal
-  _log: 1
+  _log: 0
   _distinct: 0
 --- !u!1 &1664482383 stripped
 GameObject:
@@ -2731,7 +2635,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8844cd28950d4d98b415bca7264bc7e3, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Sonosthesia.Signal::Sonosthesia.Signal.PeakSignal
-  _log: 1
+  _log: 0
   _distinct: 0
 --- !u!1 &1980986321 stripped
 GameObject:
@@ -2841,37 +2745,6 @@ MonoBehaviour:
     _randomization: 0
   _component: {fileID: 2014411843}
   _name: _amount
---- !u!1 &2142911033
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 2142911034}
-  m_Layer: 0
-  m_Name: Amplitude
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!4 &2142911034
-Transform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 2142911033}
-  serializedVersion: 2
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_ConstrainProportionsScale: 0
-  m_Children: []
-  m_Father: {fileID: 273901332}
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!114 &265211841991513548
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -3680,7 +3553,6 @@ Transform:
   m_Children:
   - {fileID: 530528761}
   - {fileID: 617941859}
-  - {fileID: 273901332}
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!114 &6880430157538188547
