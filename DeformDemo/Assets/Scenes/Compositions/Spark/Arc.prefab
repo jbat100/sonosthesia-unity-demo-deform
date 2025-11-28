@@ -109,6 +109,7 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
+  - {fileID: 2543294945846140265}
   - {fileID: 3678436563441553776}
   - {fileID: 5147385350544593228}
   m_Father: {fileID: 0}
@@ -126,6 +127,7 @@ GameObject:
   - component: {fileID: 4900714801090522352}
   - component: {fileID: 6090306554082496561}
   - component: {fileID: 4120265826650266821}
+  - component: {fileID: 8973917817298554352}
   m_Layer: 0
   m_Name: RotationRoot
   m_TagString: Untagged
@@ -216,6 +218,177 @@ MonoBehaviour:
   _log: 0
   _distinct: 0
   _timeFactor: 1
+--- !u!114 &8973917817298554352
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 901701364269570877}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c69ec689ef4e641ba880afcdf2ae8e50, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _log: 0
+  _source:
+    underlyingValue: {fileID: 6244360708348695039}
+  _distinct: 1
+  _processingFactory: {fileID: 0}
+  _processor:
+    _processing: 0
+    _curve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 3
+        time: 0
+        value: 0
+        inSlope: 0
+        outSlope: 1
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: 0
+        outWeight: 0
+      - serializedVersion: 3
+        time: 1
+        value: 1
+        inSlope: 1
+        outSlope: 0
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: 0
+        outWeight: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    _remap:
+      _fromMin: 0
+      _fromMax: 1
+      _toMin: 0
+      _toMax: 1
+    _clamp:
+      _min: 0
+      _max: 0
+    _randomization: 0
+  _component: {fileID: 7500629987291276599}
+  _name: _amount
+--- !u!1 &1432796892751464925
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 6114584879439227867}
+  - component: {fileID: 125281741949563632}
+  - component: {fileID: 4524308968657083808}
+  - component: {fileID: 1231107758311495457}
+  m_Layer: 0
+  m_Name: ArcIntensity
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &6114584879439227867
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1432796892751464925}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 2543294945846140265}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &125281741949563632
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1432796892751464925}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8844cd28950d4d98b415bca7264bc7e3, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Sonosthesia.Signal::Sonosthesia.Signal.PeakSignal
+  _log: 0
+  _distinct: 0
+--- !u!114 &4524308968657083808
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1432796892751464925}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9a418c6c672c4253aa9e3521d6ed8c28, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Sonosthesia.Trigger::Sonosthesia.Trigger.PeakSignalTrigger
+  _log: 0
+  _source:
+    underlyingValue: {fileID: 125281741949563632}
+  _destination: {fileID: 1231107758311495457}
+  _configuration:
+    underlyingValue: {fileID: 11400000, guid: 358c2f55dbc060c4b9afea1e58a8f76c, type: 2}
+--- !u!114 &1231107758311495457
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1432796892751464925}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 778c158547c844f18a2a2e7f87d96923, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Sonosthesia.Trigger::Sonosthesia.Trigger.Trigger
+  _log: 0
+  _distinct: 0
+  _accumulationMode: 2
+  _postProcessorFactory: {fileID: 0}
+  _postProcessor:
+    _processing: 0
+    _curve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 3
+        time: 0
+        value: 0
+        inSlope: 0
+        outSlope: 1
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: 0
+        outWeight: 0
+      - serializedVersion: 3
+        time: 1
+        value: 1
+        inSlope: 1
+        outSlope: 0
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: 0
+        outWeight: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    _remap:
+      _fromMin: 0
+      _fromMax: 1
+      _toMin: 0
+      _toMax: 1
+    _clamp:
+      _min: 0
+      _max: 0
+    _randomization: 0
 --- !u!1 &3309141954766762341
 GameObject:
   m_ObjectHideFlags: 0
@@ -248,6 +421,123 @@ Transform:
   - {fileID: 4845862703955036476}
   m_Father: {fileID: 5147385350544593228}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &3595070206464874385
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 3094401585896090535}
+  - component: {fileID: 7705001146474799534}
+  - component: {fileID: 8374592704207826799}
+  - component: {fileID: 7259848981425498233}
+  m_Layer: 0
+  m_Name: SphereIntensity
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &3094401585896090535
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3595070206464874385}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 2543294945846140265}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &7705001146474799534
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3595070206464874385}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8844cd28950d4d98b415bca7264bc7e3, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Sonosthesia.Signal::Sonosthesia.Signal.PeakSignal
+  _log: 0
+  _distinct: 0
+--- !u!114 &8374592704207826799
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3595070206464874385}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9a418c6c672c4253aa9e3521d6ed8c28, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Sonosthesia.Trigger::Sonosthesia.Trigger.PeakSignalTrigger
+  _log: 0
+  _source:
+    underlyingValue: {fileID: 125281741949563632}
+  _destination: {fileID: 1231107758311495457}
+  _configuration:
+    underlyingValue: {fileID: 11400000, guid: f0984d2bd56619d4ab474dc33751e39a, type: 2}
+--- !u!114 &7259848981425498233
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3595070206464874385}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 778c158547c844f18a2a2e7f87d96923, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Sonosthesia.Trigger::Sonosthesia.Trigger.Trigger
+  _log: 0
+  _distinct: 0
+  _accumulationMode: 2
+  _postProcessorFactory: {fileID: 0}
+  _postProcessor:
+    _processing: 0
+    _curve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 3
+        time: 0
+        value: 0
+        inSlope: 0
+        outSlope: 1
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: 0
+        outWeight: 0
+      - serializedVersion: 3
+        time: 1
+        value: 1
+        inSlope: 1
+        outSlope: 0
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: 0
+        outWeight: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    _remap:
+      _fromMin: 0
+      _fromMax: 1
+      _toMin: 0
+      _toMax: 1
+    _clamp:
+      _min: 0
+      _max: 0
+    _randomization: 0
 --- !u!1 &3720443081752414656
 GameObject:
   m_ObjectHideFlags: 0
@@ -296,6 +586,8 @@ GameObject:
   - component: {fileID: 8503217420001832177}
   - component: {fileID: 4360091277396359650}
   - component: {fileID: 9004989283621971329}
+  - component: {fileID: 1283787038567376747}
+  - component: {fileID: 7078873835072658177}
   m_Layer: 0
   m_Name: ElectricArc
   m_TagString: Untagged
@@ -533,6 +825,46 @@ MonoBehaviour:
   m_Property:
     m_Name: Pos4
   Target: {fileID: 8764822437899084541}
+--- !u!114 &1283787038567376747
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4321055825898359299}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 90ee9ce03819647ceab36adc581ca40c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _log: 0
+  _source:
+    underlyingValue: {fileID: 1231107758311495457}
+  _distinct: 1
+  _processingFactory: {fileID: 0}
+  _targetBlend: 1
+  _visualEffect: {fileID: 3783669065684652982}
+  _nameID: SparksLifetime
+--- !u!114 &7078873835072658177
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4321055825898359299}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 90ee9ce03819647ceab36adc581ca40c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _log: 0
+  _source:
+    underlyingValue: {fileID: 0}
+  _distinct: 1
+  _processingFactory: {fileID: 11400000, guid: 21e13a15c9c1b4810beee82bebd98d70, type: 2}
+  _targetBlend: 1
+  _visualEffect: {fileID: 3783669065684652982}
+  _nameID: Intensity
 --- !u!1 &5227029282033130792
 GameObject:
   m_ObjectHideFlags: 0
@@ -648,6 +980,7 @@ GameObject:
   - component: {fileID: 6813266842636546268}
   - component: {fileID: 5900861711284575775}
   - component: {fileID: 2057861254694446642}
+  - component: {fileID: 4049095780955642684}
   m_Layer: 0
   m_Name: RotationRoot
   m_TagString: Untagged
@@ -702,7 +1035,7 @@ MonoBehaviour:
   _distinct: 0
   _generator: {fileID: 6843935454022946925}
   _timeSignal:
-    underlyingValue: {fileID: 2057861254694446642}
+    underlyingValue: {fileID: 4120265826650266821}
 --- !u!114 &5900861711284575775
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -717,7 +1050,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   _log: 0
   _source:
-    underlyingValue: {fileID: 6813266842636546268}
+    underlyingValue: {fileID: 4900714801090522352}
   _distinct: 1
   _processingFactory: {fileID: 0}
   _targetBlend: 1
@@ -737,6 +1070,60 @@ MonoBehaviour:
   _log: 0
   _distinct: 0
   _timeFactor: 1
+--- !u!114 &4049095780955642684
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6029420260587975425}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c69ec689ef4e641ba880afcdf2ae8e50, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _log: 0
+  _source:
+    underlyingValue: {fileID: 6244360708348695039}
+  _distinct: 1
+  _processingFactory: {fileID: 0}
+  _processor:
+    _processing: 0
+    _curve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 3
+        time: 0
+        value: 0
+        inSlope: 0
+        outSlope: 1
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: 0
+        outWeight: 0
+      - serializedVersion: 3
+        time: 1
+        value: 1
+        inSlope: 1
+        outSlope: 0
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: 0
+        outWeight: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    _remap:
+      _fromMin: 0
+      _fromMax: 1
+      _toMin: 0
+      _toMax: 1
+    _clamp:
+      _min: 0
+      _max: 0
+    _randomization: 0
+  _component: {fileID: 6843935454022946925}
+  _name: _amount
 --- !u!1 &6607727058604008234
 GameObject:
   m_ObjectHideFlags: 0
@@ -749,6 +1136,7 @@ GameObject:
   - component: {fileID: 44853898348327976}
   - component: {fileID: 6133081459546880456}
   - component: {fileID: 3811565059170742842}
+  - component: {fileID: 5438749471845778351}
   m_Layer: 0
   m_Name: Sphere
   m_TagString: Untagged
@@ -848,6 +1236,30 @@ SphereCollider:
   serializedVersion: 3
   m_Radius: 0.5
   m_Center: {x: 0, y: 0, z: 0}
+--- !u!114 &5438749471845778351
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6607727058604008234}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b979b64a6be84d82a5a1aaead50707dc, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _log: 0
+  _source:
+    underlyingValue: {fileID: 7259848981425498233}
+  _distinct: 1
+  _processingFactory: {fileID: 11400000, guid: 053f5cbad0b9f4256a977113ae4018a4, type: 2}
+  _name: _Amplitude
+  _renderer: {fileID: 6133081459546880456}
+  _renderers: []
+  _group: {fileID: 0}
+  _materialSelector: 1
+  _usePropertyBlock: 0
+  _materialIndex: 0
 --- !u!1 &6640327932106334568
 GameObject:
   m_ObjectHideFlags: 0
@@ -911,6 +1323,123 @@ Transform:
   m_Children: []
   m_Father: {fileID: 2461770173057742417}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &7748191712674361440
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 7695581807460631138}
+  - component: {fileID: 1916607743525612730}
+  - component: {fileID: 8277157910010273696}
+  - component: {fileID: 6244360708348695039}
+  m_Layer: 0
+  m_Name: ArcRotation
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &7695581807460631138
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7748191712674361440}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 2543294945846140265}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1916607743525612730
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7748191712674361440}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8844cd28950d4d98b415bca7264bc7e3, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Sonosthesia.Signal::Sonosthesia.Signal.PeakSignal
+  _log: 0
+  _distinct: 0
+--- !u!114 &8277157910010273696
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7748191712674361440}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9a418c6c672c4253aa9e3521d6ed8c28, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Sonosthesia.Trigger::Sonosthesia.Trigger.PeakSignalTrigger
+  _log: 0
+  _source:
+    underlyingValue: {fileID: 125281741949563632}
+  _destination: {fileID: 1231107758311495457}
+  _configuration:
+    underlyingValue: {fileID: 11400000, guid: b9a322119c3cf634c9b60f8ce83c9228, type: 2}
+--- !u!114 &6244360708348695039
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7748191712674361440}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 778c158547c844f18a2a2e7f87d96923, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Sonosthesia.Trigger::Sonosthesia.Trigger.Trigger
+  _log: 0
+  _distinct: 0
+  _accumulationMode: 2
+  _postProcessorFactory: {fileID: 0}
+  _postProcessor:
+    _processing: 0
+    _curve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 3
+        time: 0
+        value: 0
+        inSlope: 0
+        outSlope: 1
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: 0
+        outWeight: 0
+      - serializedVersion: 3
+        time: 1
+        value: 1
+        inSlope: 1
+        outSlope: 0
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: 0
+        outWeight: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    _remap:
+      _fromMin: 0
+      _fromMax: 1
+      _toMin: 0
+      _toMax: 1
+    _clamp:
+      _min: 0
+      _max: 0
+    _randomization: 0
 --- !u!1 &7772507531333544284
 GameObject:
   m_ObjectHideFlags: 0
@@ -942,4 +1471,38 @@ Transform:
   m_Children:
   - {fileID: 3229233540903879102}
   m_Father: {fileID: 4845862703955036476}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &8281281517016643195
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 2543294945846140265}
+  m_Layer: 0
+  m_Name: Triggers
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &2543294945846140265
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8281281517016643195}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children:
+  - {fileID: 3094401585896090535}
+  - {fileID: 6114584879439227867}
+  - {fileID: 7695581807460631138}
+  m_Father: {fileID: 8213043382213210252}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
