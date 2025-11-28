@@ -13,7 +13,7 @@ OcclusionCullingSettings:
 --- !u!104 &2
 RenderSettings:
   m_ObjectHideFlags: 0
-  serializedVersion: 9
+  serializedVersion: 10
   m_Fog: 0
   m_FogColor: {r: 0.5, g: 0.5, b: 0.5, a: 1}
   m_FogMode: 3
@@ -42,8 +42,8 @@ RenderSettings:
 --- !u!157 &3
 LightmapSettings:
   m_ObjectHideFlags: 0
-  serializedVersion: 12
-  m_GIWorkflowMode: 1
+  serializedVersion: 13
+  m_BakeOnSceneLoad: 0
   m_GISettings:
     serializedVersion: 2
     m_BounceScale: 1
@@ -66,9 +66,6 @@ LightmapSettings:
     m_LightmapParameters: {fileID: 0}
     m_LightmapsBakeMode: 1
     m_TextureCompression: 1
-    m_FinalGather: 0
-    m_FinalGatherFiltering: 1
-    m_FinalGatherRayCount: 256
     m_ReflectionCompression: 2
     m_MixedBakeMode: 2
     m_BakeBackend: 1
@@ -96,7 +93,7 @@ LightmapSettings:
     m_ExportTrainingData: 0
     m_TrainingDataDestination: TrainingData
     m_LightProbeSampleCountMultiplier: 4
-  m_LightingDataAsset: {fileID: 0}
+  m_LightingDataAsset: {fileID: 20201, guid: 0000000000000000f000000000000000, type: 0}
   m_LightingSettings: {fileID: 0}
 --- !u!196 &4
 NavMeshSettings:
@@ -251,7 +248,6 @@ MonoBehaviour:
   m_ScreenCoordScaleBias: {x: 0, y: 0, z: 0, w: 0}
   m_RequiresDepthTexture: 0
   m_RequiresColorTexture: 0
-  m_Version: 2
   m_TaaSettings:
     m_Quality: 3
     m_FrameInfluence: 0.1
@@ -259,6 +255,7 @@ MonoBehaviour:
     m_MipBias: 0
     m_VarianceClampScale: 0.9
     m_ContrastAdaptiveSharpening: 0
+  m_Version: 2
 --- !u!1 &90046058 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 6029420260587975425, guid: f3dc52d761a664f3e8bbd19577221be0,
@@ -290,7 +287,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   _log: 0
-  _source: {fileID: 874034485}
+  _source:
+    underlyingValue: {fileID: 874034485}
   _distinct: 1
   _processingFactory: {fileID: 0}
   _processor:
@@ -356,9 +354,8 @@ Light:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 93156896}
   m_Enabled: 1
-  serializedVersion: 10
+  serializedVersion: 11
   m_Type: 1
-  m_Shape: 0
   m_Color: {r: 1, g: 0.95686275, b: 0.8392157, a: 1}
   m_Intensity: 1
   m_Range: 10
@@ -408,8 +405,12 @@ Light:
   m_BoundingSphereOverride: {x: 0, y: 0, z: 0, w: 0}
   m_UseBoundingSphereOverride: 0
   m_UseViewFrustumForShadowCasterCull: 1
+  m_ForceVisible: 0
   m_ShadowRadius: 0
   m_ShadowAngle: 0
+  m_LightUnit: 1
+  m_LuxAtDistance: 1
+  m_EnableSpotReflector: 1
 --- !u!4 &93156898
 Transform:
   m_ObjectHideFlags: 0
@@ -437,17 +438,23 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 474bcb49853aa07438625e644c072ee6, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  m_Version: 3
   m_UsePipelineSettings: 1
   m_AdditionalLightsShadowResolutionTier: 2
-  m_LightLayerMask: 1
-  m_RenderingLayers: 1
   m_CustomShadowLayers: 0
-  m_ShadowLayerMask: 1
-  m_ShadowRenderingLayers: 1
   m_LightCookieSize: {x: 1, y: 1}
   m_LightCookieOffset: {x: 0, y: 0}
   m_SoftShadowQuality: 0
+  m_RenderingLayersMask:
+    serializedVersion: 0
+    m_Bits: 1
+  m_ShadowRenderingLayersMask:
+    serializedVersion: 0
+    m_Bits: 1
+  m_Version: 4
+  m_LightLayerMask: 1
+  m_ShadowLayerMask: 1
+  m_RenderingLayers: 1
+  m_ShadowRenderingLayers: 1
 --- !u!1 &124292447
 GameObject:
   m_ObjectHideFlags: 0
@@ -701,8 +708,8 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 208047068}
-  - component: {fileID: 208047070}
   - component: {fileID: 208047069}
+  - component: {fileID: 208047070}
   m_Layer: 0
   m_Name: DrumsHighs
   m_TagString: Untagged
@@ -737,10 +744,12 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 5b100a9dd3899496ea21641643719d9d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  _log: 0
-  _distinct: 0
-  _source: {fileID: 208047070}
-  _preprocessorFactory: {fileID: 0}
+  _source:
+    underlyingValue: {fileID: 5474052849172934920}
+  _target:
+    underlyingValue: {fileID: 208047070}
+  _preprocessorFactory: {fileID: 11400000, guid: 3fd4bf0b1643c454ebe1b9403c75c8fe,
+    type: 2}
   _settings: {fileID: 11400000, guid: 478199b69ac6c41eca55b5cfed9a7d7d, type: 2}
 --- !u!114 &208047070
 MonoBehaviour:
@@ -751,15 +760,11 @@ MonoBehaviour:
   m_GameObject: {fileID: 208047067}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: ed240a8aca11e43ffa1707db2be976f6, type: 3}
+  m_Script: {fileID: 11500000, guid: 8844cd28950d4d98b415bca7264bc7e3, type: 3}
   m_Name: 
-  m_EditorClassIdentifier: 
+  m_EditorClassIdentifier: Sonosthesia.Signal::Sonosthesia.Signal.PeakSignal
   _log: 0
   _distinct: 0
-  _source: {fileID: 5474052849172934920}
-  _bypass: 0
-  _operatorFactory: {fileID: 11400000, guid: 3fd4bf0b1643c454ebe1b9403c75c8fe, type: 2}
-  _timeScale: 1
 --- !u!1 &273901331
 GameObject:
   m_ObjectHideFlags: 0
@@ -899,7 +904,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   _log: 0
-  _source: {fileID: 6182641274569654861}
+  _source:
+    underlyingValue: {fileID: 6182641274569654861}
   _distinct: 1
   _processingFactory: {fileID: 11400000, guid: 053f5cbad0b9f4256a977113ae4018a4, type: 2}
   _name: _Amplitude
@@ -946,7 +952,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   _log: 0
-  _source: {fileID: 1414705266}
+  _source:
+    underlyingValue: {fileID: 1414705266}
   _distinct: 1
   _processingFactory: {fileID: 0}
   _processor:
@@ -1234,7 +1241,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   _log: 0
-  _source: {fileID: 617941861}
+  _source:
+    underlyingValue: {fileID: 617941861}
   _distinct: 1
   _processingFactory: {fileID: 0}
   _targetBlend: 2
@@ -1254,7 +1262,8 @@ MonoBehaviour:
   _log: 0
   _distinct: 0
   _generator: {fileID: 617941862}
-  _timeSignal: {fileID: 617941863}
+  _timeSignal:
+    underlyingValue: {fileID: 617941863}
 --- !u!114 &617941862
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1333,8 +1342,8 @@ MonoBehaviour:
   _log: 0
   _distinct: 0
   _inputs:
-  - {fileID: 660680408}
-  - {fileID: 998930929}
+  - underlyingValue: {fileID: 660680408}
+  - underlyingValue: {fileID: 998930930}
   _strategy: 1
   _postProcessor:
     _processing: 0
@@ -1402,7 +1411,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   _log: 0
-  _source: {fileID: 1414705266}
+  _source:
+    underlyingValue: {fileID: 1414705266}
   _distinct: 1
   _processingFactory: {fileID: 0}
   _processor:
@@ -1550,7 +1560,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   _log: 0
-  _source: {fileID: 625440834}
+  _source:
+    underlyingValue: {fileID: 625440834}
   _distinct: 1
   _processingFactory: {fileID: 0}
   _targetBlend: 1
@@ -1569,7 +1580,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   _log: 0
-  _source: {fileID: 612807799}
+  _source:
+    underlyingValue: {fileID: 612807799}
   _distinct: 1
   _processingFactory: {fileID: 11400000, guid: 21e13a15c9c1b4810beee82bebd98d70, type: 2}
   _targetBlend: 1
@@ -1729,11 +1741,12 @@ MonoBehaviour:
   _log: 0
   _mode: 1
   _randomization: 0
-  _source: {fileID: 1655098693}
+  _source:
+    underlyingValue: {fileID: 1655098694}
   _destinations:
-  - {fileID: 1414705265}
-  - {fileID: 174132676}
-  - {fileID: 874034484}
+  - underlyingValue: {fileID: 1414705265}
+  - underlyingValue: {fileID: 174132676}
+  - underlyingValue: {fileID: 874034484}
 --- !u!1001 &884413745
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -1847,6 +1860,16 @@ PrefabInstance:
       propertyPath: _meshController
       value: 
       objectReference: {fileID: 993704792587924327}
+    - target: {fileID: 5900861711284575775, guid: f3dc52d761a664f3e8bbd19577221be0,
+        type: 3}
+      propertyPath: _source.underlyingValue
+      value: 
+      objectReference: {fileID: 884413749}
+    - target: {fileID: 6813266842636546268, guid: f3dc52d761a664f3e8bbd19577221be0,
+        type: 3}
+      propertyPath: _timeSignal.underlyingValue
+      value: 
+      objectReference: {fileID: 884413748}
     - target: {fileID: 8213043382213210252, guid: f3dc52d761a664f3e8bbd19577221be0,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -1944,6 +1967,30 @@ VisualEffect:
     type: 3}
   m_PrefabInstance: {fileID: 884413745}
   m_PrefabAsset: {fileID: 0}
+--- !u!114 &884413748 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 4120265826650266821, guid: f3dc52d761a664f3e8bbd19577221be0,
+    type: 3}
+  m_PrefabInstance: {fileID: 884413745}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1108202799}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a345441b62764ce9be2251fa2fd68ce9, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Sonosthesia.Generator::Sonosthesia.Generator.TimeSignal
+--- !u!114 &884413749 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 4900714801090522352, guid: f3dc52d761a664f3e8bbd19577221be0,
+    type: 3}
+  m_PrefabInstance: {fileID: 884413745}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1108202799}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8032cae50b0af4d59a3e3e2ced883720, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!114 &891619165 stripped
 MonoBehaviour:
   m_CorrespondingSourceObject: {fileID: 7986387203499468533, guid: c97a159bcbcd343d68b6852ebc040dcb,
@@ -2114,6 +2161,7 @@ GameObject:
   m_Component:
   - component: {fileID: 998930928}
   - component: {fileID: 998930929}
+  - component: {fileID: 998930930}
   m_Layer: 0
   m_Name: AudioProcessor
   m_TagString: Untagged
@@ -2148,12 +2196,27 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ed240a8aca11e43ffa1707db2be976f6, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  _log: 0
-  _distinct: 0
-  _source: {fileID: 5474052849172934919}
+  _source:
+    underlyingValue: {fileID: 5474052849172934919}
+  _target:
+    underlyingValue: {fileID: 998930930}
   _bypass: 0
   _operatorFactory: {fileID: 11400000, guid: 79722b13d99bd425eb15bac5f475dd1e, type: 2}
   _timeScale: 1
+--- !u!114 &998930930
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 998930927}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 365d9c7b8b134914a7dd49abc12cb503, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Sonosthesia.Signal::Sonosthesia.Signal.FloatSignal
+  _log: 0
+  _distinct: 0
 --- !u!1001 &1010519944
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -2262,6 +2325,11 @@ PrefabInstance:
       propertyPath: m_Enabled
       value: 1
       objectReference: {fileID: 0}
+    - target: {fileID: 4900714801090522352, guid: f3dc52d761a664f3e8bbd19577221be0,
+        type: 3}
+      propertyPath: _timeSignal.underlyingValue
+      value: 
+      objectReference: {fileID: 1010519948}
     - target: {fileID: 5668094450141963469, guid: f3dc52d761a664f3e8bbd19577221be0,
         type: 3}
       propertyPath: _direction
@@ -2272,6 +2340,11 @@ PrefabInstance:
       propertyPath: _meshController
       value: 
       objectReference: {fileID: 993704792587924327}
+    - target: {fileID: 6090306554082496561, guid: f3dc52d761a664f3e8bbd19577221be0,
+        type: 3}
+      propertyPath: _source.underlyingValue
+      value: 
+      objectReference: {fileID: 1010519947}
     - target: {fileID: 8213043382213210252, guid: f3dc52d761a664f3e8bbd19577221be0,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -2369,6 +2442,30 @@ VisualEffect:
     type: 3}
   m_PrefabInstance: {fileID: 1010519944}
   m_PrefabAsset: {fileID: 0}
+--- !u!114 &1010519947 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 6813266842636546268, guid: f3dc52d761a664f3e8bbd19577221be0,
+    type: 3}
+  m_PrefabInstance: {fileID: 1010519944}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 90046058}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8032cae50b0af4d59a3e3e2ced883720, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!114 &1010519948 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 2057861254694446642, guid: f3dc52d761a664f3e8bbd19577221be0,
+    type: 3}
+  m_PrefabInstance: {fileID: 1010519944}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 90046058}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a345441b62764ce9be2251fa2fd68ce9, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Sonosthesia.Generator::Sonosthesia.Generator.TimeSignal
 --- !u!1 &1024109310
 GameObject:
   m_ObjectHideFlags: 0
@@ -2419,7 +2516,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   _log: 0
-  _source: {fileID: 1024109313}
+  _source:
+    underlyingValue: {fileID: 1024109313}
   _distinct: 1
   _processingFactory: {fileID: 0}
   _targetBlend: 2
@@ -2439,7 +2537,8 @@ MonoBehaviour:
   _log: 0
   _distinct: 0
   _generator: {fileID: 1024109314}
-  _timeSignal: {fileID: 1024109316}
+  _timeSignal:
+    underlyingValue: {fileID: 1024109316}
 --- !u!114 &1024109314
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -2468,7 +2567,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   _log: 0
-  _source: {fileID: 1756511575}
+  _source:
+    underlyingValue: {fileID: 1756511575}
   _distinct: 1
   _processingFactory: {fileID: 11400000, guid: 50deef253d6a3477a8fc4cf02c05954e, type: 2}
   _processor:
@@ -2554,7 +2654,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   _log: 0
-  _source: {fileID: 174132677}
+  _source:
+    underlyingValue: {fileID: 174132677}
   _distinct: 1
   _processingFactory: {fileID: 0}
   _processor:
@@ -2816,11 +2917,12 @@ MonoBehaviour:
   _log: 0
   _mode: 1
   _randomization: 0
-  _source: {fileID: 208047069}
+  _source:
+    underlyingValue: {fileID: 208047070}
   _destinations:
-  - {fileID: 612807798}
-  - {fileID: 1482740146}
-  - {fileID: 1125103900}
+  - underlyingValue: {fileID: 612807798}
+  - underlyingValue: {fileID: 1482740146}
+  - underlyingValue: {fileID: 1125103900}
 --- !u!1001 &1178076184
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -3015,7 +3117,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   _log: 0
-  _source: {fileID: 1282786012}
+  _source:
+    underlyingValue: {fileID: 1282786012}
   _distinct: 1
   _processingFactory: {fileID: 0}
   _targetBlend: 2
@@ -3035,7 +3138,8 @@ MonoBehaviour:
   _log: 0
   _distinct: 0
   _generator: {fileID: 1282786013}
-  _timeSignal: {fileID: 1282786015}
+  _timeSignal:
+    underlyingValue: {fileID: 1282786015}
 --- !u!114 &1282786013
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -3063,7 +3167,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   _log: 0
-  _source: {fileID: 809783364}
+  _source:
+    underlyingValue: {fileID: 809783364}
   _distinct: 1
   _processingFactory: {fileID: 0}
   _processor:
@@ -3168,11 +3273,12 @@ MonoBehaviour:
   _log: 0
   _mode: 0
   _randomization: 0
-  _source: {fileID: 1945649315}
+  _source:
+    underlyingValue: {fileID: 1945649316}
   _destinations:
-  - {fileID: 6182641274569654860}
-  - {fileID: 1178076186}
-  - {fileID: 128503011}
+  - underlyingValue: {fileID: 6182641274569654860}
+  - underlyingValue: {fileID: 1178076186}
+  - underlyingValue: {fileID: 128503011}
 --- !u!1 &1322570796 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 4321055825898359299, guid: f3dc52d761a664f3e8bbd19577221be0,
@@ -3192,7 +3298,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   _log: 0
-  _source: {fileID: 625440834}
+  _source:
+    underlyingValue: {fileID: 625440834}
   _distinct: 1
   _processingFactory: {fileID: 0}
   _targetBlend: 1
@@ -3211,7 +3318,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   _log: 0
-  _source: {fileID: 1125103901}
+  _source:
+    underlyingValue: {fileID: 1125103901}
   _distinct: 1
   _processingFactory: {fileID: 11400000, guid: 21e13a15c9c1b4810beee82bebd98d70, type: 2}
   _targetBlend: 1
@@ -3446,8 +3554,8 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1655098692}
-  - component: {fileID: 1655098694}
   - component: {fileID: 1655098693}
+  - component: {fileID: 1655098694}
   m_Layer: 0
   m_Name: DrumsLows
   m_TagString: Untagged
@@ -3482,10 +3590,12 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 5b100a9dd3899496ea21641643719d9d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  _log: 0
-  _distinct: 0
-  _source: {fileID: 1655098694}
-  _preprocessorFactory: {fileID: 0}
+  _source:
+    underlyingValue: {fileID: 5474052849172934922}
+  _target:
+    underlyingValue: {fileID: 1655098694}
+  _preprocessorFactory: {fileID: 11400000, guid: cde1c6d13abe64feb8da1032ddb6040b,
+    type: 2}
   _settings: {fileID: 11400000, guid: 6bd0a4bda6d4d47bcb16d41fc2c907ed, type: 2}
 --- !u!114 &1655098694
 MonoBehaviour:
@@ -3496,15 +3606,11 @@ MonoBehaviour:
   m_GameObject: {fileID: 1655098691}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: ed240a8aca11e43ffa1707db2be976f6, type: 3}
+  m_Script: {fileID: 11500000, guid: 8844cd28950d4d98b415bca7264bc7e3, type: 3}
   m_Name: 
-  m_EditorClassIdentifier: 
+  m_EditorClassIdentifier: Sonosthesia.Signal::Sonosthesia.Signal.PeakSignal
   _log: 0
   _distinct: 0
-  _source: {fileID: 5474052849172934922}
-  _bypass: 0
-  _operatorFactory: {fileID: 11400000, guid: cde1c6d13abe64feb8da1032ddb6040b, type: 2}
-  _timeScale: 1
 --- !u!1 &1664482383 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 6607727058604008234, guid: f3dc52d761a664f3e8bbd19577221be0,
@@ -3530,7 +3636,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   _log: 0
-  _source: {fileID: 1178076187}
+  _source:
+    underlyingValue: {fileID: 1178076187}
   _distinct: 1
   _processingFactory: {fileID: 11400000, guid: 053f5cbad0b9f4256a977113ae4018a4, type: 2}
   _name: _Amplitude
@@ -3595,7 +3702,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   _log: 0
-  _source: {fileID: 174132677}
+  _source:
+    underlyingValue: {fileID: 174132677}
   _distinct: 1
   _processingFactory: {fileID: 0}
   _processor:
@@ -3654,7 +3762,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   _log: 0
-  _source: {fileID: 625440834}
+  _source:
+    underlyingValue: {fileID: 625440834}
   _distinct: 1
   _processingFactory: {fileID: 0}
   _targetBlend: 1
@@ -3673,7 +3782,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   _log: 0
-  _source: {fileID: 1482740147}
+  _source:
+    underlyingValue: {fileID: 1482740147}
   _distinct: 1
   _processingFactory: {fileID: 11400000, guid: 21e13a15c9c1b4810beee82bebd98d70, type: 2}
   _targetBlend: 1
@@ -3688,8 +3798,8 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1945649314}
-  - component: {fileID: 1945649316}
   - component: {fileID: 1945649315}
+  - component: {fileID: 1945649316}
   m_Layer: 0
   m_Name: DrumsMids
   m_TagString: Untagged
@@ -3724,10 +3834,12 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 5b100a9dd3899496ea21641643719d9d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  _log: 0
-  _distinct: 0
-  _source: {fileID: 1945649316}
-  _preprocessorFactory: {fileID: 0}
+  _source:
+    underlyingValue: {fileID: 5474052849172934922}
+  _target:
+    underlyingValue: {fileID: 1945649316}
+  _preprocessorFactory: {fileID: 11400000, guid: ed127bdd3401b4124b633cc39c05a3bc,
+    type: 2}
   _settings: {fileID: 11400000, guid: c6ffd052236ee44d39a9c0313b338832, type: 2}
 --- !u!114 &1945649316
 MonoBehaviour:
@@ -3738,15 +3850,11 @@ MonoBehaviour:
   m_GameObject: {fileID: 1945649313}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: ed240a8aca11e43ffa1707db2be976f6, type: 3}
+  m_Script: {fileID: 11500000, guid: 8844cd28950d4d98b415bca7264bc7e3, type: 3}
   m_Name: 
-  m_EditorClassIdentifier: 
+  m_EditorClassIdentifier: Sonosthesia.Signal::Sonosthesia.Signal.PeakSignal
   _log: 0
   _distinct: 0
-  _source: {fileID: 5474052849172934921}
-  _bypass: 0
-  _operatorFactory: {fileID: 11400000, guid: ed127bdd3401b4124b633cc39c05a3bc, type: 2}
-  _timeScale: 1
 --- !u!1 &1980986321 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 6607727058604008234, guid: f3dc52d761a664f3e8bbd19577221be0,
@@ -3772,7 +3880,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   _log: 0
-  _source: {fileID: 128503012}
+  _source:
+    underlyingValue: {fileID: 128503012}
   _distinct: 1
   _processingFactory: {fileID: 11400000, guid: 053f5cbad0b9f4256a977113ae4018a4, type: 2}
   _name: _Amplitude
@@ -3813,7 +3922,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   _log: 0
-  _source: {fileID: 874034485}
+  _source:
+    underlyingValue: {fileID: 874034485}
   _distinct: 1
   _processingFactory: {fileID: 0}
   _processor:
@@ -4075,6 +4185,11 @@ PrefabInstance:
       propertyPath: m_Enabled
       value: 1
       objectReference: {fileID: 0}
+    - target: {fileID: 4900714801090522352, guid: f3dc52d761a664f3e8bbd19577221be0,
+        type: 3}
+      propertyPath: _timeSignal.underlyingValue
+      value: 
+      objectReference: {fileID: 1719519113835877276}
     - target: {fileID: 5668094450141963469, guid: f3dc52d761a664f3e8bbd19577221be0,
         type: 3}
       propertyPath: _direction
@@ -4085,6 +4200,11 @@ PrefabInstance:
       propertyPath: _meshController
       value: 
       objectReference: {fileID: 993704792587924327}
+    - target: {fileID: 6090306554082496561, guid: f3dc52d761a664f3e8bbd19577221be0,
+        type: 3}
+      propertyPath: _source.underlyingValue
+      value: 
+      objectReference: {fileID: 1719519113835877275}
     - target: {fileID: 8213043382213210252, guid: f3dc52d761a664f3e8bbd19577221be0,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -4176,6 +4296,30 @@ VisualEffect:
     type: 3}
   m_PrefabInstance: {fileID: 1719519113835877273}
   m_PrefabAsset: {fileID: 0}
+--- !u!114 &1719519113835877275 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 6813266842636546268, guid: f3dc52d761a664f3e8bbd19577221be0,
+    type: 3}
+  m_PrefabInstance: {fileID: 1719519113835877273}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 525891797}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8032cae50b0af4d59a3e3e2ced883720, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!114 &1719519113835877276 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 2057861254694446642, guid: f3dc52d761a664f3e8bbd19577221be0,
+    type: 3}
+  m_PrefabInstance: {fileID: 1719519113835877273}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 525891797}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a345441b62764ce9be2251fa2fd68ce9, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Sonosthesia.Generator::Sonosthesia.Generator.TimeSignal
 --- !u!114 &1856294289776173264
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -4208,6 +4352,11 @@ MeshRenderer:
   m_ReflectionProbeUsage: 1
   m_RayTracingMode: 2
   m_RayTraceProcedural: 0
+  m_RayTracingAccelStructBuildFlagsOverride: 0
+  m_RayTracingAccelStructBuildFlags: 1
+  m_SmallMeshCulling: 1
+  m_ForceMeshLod: -1
+  m_MeshLodSelectionBias: 0
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
@@ -4229,6 +4378,7 @@ MeshRenderer:
   m_AutoUVMaxDistance: 0.5
   m_AutoUVMaxAngle: 89
   m_LightmapParameters: {fileID: 0}
+  m_GlobalIlluminationMeshLod: 0
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
@@ -4488,6 +4638,11 @@ PrefabInstance:
       propertyPath: m_SceneBindings.Array.data[42].value
       value: 
       objectReference: {fileID: 484003871}
+    - target: {fileID: 3296524987411425249, guid: c97a159bcbcd343d68b6852ebc040dcb,
+        type: 3}
+      propertyPath: _target.underlyingValue
+      value: 
+      objectReference: {fileID: 660680408}
     - target: {fileID: 4485152183096945160, guid: c97a159bcbcd343d68b6852ebc040dcb,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -4594,18 +4749,6 @@ MonoBehaviour:
 --- !u!114 &5474052849172934920 stripped
 MonoBehaviour:
   m_CorrespondingSourceObject: {fileID: 6604187132594531832, guid: c97a159bcbcd343d68b6852ebc040dcb,
-    type: 3}
-  m_PrefabInstance: {fileID: 5474052849172934915}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 365d9c7b8b134914a7dd49abc12cb503, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
---- !u!114 &5474052849172934921 stripped
-MonoBehaviour:
-  m_CorrespondingSourceObject: {fileID: 3927314930525976190, guid: c97a159bcbcd343d68b6852ebc040dcb,
     type: 3}
   m_PrefabInstance: {fileID: 5474052849172934915}
   m_PrefabAsset: {fileID: 0}
@@ -4761,7 +4904,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   _log: 0
-  _source: {fileID: 1756511575}
+  _source:
+    underlyingValue: {fileID: 1756511575}
   _distinct: 1
   _processingFactory: {fileID: 11400000, guid: 9235d471497a940afa73da9b60f6423e, type: 2}
   _name: _Amplitude3
@@ -4784,7 +4928,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   _log: 0
-  _source: {fileID: 1756511576}
+  _source:
+    underlyingValue: {fileID: 1756511576}
   _distinct: 1
   _processingFactory: {fileID: 11400000, guid: 72b3d11c1394645539ffb166044c37e2, type: 2}
   _name: _Amplitude2
@@ -4826,7 +4971,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   _log: 0
-  _source: {fileID: 5474052849172934922}
+  _source:
+    underlyingValue: {fileID: 5474052849172934922}
   _distinct: 1
   _processingFactory: {fileID: 11400000, guid: 2bee9bdad92aa49648476adda7d564be, type: 2}
   _targetBlend: 2

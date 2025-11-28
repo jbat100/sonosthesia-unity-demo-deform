@@ -125,6 +125,7 @@ GameObject:
   - component: {fileID: 7500629987291276599}
   - component: {fileID: 4900714801090522352}
   - component: {fileID: 6090306554082496561}
+  - component: {fileID: 4120265826650266821}
   m_Layer: 0
   m_Name: RotationRoot
   m_TagString: Untagged
@@ -179,7 +180,8 @@ MonoBehaviour:
   _log: 0
   _distinct: 0
   _generator: {fileID: 7500629987291276599}
-  _timeSignal: {fileID: 0}
+  _timeSignal:
+    underlyingValue: {fileID: 4120265826650266821}
 --- !u!114 &6090306554082496561
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -192,11 +194,28 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 6e9eb63d2e1644e7bb8c99d56b013b9c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  _source: {fileID: 4900714801090522352}
+  _log: 0
+  _source:
+    underlyingValue: {fileID: 4900714801090522352}
   _distinct: 1
   _processingFactory: {fileID: 0}
   _targetBlend: 1
   _local: 1
+--- !u!114 &4120265826650266821
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 901701364269570877}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a345441b62764ce9be2251fa2fd68ce9, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Sonosthesia.Generator::Sonosthesia.Generator.TimeSignal
+  _log: 0
+  _distinct: 0
+  _timeFactor: 1
 --- !u!1 &3309141954766762341
 GameObject:
   m_ObjectHideFlags: 0
@@ -403,6 +422,11 @@ VFXRenderer:
   m_ReflectionProbeUsage: 0
   m_RayTracingMode: 0
   m_RayTraceProcedural: 0
+  m_RayTracingAccelStructBuildFlagsOverride: 0
+  m_RayTracingAccelStructBuildFlags: 1
+  m_SmallMeshCulling: 1
+  m_ForceMeshLod: -1
+  m_MeshLodSelectionBias: 0
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_StaticBatchInfo:
@@ -422,6 +446,7 @@ VFXRenderer:
   m_AutoUVMaxDistance: 0.5
   m_AutoUVMaxAngle: 89
   m_LightmapParameters: {fileID: 0}
+  m_GlobalIlluminationMeshLod: 0
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
@@ -456,6 +481,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 07c3070554d0a8944a95ff8f018c2c9f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  Space: 0
   m_Property:
     m_Name: Pos1
   Target: {fileID: 2461770173057742417}
@@ -471,6 +497,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 07c3070554d0a8944a95ff8f018c2c9f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  Space: 0
   m_Property:
     m_Name: Pos2
   Target: {fileID: 3229233540903879102}
@@ -486,6 +513,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 07c3070554d0a8944a95ff8f018c2c9f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  Space: 0
   m_Property:
     m_Name: Pos3
   Target: {fileID: 4639155762530884525}
@@ -501,6 +529,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 07c3070554d0a8944a95ff8f018c2c9f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  Space: 0
   m_Property:
     m_Name: Pos4
   Target: {fileID: 8764822437899084541}
@@ -570,7 +599,8 @@ MonoBehaviour:
   _log: 0
   _distinct: 0
   _generator: {fileID: 2377846805298682168}
-  _timeSignal: {fileID: 2659701469835221294}
+  _timeSignal:
+    underlyingValue: {fileID: 2659701469835221294}
 --- !u!114 &415450349187025341
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -583,7 +613,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ac1538714af2466ea4be1a93a4ff4906, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  _source: {fileID: 6718406994498829018}
+  _log: 0
+  _source:
+    underlyingValue: {fileID: 6718406994498829018}
   _distinct: 1
   _processingFactory: {fileID: 0}
   _targetBlend: 1
@@ -615,6 +647,7 @@ GameObject:
   - component: {fileID: 6843935454022946925}
   - component: {fileID: 6813266842636546268}
   - component: {fileID: 5900861711284575775}
+  - component: {fileID: 2057861254694446642}
   m_Layer: 0
   m_Name: RotationRoot
   m_TagString: Untagged
@@ -668,7 +701,8 @@ MonoBehaviour:
   _log: 0
   _distinct: 0
   _generator: {fileID: 6843935454022946925}
-  _timeSignal: {fileID: 0}
+  _timeSignal:
+    underlyingValue: {fileID: 2057861254694446642}
 --- !u!114 &5900861711284575775
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -681,11 +715,28 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 6e9eb63d2e1644e7bb8c99d56b013b9c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  _source: {fileID: 6813266842636546268}
+  _log: 0
+  _source:
+    underlyingValue: {fileID: 6813266842636546268}
   _distinct: 1
   _processingFactory: {fileID: 0}
   _targetBlend: 1
   _local: 1
+--- !u!114 &2057861254694446642
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6029420260587975425}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a345441b62764ce9be2251fa2fd68ce9, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Sonosthesia.Generator::Sonosthesia.Generator.TimeSignal
+  _log: 0
+  _distinct: 0
+  _timeFactor: 1
 --- !u!1 &6607727058604008234
 GameObject:
   m_ObjectHideFlags: 0
@@ -745,6 +796,11 @@ MeshRenderer:
   m_ReflectionProbeUsage: 1
   m_RayTracingMode: 2
   m_RayTraceProcedural: 0
+  m_RayTracingAccelStructBuildFlagsOverride: 0
+  m_RayTracingAccelStructBuildFlags: 1
+  m_SmallMeshCulling: 1
+  m_ForceMeshLod: -1
+  m_MeshLodSelectionBias: 0
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
@@ -766,6 +822,7 @@ MeshRenderer:
   m_AutoUVMaxDistance: 0.5
   m_AutoUVMaxAngle: 89
   m_LightmapParameters: {fileID: 0}
+  m_GlobalIlluminationMeshLod: 0
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
