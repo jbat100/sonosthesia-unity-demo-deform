@@ -50,9 +50,9 @@ MonoBehaviour:
       _randomization: 0
     _extractor:
       underlyingValue: {fileID: 0}
-    _constantValue: 3
+    _constantValue: 10
     _extractorType: 1
-  _time:
+  _attack:
     _processor:
       _processing: 0
       _curve:
@@ -90,7 +90,7 @@ MonoBehaviour:
       _randomization: 0
     _extractor:
       underlyingValue: {fileID: 0}
-    _constantValue: 0.1
+    _constantValue: 0.3
     _extractorType: 1
   _envelope:
     _envelopeType: 1

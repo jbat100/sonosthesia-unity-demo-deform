@@ -52,7 +52,7 @@ MonoBehaviour:
       underlyingValue: {fileID: 0}
     _constantValue: 1
     _extractorType: 1
-  _time:
+  _attack:
     _processor:
       _processing: 0
       _curve:
@@ -90,7 +90,7 @@ MonoBehaviour:
       _randomization: 0
     _extractor:
       underlyingValue: {fileID: 0}
-    _constantValue: 1
+    _constantValue: 0.7
     _extractorType: 1
   _envelope:
     _envelopeType: 1

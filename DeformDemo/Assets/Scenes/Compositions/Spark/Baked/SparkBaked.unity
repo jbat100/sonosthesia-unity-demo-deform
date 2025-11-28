@@ -763,7 +763,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8844cd28950d4d98b415bca7264bc7e3, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Sonosthesia.Signal::Sonosthesia.Signal.PeakSignal
-  _log: 0
+  _log: 1
   _distinct: 0
 --- !u!1 &273901331
 GameObject:
@@ -3609,7 +3609,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8844cd28950d4d98b415bca7264bc7e3, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Sonosthesia.Signal::Sonosthesia.Signal.PeakSignal
-  _log: 0
+  _log: 1
   _distinct: 0
 --- !u!1 &1664482383 stripped
 GameObject:
@@ -3835,7 +3835,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   _source:
-    underlyingValue: {fileID: 5474052849172934922}
+    underlyingValue: {fileID: 5474052849172934921}
   _target:
     underlyingValue: {fileID: 1945649316}
   _preprocessorFactory: {fileID: 11400000, guid: ed127bdd3401b4124b633cc39c05a3bc,
@@ -3853,7 +3853,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8844cd28950d4d98b415bca7264bc7e3, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Sonosthesia.Signal::Sonosthesia.Signal.PeakSignal
-  _log: 0
+  _log: 1
   _distinct: 0
 --- !u!1 &1980986321 stripped
 GameObject:
@@ -4432,11 +4432,6 @@ PrefabInstance:
       propertyPath: m_Name
       value: BakedMusic
       objectReference: {fileID: 0}
-    - target: {fileID: 1549221099188693727, guid: c97a159bcbcd343d68b6852ebc040dcb,
-        type: 3}
-      propertyPath: _log
-      value: 1
-      objectReference: {fileID: 0}
     - target: {fileID: 1927010146160158487, guid: c97a159bcbcd343d68b6852ebc040dcb,
         type: 3}
       propertyPath: m_PlayableAsset
@@ -4749,6 +4744,18 @@ MonoBehaviour:
 --- !u!114 &5474052849172934920 stripped
 MonoBehaviour:
   m_CorrespondingSourceObject: {fileID: 6604187132594531832, guid: c97a159bcbcd343d68b6852ebc040dcb,
+    type: 3}
+  m_PrefabInstance: {fileID: 5474052849172934915}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 365d9c7b8b134914a7dd49abc12cb503, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!114 &5474052849172934921 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 3927314930525976190, guid: c97a159bcbcd343d68b6852ebc040dcb,
     type: 3}
   m_PrefabInstance: {fileID: 5474052849172934915}
   m_PrefabAsset: {fileID: 0}
