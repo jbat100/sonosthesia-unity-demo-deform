@@ -50,16 +50,45 @@ MonoBehaviour:
   _log: 0
   _distinct: 0
   _inputs:
-  - {fileID: 8350708763647323583}
-  - {fileID: 4471421082843435809}
-  - {fileID: 2935821388306818451}
+  - underlyingValue: {fileID: 5644121233914249062}
+  - underlyingValue: {fileID: 4471421082843435809}
+  - underlyingValue: {fileID: 5562907597669946010}
   _strategy: 1
   _postProcessor:
-    _abs: 0
-    _scale: 1
-    _offset: 0
-    _clamp: 0
-    _clampRange: {x: 0, y: 0}
+    _processing: 0
+    _curve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 3
+        time: 0
+        value: 0
+        inSlope: 0
+        outSlope: 1
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: 0
+        outWeight: 0
+      - serializedVersion: 3
+        time: 1
+        value: 1
+        inSlope: 1
+        outSlope: 0
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: 0
+        outWeight: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    _remap:
+      _fromMin: 0
+      _fromMax: 1
+      _toMin: 0
+      _toMax: 1
+    _clamp:
+      _min: 0
+      _max: 0
+    _randomization: 0
 --- !u!1 &3112197771370652398
 GameObject:
   m_ObjectHideFlags: 0
@@ -115,8 +144,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 6507762569310595055}
-  - component: {fileID: 8350708763647323583}
-  - component: {fileID: 4379718192459055637}
+  - component: {fileID: 5644121233914249062}
   m_Layer: 0
   m_Name: Trigger
   m_TagString: Untagged
@@ -139,7 +167,7 @@ Transform:
   m_Children: []
   m_Father: {fileID: 1090368894420647712}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &8350708763647323583
+--- !u!114 &5644121233914249062
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -148,65 +176,48 @@ MonoBehaviour:
   m_GameObject: {fileID: 6574489174853441962}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 6d4d5085a6d045fd9bf80ad55a6c62b2, type: 3}
+  m_Script: {fileID: 11500000, guid: 778c158547c844f18a2a2e7f87d96923, type: 3}
   m_Name: 
-  m_EditorClassIdentifier: 
+  m_EditorClassIdentifier: Sonosthesia.Trigger::Sonosthesia.Trigger.Trigger
   _log: 0
   _distinct: 0
-  _envelope: {fileID: 4379718192459055637}
   _accumulationMode: 2
+  _postProcessorFactory: {fileID: 0}
   _postProcessor:
-    _abs: 0
-    _scale: 1
-    _offset: 0
-    _clamp: 0
-    _clampRange: {x: 0, y: 0}
---- !u!114 &4379718192459055637
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 6574489174853441962}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 13cafa29275c4a309eb19ce02bee84e2, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  _animationCurve:
-    serializedVersion: 2
-    m_Curve:
-    - serializedVersion: 3
-      time: 0
-      value: 0
-      inSlope: 0
-      outSlope: 0
-      tangentMode: 0
-      weightedMode: 0
-      inWeight: 0
-      outWeight: 0
-    - serializedVersion: 3
-      time: 0.2
-      value: 1
-      inSlope: 0
-      outSlope: 0
-      tangentMode: 0
-      weightedMode: 0
-      inWeight: 0
-      outWeight: 0
-    - serializedVersion: 3
-      time: 1
-      value: 0
-      inSlope: 0
-      outSlope: 0
-      tangentMode: 0
-      weightedMode: 0
-      inWeight: 0
-      outWeight: 0
-    m_PreInfinity: 2
-    m_PostInfinity: 2
-    m_RotationOrder: 4
-  _timeScale: 1
+    _processing: 0
+    _curve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 3
+        time: 0
+        value: 0
+        inSlope: 0
+        outSlope: 1
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: 0
+        outWeight: 0
+      - serializedVersion: 3
+        time: 1
+        value: 1
+        inSlope: 1
+        outSlope: 0
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: 0
+        outWeight: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    _remap:
+      _fromMin: 0
+      _fromMax: 1
+      _toMin: 0
+      _toMax: 1
+    _clamp:
+      _min: 0
+      _max: 0
+    _randomization: 0
 --- !u!1 &7642704593397602405
 GameObject:
   m_ObjectHideFlags: 0
@@ -217,6 +228,7 @@ GameObject:
   m_Component:
   - component: {fileID: 7452231549396263941}
   - component: {fileID: 2935821388306818451}
+  - component: {fileID: 5562907597669946010}
   m_Layer: 0
   m_Name: Audio
   m_TagString: Untagged
@@ -251,9 +263,24 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ed240a8aca11e43ffa1707db2be976f6, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  _log: 0
-  _distinct: 0
-  _source: {fileID: 0}
+  _source:
+    underlyingValue: {fileID: 0}
+  _target:
+    underlyingValue: {fileID: 5562907597669946010}
   _bypass: 0
   _operatorFactory: {fileID: 0}
   _timeScale: 1
+--- !u!114 &5562907597669946010
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7642704593397602405}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 365d9c7b8b134914a7dd49abc12cb503, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Sonosthesia.Signal::Sonosthesia.Signal.FloatSignal
+  _log: 0
+  _distinct: 0
