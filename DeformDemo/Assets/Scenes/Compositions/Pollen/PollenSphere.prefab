@@ -44,6 +44,7 @@ GameObject:
   - component: {fileID: 153523306557006906}
   - component: {fileID: 6177730396936873981}
   - component: {fileID: 5424882003962892700}
+  - component: {fileID: 1005781683434556065}
   m_Layer: 0
   m_Name: Rotation
   m_TagString: Untagged
@@ -79,7 +80,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 6e9eb63d2e1644e7bb8c99d56b013b9c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  _source: {fileID: 6177730396936873981}
+  _log: 0
+  _source:
+    underlyingValue: {fileID: 6177730396936873981}
   _distinct: 1
   _processingFactory: {fileID: 0}
   _targetBlend: 1
@@ -99,7 +102,8 @@ MonoBehaviour:
   _log: 0
   _distinct: 0
   _generator: {fileID: 5424882003962892700}
-  _timeSignal: {fileID: 0}
+  _timeSignal:
+    underlyingValue: {fileID: 1005781683434556065}
 --- !u!114 &5424882003962892700
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -112,9 +116,24 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 6ac727347bf084b168dcf9ed6bc8f06f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  _amount: 10
+  _amount: 0
   _octaves: 2
   _seed: 0
+--- !u!114 &1005781683434556065
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2401959889348127392}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a345441b62764ce9be2251fa2fd68ce9, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Sonosthesia.Generator::Sonosthesia.Generator.TimeSignal
+  _log: 0
+  _distinct: 0
+  _timeFactor: 1
 --- !u!1 &2885944717700211453
 GameObject:
   m_ObjectHideFlags: 0
@@ -167,6 +186,11 @@ VFXRenderer:
   m_ReflectionProbeUsage: 0
   m_RayTracingMode: 0
   m_RayTraceProcedural: 0
+  m_RayTracingAccelStructBuildFlagsOverride: 0
+  m_RayTracingAccelStructBuildFlags: 1
+  m_SmallMeshCulling: 1
+  m_ForceMeshLod: -1
+  m_MeshLodSelectionBias: 0
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_StaticBatchInfo:
@@ -186,9 +210,11 @@ VFXRenderer:
   m_AutoUVMaxDistance: 0.5
   m_AutoUVMaxAngle: 89
   m_LightmapParameters: {fileID: 0}
+  m_GlobalIlluminationMeshLod: 0
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
+  m_MaskInteraction: 0
 --- !u!2083052967 &7968957224968808235
 VisualEffect:
   m_ObjectHideFlags: 0
@@ -263,7 +289,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 90ee9ce03819647ceab36adc581ca40c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  _source: {fileID: 0}
+  _log: 0
+  _source:
+    underlyingValue: {fileID: 0}
   _distinct: 1
   _processingFactory: {fileID: 0}
   _targetBlend: 1
@@ -317,7 +345,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 6e9eb63d2e1644e7bb8c99d56b013b9c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  _source: {fileID: 7994069678094658040}
+  _log: 0
+  _source:
+    underlyingValue: {fileID: 7994069678094658040}
   _distinct: 1
   _processingFactory: {fileID: 0}
   _targetBlend: 1
@@ -337,7 +367,8 @@ MonoBehaviour:
   _log: 0
   _distinct: 0
   _generator: {fileID: 9092001152150298510}
-  _timeSignal: {fileID: 4447670869265475796}
+  _timeSignal:
+    underlyingValue: {fileID: 4447670869265475796}
 --- !u!114 &9092001152150298510
 MonoBehaviour:
   m_ObjectHideFlags: 0
