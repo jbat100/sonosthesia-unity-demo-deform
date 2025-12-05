@@ -10,8 +10,8 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 9b5aeabe72b94293966278bca4401a2a, type: 3}
-  m_Name: ArcIntensityTriggerConfiguration
-  m_EditorClassIdentifier: 
+  m_Name: PeakTriggerConfiguration
+  m_EditorClassIdentifier: Sonosthesia.Trigger::Sonosthesia.Trigger.PeakTriggerConfiguration
   _value:
     _processor:
       _processing: 0
@@ -50,7 +50,7 @@ MonoBehaviour:
       _randomization: 0
     _extractor:
       underlyingValue: {fileID: 0}
-    _constantValue: 10
+    _constantValue: 3
     _extractorType: 1
   _attack:
     _processor:
@@ -90,16 +90,43 @@ MonoBehaviour:
       _randomization: 0
     _extractor:
       underlyingValue: {fileID: 0}
-    _constantValue: 0.3
+    _constantValue: 1
     _extractorType: 1
   _envelope:
-    _envelopeType: 1
+    _envelopeType: 2
     _constantValue: 1
     _constantDuration: 1
     _envelopeFactory: {fileID: 0}
     _animationCurve:
       serializedVersion: 2
-      m_Curve: []
+      m_Curve:
+      - serializedVersion: 3
+        time: 0
+        value: 0
+        inSlope: 20.055971
+        outSlope: 20.055971
+        tangentMode: 34
+        weightedMode: 0
+        inWeight: 0
+        outWeight: 0.33333334
+      - serializedVersion: 3
+        time: 0.05
+        value: 1.0027986
+        inSlope: 0.18198189
+        outSlope: 0.18198189
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: 0.33333334
+        outWeight: 0.017081413
+      - serializedVersion: 3
+        time: 0.5
+        value: 0
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: 0.10321796
+        outWeight: 0
       m_PreInfinity: 2
       m_PostInfinity: 2
       m_RotationOrder: 4
