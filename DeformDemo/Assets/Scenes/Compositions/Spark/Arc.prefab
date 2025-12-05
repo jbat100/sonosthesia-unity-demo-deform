@@ -483,8 +483,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: Sonosthesia.Trigger::Sonosthesia.Trigger.PeakSignalTrigger
   _log: 0
   _source:
-    underlyingValue: {fileID: 125281741949563632}
-  _destination: {fileID: 1231107758311495457}
+    underlyingValue: {fileID: 7705001146474799534}
+  _destination: {fileID: 7259848981425498233}
   _configuration:
     underlyingValue: {fileID: 11400000, guid: f0984d2bd56619d4ab474dc33751e39a, type: 2}
 --- !u!114 &7259848981425498233
@@ -742,6 +742,7 @@ VFXRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
+  m_MaskInteraction: 0
 --- !u!114 &6768509307265540722
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -859,7 +860,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   _log: 0
   _source:
-    underlyingValue: {fileID: 0}
+    underlyingValue: {fileID: 1231107758311495457}
   _distinct: 1
   _processingFactory: {fileID: 11400000, guid: 21e13a15c9c1b4810beee82bebd98d70, type: 2}
   _targetBlend: 1
@@ -1214,6 +1215,7 @@ MeshRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
+  m_MaskInteraction: 0
   m_AdditionalVertexStreams: {fileID: 0}
 --- !u!135 &3811565059170742842
 SphereCollider:
@@ -1385,8 +1387,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: Sonosthesia.Trigger::Sonosthesia.Trigger.PeakSignalTrigger
   _log: 0
   _source:
-    underlyingValue: {fileID: 125281741949563632}
-  _destination: {fileID: 1231107758311495457}
+    underlyingValue: {fileID: 1916607743525612730}
+  _destination: {fileID: 6244360708348695039}
   _configuration:
     underlyingValue: {fileID: 11400000, guid: b9a322119c3cf634c9b60f8ce83c9228, type: 2}
 --- !u!114 &6244360708348695039

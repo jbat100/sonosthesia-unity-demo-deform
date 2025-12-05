@@ -50,7 +50,7 @@ MonoBehaviour:
       _randomization: 0
     _extractor:
       underlyingValue: {fileID: 0}
-    _constantValue: 8
+    _constantValue: 20
     _extractorType: 1
   _attack:
     _processor:
