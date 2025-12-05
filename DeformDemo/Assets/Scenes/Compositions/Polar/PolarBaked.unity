@@ -2571,6 +2571,18 @@ Transform:
   - {fileID: 486695312}
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1718542888 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 5081047451463625653, guid: c97a159bcbcd343d68b6852ebc040dcb,
+    type: 3}
+  m_PrefabInstance: {fileID: 473283333}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 365d9c7b8b134914a7dd49abc12cb503, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!114 &1718542889 stripped
 MonoBehaviour:
   m_CorrespondingSourceObject: {fileID: 6604187132594531832, guid: c97a159bcbcd343d68b6852ebc040dcb,
@@ -2970,7 +2982,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   _log: 0
   _source:
-    underlyingValue: {fileID: 0}
+    underlyingValue: {fileID: 844017414}
   _distinct: 1
   _processingFactory: {fileID: 11400000, guid: 0936430f3de6cdb4ba80d48f50fad0e1, type: 2}
   _name: _Amplitude1
@@ -2994,7 +3006,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   _log: 0
   _source:
-    underlyingValue: {fileID: 0}
+    underlyingValue: {fileID: 1482303846}
   _distinct: 1
   _processingFactory: {fileID: 11400000, guid: c61b150f8d4a332449ea1b50e501fcb6, type: 2}
   _name: _Amplitude3
@@ -3018,7 +3030,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   _log: 0
   _source:
-    underlyingValue: {fileID: 0}
+    underlyingValue: {fileID: 970299}
   _distinct: 1
   _processingFactory: {fileID: 11400000, guid: f6ac4fd7a3b1bab4b960d2238c446257, type: 2}
   _name: _Amplitude2
@@ -3042,7 +3054,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   _log: 0
   _source:
-    underlyingValue: {fileID: 0}
+    underlyingValue: {fileID: 970299}
   _distinct: 1
   _processingFactory: {fileID: 11400000, guid: b83fd4bb7fa088c4abce9529051c5d42, type: 2}
   _name: _Speed3
@@ -3066,7 +3078,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   _log: 0
   _source:
-    underlyingValue: {fileID: 0}
+    underlyingValue: {fileID: 1718542888}
   _distinct: 1
   _processingFactory: {fileID: 11400000, guid: ed226078c144cdc49b3d33718fc4967c, type: 2}
   _name: _Intensity
