@@ -184,7 +184,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   _value: 0
-  _target: {fileID: 6390312550095055375}
+  _target:
+    underlyingValue: {fileID: 6390312550095055375}
 --- !u!114 &6390312550095055375
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -235,7 +236,7 @@ Transform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!95 &3532906978837440428
 Animator:
-  serializedVersion: 5
+  serializedVersion: 7
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
@@ -249,6 +250,7 @@ Animator:
   m_ApplyRootMotion: 0
   m_LinearVelocityBlending: 0
   m_StabilizeFeet: 0
+  m_AnimatePhysics: 0
   m_WarningMessage: 
   m_HasTransformHierarchy: 1
   m_AllowConstantClipSamplingOptimization: 1
@@ -300,6 +302,7 @@ AudioSource:
   OutputAudioMixerGroup: {fileID: -7179276936276775043, guid: 0d8eefcb9c57d4663a88e5cb19856acf,
     type: 2}
   m_audioClip: {fileID: 0}
+  m_Resource: {fileID: 0}
   m_PlayOnAwake: 0
   m_Volume: 1
   m_Pitch: 1
@@ -398,10 +401,10 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   _numberOfSamples: 1024
-  _fftWindow: 5
   _bandType: 2
   _fallSpeed: 0.08
   _sensitivity: 8
+  _fftWindow: 5
 --- !u!114 &2367484803259708747
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -461,7 +464,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   _value: 0
-  _target: {fileID: 1866848617283591594}
+  _target:
+    underlyingValue: {fileID: 1866848617283591594}
 --- !u!114 &1866848617283591594
 MonoBehaviour:
   m_ObjectHideFlags: 0

@@ -14,57 +14,77 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   _xSettings:
     _faderType: 0
-    _value: 0.8
-    _curve:
-      serializedVersion: 2
-      m_Curve: []
-      m_PreInfinity: 2
-      m_PostInfinity: 2
-      m_RotationOrder: 4
-    _remapInput:
-      _min: 0
-      _max: 1
-    _remapOutput:
-      _min: 0
-      _max: 1
-    _clamp: 0
-    _clampRange:
-      _min: 0
-      _max: 1
+    _constantValue: 0.8
+    _processorSettings:
+      _processing: 0
+      _curve:
+        serializedVersion: 2
+        m_Curve:
+        - serializedVersion: 3
+          time: 0
+          value: 0
+          inSlope: 0
+          outSlope: 1
+          tangentMode: 0
+          weightedMode: 0
+          inWeight: 0
+          outWeight: 0
+        - serializedVersion: 3
+          time: 1
+          value: 1
+          inSlope: 1
+          outSlope: 0
+          tangentMode: 0
+          weightedMode: 0
+          inWeight: 0
+          outWeight: 0
+        m_PreInfinity: 2
+        m_PostInfinity: 2
+        m_RotationOrder: 4
+      _remap:
+        _fromMin: 0
+        _fromMax: 1
+        _toMin: 0
+        _toMax: 1
+      _clamp:
+        _min: 0
+        _max: 0
+      _randomization: 0
   _ySettings:
     _faderType: 0
-    _value: 0.8
-    _curve:
-      serializedVersion: 2
-      m_Curve:
-      - serializedVersion: 3
-        time: -0.0017166138
-        value: 0.80228883
-        inSlope: 1.1323601
-        outSlope: 1.1323601
-        tangentMode: 0
-        weightedMode: 0
-        inWeight: 0
-        outWeight: 0.02744421
-      - serializedVersion: 3
-        time: 2
-        value: 1.6
-        inSlope: 0.04384126
-        outSlope: 0.04384126
-        tangentMode: 0
-        weightedMode: 0
-        inWeight: 0.10445212
-        outWeight: 0
-      m_PreInfinity: 2
-      m_PostInfinity: 2
-      m_RotationOrder: 4
-    _remapInput:
-      _min: 0
-      _max: 1
-    _remapOutput:
-      _min: 0
-      _max: 1
-    _clamp: 0
-    _clampRange:
-      _min: 0
-      _max: 1
+    _constantValue: 0.8
+    _processorSettings:
+      _processing: 0
+      _curve:
+        serializedVersion: 2
+        m_Curve:
+        - serializedVersion: 3
+          time: 0
+          value: 0
+          inSlope: 0
+          outSlope: 1
+          tangentMode: 0
+          weightedMode: 0
+          inWeight: 0
+          outWeight: 0
+        - serializedVersion: 3
+          time: 1
+          value: 1
+          inSlope: 1
+          outSlope: 0
+          tangentMode: 0
+          weightedMode: 0
+          inWeight: 0
+          outWeight: 0
+        m_PreInfinity: 2
+        m_PostInfinity: 2
+        m_RotationOrder: 4
+      _remap:
+        _fromMin: 0
+        _fromMax: 1
+        _toMin: 0
+        _toMax: 1
+      _clamp:
+        _min: 0
+        _max: 0
+      _randomization: 0

@@ -12,6 +12,7 @@ GameObject:
   - component: {fileID: 2476921005267648006}
   - component: {fileID: 2710179837147661955}
   - component: {fileID: 4236518516930978868}
+  - component: {fileID: 9053540696583802099}
   m_Layer: 0
   m_Name: Vibration
   m_TagString: Untagged
@@ -71,7 +72,7 @@ MonoBehaviour:
   _log: 0
   _distinct: 0
   _generator: {fileID: 2476921005267648006}
-  _timeFactor: 1
+  _timeSignal: {fileID: 9053540696583802099}
   _postProcessor:
     _abs: 0
     _scale: 2
@@ -91,6 +92,23 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   _source: {fileID: 2710179837147661955}
+  _distinct: 1
   _processingFactory: {fileID: 0}
+  _targetBlend: 1
   _visualEffect: {fileID: 0}
   _nameID: Amplitude1
+--- !u!114 &9053540696583802099
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6034488749194915030}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a345441b62764ce9be2251fa2fd68ce9, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _log: 0
+  _distinct: 0
+  _timeFactor: 1

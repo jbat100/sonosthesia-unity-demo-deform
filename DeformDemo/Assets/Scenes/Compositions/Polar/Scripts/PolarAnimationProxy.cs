@@ -23,8 +23,9 @@ namespace Sonosthesia
 
         [SerializeField] private Drums _drums;
 
-        protected virtual void Update()
+        protected override void Update()
         {
+            base.Update();
             _drums.Update();
         }
     }

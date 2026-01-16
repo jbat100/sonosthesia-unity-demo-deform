@@ -15,12 +15,12 @@ MonoBehaviour:
   _warp:
     _bypass: 0
     _db: 0
-    _scale: 4.93
+    _scale: 3
     _offset: 0
   _oneEuroFilter:
     _bypass: 0
-    _beta: 0.1
-    _minCutoff: 0.1
+    _beta: 1
+    _minCutoff: 1
   _softLanding:
     _bypass: 0
-    _speed: 2
+    _speed: 5

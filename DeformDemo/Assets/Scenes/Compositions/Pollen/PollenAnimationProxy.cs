@@ -6,7 +6,7 @@ namespace Sonosthesia
     public class PollenAnimationProxy : AnimationProxy
     {
         [Serializable]
-        public struct Sphere
+        public struct Sphere : IProxyContainer
         {
             public Proxy spin;
             public Proxy brownianRotation;
@@ -25,7 +25,7 @@ namespace Sonosthesia
         }
         
         [Serializable]
-        public struct Swirl
+        public struct Swirl : IProxyContainer
         {
             public Proxy width;
             public Proxy colorIntensity;
@@ -52,8 +52,9 @@ namespace Sonosthesia
         public Sphere sphere3;
         public Swirl swirl1;
 
-        protected virtual void Update()
+        protected override void Update()
         {
+            base.Update();
             sphere1.Update();
             sphere2.Update();
             sphere3.Update();

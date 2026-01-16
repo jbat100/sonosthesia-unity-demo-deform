@@ -342,13 +342,18 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 23d2dd953598467aa923debd79949b9a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  _source: {fileID: 8382271912681542385}
-  _rms: {fileID: 2571725874271025868}
-  _lows: {fileID: 3166253998744505472}
-  _mids: {fileID: 6317599861112180304}
-  _highs: {fileID: 4218455245303322070}
-  _centroid: {fileID: 2283016975984737970}
-  _peaks: {fileID: 7297143141966745544}
+  _source:
+    underlyingValue: {fileID: 8382271912681542385}
+  _rms:
+    underlyingValue: {fileID: 2571725874271025868}
+  _lows:
+    underlyingValue: {fileID: 3166253998744505472}
+  _mids:
+    underlyingValue: {fileID: 6317599861112180304}
+  _highs:
+    underlyingValue: {fileID: 4218455245303322070}
+  _centroid:
+    underlyingValue: {fileID: 2283016975984737970}
 --- !u!114 &6376926760238349694
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -363,18 +368,23 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   _slots:
   - _name: Rms
-    _signal: {fileID: 2571725874271025868}
+    _signal:
+      underlyingValue: {fileID: 2571725874271025868}
     _processorFactory: {fileID: 0}
   - _name: Lows
-    _signal: {fileID: 3166253998744505472}
+    _signal:
+      underlyingValue: {fileID: 3166253998744505472}
     _processorFactory: {fileID: 0}
   - _name: Mids
-    _signal: {fileID: 6317599861112180304}
+    _signal:
+      underlyingValue: {fileID: 6317599861112180304}
     _processorFactory: {fileID: 0}
   - _name: Highs
-    _signal: {fileID: 4218455245303322070}
+    _signal:
+      underlyingValue: {fileID: 4218455245303322070}
     _processorFactory: {fileID: 0}
   - _name: Centroid
-    _signal: {fileID: 2283016975984737970}
+    _signal:
+      underlyingValue: {fileID: 2283016975984737970}
     _processorFactory: {fileID: 0}
   _compatibility: []

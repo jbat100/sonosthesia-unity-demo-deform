@@ -13,7 +13,7 @@ OcclusionCullingSettings:
 --- !u!104 &2
 RenderSettings:
   m_ObjectHideFlags: 0
-  serializedVersion: 9
+  serializedVersion: 10
   m_Fog: 0
   m_FogColor: {r: 0.5, g: 0.5, b: 0.5, a: 1}
   m_FogMode: 3
@@ -42,8 +42,8 @@ RenderSettings:
 --- !u!157 &3
 LightmapSettings:
   m_ObjectHideFlags: 0
-  serializedVersion: 12
-  m_GIWorkflowMode: 1
+  serializedVersion: 13
+  m_BakeOnSceneLoad: 0
   m_GISettings:
     serializedVersion: 2
     m_BounceScale: 1
@@ -66,9 +66,6 @@ LightmapSettings:
     m_LightmapParameters: {fileID: 0}
     m_LightmapsBakeMode: 1
     m_TextureCompression: 1
-    m_FinalGather: 0
-    m_FinalGatherFiltering: 1
-    m_FinalGatherRayCount: 256
     m_ReflectionCompression: 2
     m_MixedBakeMode: 2
     m_BakeBackend: 1
@@ -96,7 +93,7 @@ LightmapSettings:
     m_ExportTrainingData: 0
     m_TrainingDataDestination: TrainingData
     m_LightProbeSampleCountMultiplier: 4
-  m_LightingDataAsset: {fileID: 0}
+  m_LightingDataAsset: {fileID: 20201, guid: 0000000000000000f000000000000000, type: 0}
   m_LightingSettings: {fileID: 0}
 --- !u!196 &4
 NavMeshSettings:
@@ -170,15 +167,44 @@ MonoBehaviour:
   _log: 0
   _distinct: 0
   _inputs:
-  - {fileID: 1089364254}
-  - {fileID: 1718542890}
+  - underlyingValue: {fileID: 1718542890}
+  - underlyingValue: {fileID: 1089364254}
   _strategy: 2
   _postProcessor:
-    _abs: 0
-    _scale: 1
-    _offset: 0
-    _clamp: 0
-    _clampRange: {x: 0, y: 0}
+    _processing: 0
+    _curve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 3
+        time: 0
+        value: 0
+        inSlope: 0
+        outSlope: 1
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: 0
+        outWeight: 0
+      - serializedVersion: 3
+        time: 1
+        value: 1
+        inSlope: 1
+        outSlope: 0
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: 0
+        outWeight: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    _remap:
+      _fromMin: 0
+      _fromMax: 1
+      _toMin: 0
+      _toMax: 1
+    _clamp:
+      _min: 0
+      _max: 0
+    _randomization: 0
 --- !u!1 &6561503
 GameObject:
   m_ObjectHideFlags: 0
@@ -228,7 +254,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 6e9eb63d2e1644e7bb8c99d56b013b9c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  _source: {fileID: 6561508}
+  _log: 0
+  _source:
+    underlyingValue: {fileID: 6561508}
   _distinct: 1
   _processingFactory: {fileID: 0}
   _targetBlend: 1
@@ -262,7 +290,8 @@ MonoBehaviour:
   _log: 0
   _distinct: 0
   _generator: {fileID: 6561507}
-  _timeSignal: {fileID: 113906535}
+  _timeSignal:
+    underlyingValue: {fileID: 113906535}
 --- !u!1 &26990762
 GameObject:
   m_ObjectHideFlags: 0
@@ -378,8 +407,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: e831afb2aac94e0dbb0eaa7bf7fe7cbd, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  _positionTarget: {fileID: 113906535}
-  _velocityTarget: {fileID: 1831466305}
+  _positionTarget:
+    underlyingValue: {fileID: 113906535}
+  _velocityTarget:
+    underlyingValue: {fileID: 1831466305}
 --- !u!1 &100822540
 GameObject:
   m_ObjectHideFlags: 0
@@ -427,13 +458,16 @@ MonoBehaviour:
   _drums:
     _lows:
       value: 0
-      signal: {fileID: 0}
+      signal:
+        underlyingValue: {fileID: 0}
     _mids:
       value: 0
-      signal: {fileID: 0}
+      signal:
+        underlyingValue: {fileID: 0}
     _highs:
       value: 0
-      signal: {fileID: 0}
+      signal:
+        underlyingValue: {fileID: 0}
 --- !u!1 &113906533
 GameObject:
   m_ObjectHideFlags: 0
@@ -530,6 +564,11 @@ PrefabInstance:
       propertyPath: _source
       value: 
       objectReference: {fileID: 1831466305}
+    - target: {fileID: 8714686781857646558, guid: ec0ee0c6d6acccf4685c9de5b3271c8f,
+        type: 3}
+      propertyPath: _source.underlyingValue
+      value: 
+      objectReference: {fileID: 2014017202}
     - target: {fileID: 9111710534584661948, guid: ec0ee0c6d6acccf4685c9de5b3271c8f,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -669,6 +708,11 @@ PrefabInstance:
     - target: {fileID: 4028510230158542305, guid: b8928778562e1404faa8c8ca37cd8f0b,
         type: 3}
       propertyPath: _source
+      value: 
+      objectReference: {fileID: 1831466305}
+    - target: {fileID: 4028510230158542305, guid: b8928778562e1404faa8c8ca37cd8f0b,
+        type: 3}
+      propertyPath: _source.underlyingValue
       value: 
       objectReference: {fileID: 1831466305}
     m_RemovedComponents: []
@@ -967,6 +1011,7 @@ GameObject:
   m_Component:
   - component: {fileID: 526632767}
   - component: {fileID: 526632768}
+  - component: {fileID: 526632769}
   m_Layer: 0
   m_Name: Mids
   m_TagString: Untagged
@@ -1001,12 +1046,27 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 5b100a9dd3899496ea21641643719d9d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  _log: 0
-  _distinct: 0
-  _source: {fileID: 970299}
+  _source:
+    underlyingValue: {fileID: 970299}
+  _target:
+    underlyingValue: {fileID: 526632769}
   _preprocessorFactory: {fileID: 11400000, guid: a5e568227e255644a9be559915d08442,
     type: 2}
   _settings: {fileID: 11400000, guid: 5fd647359391d2445b6fece2fb5d305f, type: 2}
+--- !u!114 &526632769
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 526632766}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8844cd28950d4d98b415bca7264bc7e3, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Sonosthesia.Signal::Sonosthesia.Signal.PeakSignal
+  _log: 0
+  _distinct: 0
 --- !u!1 &552700604
 GameObject:
   m_ObjectHideFlags: 0
@@ -1122,7 +1182,7 @@ GameObject:
   m_IsActive: 1
 --- !u!95 &735936448
 Animator:
-  serializedVersion: 5
+  serializedVersion: 7
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
@@ -1136,6 +1196,7 @@ Animator:
   m_ApplyRootMotion: 0
   m_LinearVelocityBlending: 0
   m_StabilizeFeet: 0
+  m_AnimatePhysics: 0
   m_WarningMessage: 
   m_HasTransformHierarchy: 1
   m_AllowConstantClipSamplingOptimization: 1
@@ -1156,13 +1217,16 @@ MonoBehaviour:
   _drums:
     _lows:
       value: 1
-      signal: {fileID: 26990764}
+      signal:
+        underlyingValue: {fileID: 26990764}
     _mids:
       value: 1
-      signal: {fileID: 1089364254}
+      signal:
+        underlyingValue: {fileID: 1089364254}
     _highs:
       value: 1
-      signal: {fileID: 552700605}
+      signal:
+        underlyingValue: {fileID: 552700605}
 --- !u!4 &735936450
 Transform:
   m_ObjectHideFlags: 0
@@ -1283,8 +1347,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: e831afb2aac94e0dbb0eaa7bf7fe7cbd, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  _positionTarget: {fileID: 1538642565}
-  _velocityTarget: {fileID: 2014017202}
+  _positionTarget:
+    underlyingValue: {fileID: 1538642565}
+  _velocityTarget:
+    underlyingValue: {fileID: 2014017202}
 --- !u!1 &844017412
 GameObject:
   m_ObjectHideFlags: 0
@@ -1333,15 +1399,44 @@ MonoBehaviour:
   _log: 0
   _distinct: 0
   _inputs:
-  - {fileID: 26990764}
-  - {fileID: 1718542891}
+  - underlyingValue: {fileID: 1718542891}
+  - underlyingValue: {fileID: 26990764}
   _strategy: 2
   _postProcessor:
-    _abs: 0
-    _scale: 1
-    _offset: 0
-    _clamp: 0
-    _clampRange: {x: 0, y: 0}
+    _processing: 0
+    _curve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 3
+        time: 0
+        value: 0
+        inSlope: 0
+        outSlope: 1
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: 0
+        outWeight: 0
+      - serializedVersion: 3
+        time: 1
+        value: 1
+        inSlope: 1
+        outSlope: 0
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: 0
+        outWeight: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    _remap:
+      _fromMin: 0
+      _fromMax: 1
+      _toMin: 0
+      _toMax: 1
+    _clamp:
+      _min: 0
+      _max: 0
+    _randomization: 0
 --- !u!1 &846020446
 GameObject:
   m_ObjectHideFlags: 0
@@ -1442,6 +1537,11 @@ PrefabInstance:
       propertyPath: _source
       value: 
       objectReference: {fileID: 1831466305}
+    - target: {fileID: 4028510230158542305, guid: b8928778562e1404faa8c8ca37cd8f0b,
+        type: 3}
+      propertyPath: _source.underlyingValue
+      value: 
+      objectReference: {fileID: 1831466305}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -1533,6 +1633,11 @@ PrefabInstance:
       propertyPath: _source
       value: 
       objectReference: {fileID: 1831466305}
+    - target: {fileID: 4028510230158542305, guid: b8928778562e1404faa8c8ca37cd8f0b,
+        type: 3}
+      propertyPath: _source.underlyingValue
+      value: 
+      objectReference: {fileID: 1831466305}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -1604,14 +1709,15 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a970c2ada16c439dbfd987d47223d05d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  _log: 0
   _mode: 0
   _randomization: 0
-  _log: 0
-  _source: {fileID: 526632768}
+  _source:
+    underlyingValue: {fileID: 526632769}
   _destinations:
-  - {fileID: 961638215}
-  - {fileID: 232456122}
-  - {fileID: 950962691}
+  - underlyingValue: {fileID: 961638215}
+  - underlyingValue: {fileID: 232456122}
+  - underlyingValue: {fileID: 950962691}
 --- !u!114 &1045692224
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1688,14 +1794,15 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a970c2ada16c439dbfd987d47223d05d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  _log: 0
   _mode: 0
   _randomization: 0
-  _log: 0
-  _source: {fileID: 2043695574}
+  _source:
+    underlyingValue: {fileID: 2043695575}
   _destinations:
-  - {fileID: 174595865}
-  - {fileID: 1473015402}
-  - {fileID: 2065292049}
+  - underlyingValue: {fileID: 174595865}
+  - underlyingValue: {fileID: 1473015402}
+  - underlyingValue: {fileID: 2065292049}
 --- !u!114 &1074333953
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1814,6 +1921,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1295348724}
   - component: {fileID: 1295348725}
+  - component: {fileID: 1295348726}
   m_Layer: 0
   m_Name: Highs
   m_TagString: Untagged
@@ -1848,12 +1956,27 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 5b100a9dd3899496ea21641643719d9d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  _log: 0
-  _distinct: 0
-  _source: {fileID: 1482303846}
+  _source:
+    underlyingValue: {fileID: 1482303846}
+  _target:
+    underlyingValue: {fileID: 1295348726}
   _preprocessorFactory: {fileID: 11400000, guid: ea7352cb3d1cddc41aaceb64a7a9d9ef,
     type: 2}
   _settings: {fileID: 11400000, guid: 39200c4d51d8cef4abe5409f6b489176, type: 2}
+--- !u!114 &1295348726
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1295348723}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8844cd28950d4d98b415bca7264bc7e3, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Sonosthesia.Signal::Sonosthesia.Signal.PeakSignal
+  _log: 0
+  _distinct: 0
 --- !u!1 &1448407184
 GameObject:
   m_ObjectHideFlags: 0
@@ -1880,15 +2003,14 @@ Light:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1448407184}
   m_Enabled: 1
-  serializedVersion: 10
+  serializedVersion: 12
   m_Type: 1
-  m_Shape: 0
   m_Color: {r: 1, g: 0.95686275, b: 0.8392157, a: 1}
   m_Intensity: 1
   m_Range: 10
   m_SpotAngle: 30
   m_InnerSpotAngle: 21.80208
-  m_CookieSize: 10
+  m_CookieSize2D: {x: 10, y: 10}
   m_Shadows:
     m_Type: 2
     m_Resolution: -1
@@ -1932,8 +2054,12 @@ Light:
   m_BoundingSphereOverride: {x: 0, y: 0, z: 0, w: 0}
   m_UseBoundingSphereOverride: 0
   m_UseViewFrustumForShadowCasterCull: 1
+  m_ForceVisible: 0
   m_ShadowRadius: 0
   m_ShadowAngle: 0
+  m_LightUnit: 1
+  m_LuxAtDistance: 1
+  m_EnableSpotReflector: 1
 --- !u!4 &1448407186
 Transform:
   m_ObjectHideFlags: 0
@@ -1961,17 +2087,23 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 474bcb49853aa07438625e644c072ee6, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  m_Version: 3
   m_UsePipelineSettings: 1
   m_AdditionalLightsShadowResolutionTier: 2
-  m_LightLayerMask: 1
-  m_RenderingLayers: 1
   m_CustomShadowLayers: 0
-  m_ShadowLayerMask: 1
-  m_ShadowRenderingLayers: 1
   m_LightCookieSize: {x: 1, y: 1}
   m_LightCookieOffset: {x: 0, y: 0}
   m_SoftShadowQuality: 0
+  m_RenderingLayersMask:
+    serializedVersion: 0
+    m_Bits: 1
+  m_ShadowRenderingLayersMask:
+    serializedVersion: 0
+    m_Bits: 1
+  m_Version: 4
+  m_LightLayerMask: 1
+  m_ShadowLayerMask: 1
+  m_RenderingLayers: 1
+  m_ShadowRenderingLayers: 1
 --- !u!1001 &1473015400
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -1990,6 +2122,11 @@ PrefabInstance:
       propertyPath: _source
       value: 
       objectReference: {fileID: 1831466305}
+    - target: {fileID: 8714686781857646558, guid: ec0ee0c6d6acccf4685c9de5b3271c8f,
+        type: 3}
+      propertyPath: _source.underlyingValue
+      value: 
+      objectReference: {fileID: 2014017202}
     - target: {fileID: 9111710534584661948, guid: ec0ee0c6d6acccf4685c9de5b3271c8f,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -2111,15 +2248,44 @@ MonoBehaviour:
   _log: 0
   _distinct: 0
   _inputs:
-  - {fileID: 552700605}
-  - {fileID: 1718542889}
+  - underlyingValue: {fileID: 1718542889}
+  - underlyingValue: {fileID: 552700605}
   _strategy: 2
   _postProcessor:
-    _abs: 0
-    _scale: 1
-    _offset: 0
-    _clamp: 0
-    _clampRange: {x: 0, y: 0}
+    _processing: 0
+    _curve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 3
+        time: 0
+        value: 0
+        inSlope: 0
+        outSlope: 1
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: 0
+        outWeight: 0
+      - serializedVersion: 3
+        time: 1
+        value: 1
+        inSlope: 1
+        outSlope: 0
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: 0
+        outWeight: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    _remap:
+      _fromMin: 0
+      _fromMax: 1
+      _toMin: 0
+      _toMax: 1
+    _clamp:
+      _min: 0
+      _max: 0
+    _randomization: 0
 --- !u!1 &1487741536 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 6847198940022766656, guid: c97a159bcbcd343d68b6852ebc040dcb,
@@ -2331,7 +2497,6 @@ MonoBehaviour:
   m_ScreenCoordScaleBias: {x: 0, y: 0, z: 0, w: 0}
   m_RequiresDepthTexture: 0
   m_RequiresColorTexture: 0
-  m_Version: 2
   m_TaaSettings:
     m_Quality: 3
     m_FrameInfluence: 0.1
@@ -2339,6 +2504,7 @@ MonoBehaviour:
     m_MipBias: 0
     m_VarianceClampScale: 0.9
     m_ContrastAdaptiveSharpening: 0
+  m_Version: 2
 --- !u!1 &1687762233
 GameObject:
   m_ObjectHideFlags: 0
@@ -2555,6 +2721,7 @@ GameObject:
   m_Component:
   - component: {fileID: 2043695571}
   - component: {fileID: 2043695574}
+  - component: {fileID: 2043695575}
   m_Layer: 0
   m_Name: Lows
   m_TagString: Untagged
@@ -2589,12 +2756,27 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 5b100a9dd3899496ea21641643719d9d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  _log: 0
-  _distinct: 0
-  _source: {fileID: 844017414}
+  _source:
+    underlyingValue: {fileID: 844017414}
+  _target:
+    underlyingValue: {fileID: 2043695575}
   _preprocessorFactory: {fileID: 11400000, guid: 8de123804604b55488b104ef93effd58,
     type: 2}
   _settings: {fileID: 11400000, guid: 568442fb87b6ae54d896a260ae9ec1a9, type: 2}
+--- !u!114 &2043695575
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2043695570}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8844cd28950d4d98b415bca7264bc7e3, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Sonosthesia.Signal::Sonosthesia.Signal.PeakSignal
+  _log: 0
+  _distinct: 0
 --- !u!1001 &2065292047
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -2613,6 +2795,11 @@ PrefabInstance:
       propertyPath: _source
       value: 
       objectReference: {fileID: 1831466305}
+    - target: {fileID: 8714686781857646558, guid: ec0ee0c6d6acccf4685c9de5b3271c8f,
+        type: 3}
+      propertyPath: _source.underlyingValue
+      value: 
+      objectReference: {fileID: 2014017202}
     - target: {fileID: 9111710534584661948, guid: ec0ee0c6d6acccf4685c9de5b3271c8f,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -2726,6 +2913,11 @@ MeshRenderer:
   m_ReflectionProbeUsage: 1
   m_RayTracingMode: 2
   m_RayTraceProcedural: 0
+  m_RayTracingAccelStructBuildFlagsOverride: 0
+  m_RayTracingAccelStructBuildFlags: 1
+  m_SmallMeshCulling: 1
+  m_ForceMeshLod: -1
+  m_MeshLodSelectionBias: 0
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
@@ -2747,9 +2939,11 @@ MeshRenderer:
   m_AutoUVMaxDistance: 0.5
   m_AutoUVMaxAngle: 89
   m_LightmapParameters: {fileID: 0}
+  m_GlobalIlluminationMeshLod: 0
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
+  m_MaskInteraction: 0
   m_AdditionalVertexStreams: {fileID: 0}
 --- !u!33 &2090351230
 MeshFilter:
@@ -2786,7 +2980,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: b979b64a6be84d82a5a1aaead50707dc, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  _source: {fileID: 844017414}
+  _log: 0
+  _source:
+    underlyingValue: {fileID: 844017414}
   _distinct: 1
   _processingFactory: {fileID: 11400000, guid: 0936430f3de6cdb4ba80d48f50fad0e1, type: 2}
   _name: _Amplitude1
@@ -2808,7 +3004,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: b979b64a6be84d82a5a1aaead50707dc, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  _source: {fileID: 1482303846}
+  _log: 0
+  _source:
+    underlyingValue: {fileID: 1482303846}
   _distinct: 1
   _processingFactory: {fileID: 11400000, guid: c61b150f8d4a332449ea1b50e501fcb6, type: 2}
   _name: _Amplitude3
@@ -2830,7 +3028,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: b979b64a6be84d82a5a1aaead50707dc, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  _source: {fileID: 970299}
+  _log: 0
+  _source:
+    underlyingValue: {fileID: 970299}
   _distinct: 1
   _processingFactory: {fileID: 11400000, guid: f6ac4fd7a3b1bab4b960d2238c446257, type: 2}
   _name: _Amplitude2
@@ -2852,7 +3052,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: b979b64a6be84d82a5a1aaead50707dc, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  _source: {fileID: 1718542890}
+  _log: 0
+  _source:
+    underlyingValue: {fileID: 970299}
   _distinct: 1
   _processingFactory: {fileID: 11400000, guid: b83fd4bb7fa088c4abce9529051c5d42, type: 2}
   _name: _Speed3
@@ -2874,7 +3076,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: b979b64a6be84d82a5a1aaead50707dc, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  _source: {fileID: 1718542888}
+  _log: 0
+  _source:
+    underlyingValue: {fileID: 1718542888}
   _distinct: 1
   _processingFactory: {fileID: 11400000, guid: ed226078c144cdc49b3d33718fc4967c, type: 2}
   _name: _Intensity
@@ -2950,7 +3154,8 @@ MonoBehaviour:
   _log: 0
   _distinct: 0
   _generator: {fileID: 2090990285}
-  _timeSignal: {fileID: 1538642565}
+  _timeSignal:
+    underlyingValue: {fileID: 1538642565}
 --- !u!114 &2090990287
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -2963,7 +3168,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 6e9eb63d2e1644e7bb8c99d56b013b9c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  _source: {fileID: 2090990286}
+  _log: 0
+  _source:
+    underlyingValue: {fileID: 2090990286}
   _distinct: 1
   _processingFactory: {fileID: 0}
   _targetBlend: 1
